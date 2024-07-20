@@ -1,0 +1,156 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "20",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 16,
+  height = 192,
+  pattern = "20_3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 24,
+  width = 240,
+  height = 16,
+  pattern = "20_3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 24,
+  width = 16,
+  height = 192,
+  pattern = "20_3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 16,
+  pattern = "20_3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 56,
+  height = 48,
+  pattern = "21_4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 40,
+  width = 56,
+  height = 48,
+  pattern = "21_4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 152,
+  width = 56,
+  height = 48,
+  pattern = "21_4",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 152,
+  width = 56,
+  height = 48,
+  pattern = "21_4",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 96,
+  width = 80,
+  height = 48,
+  pattern = "20_5",
+}
+
+enemy{
+  layer = 0,
+  x = 144,
+  y = 93,
+  direction = 0,
+  breed = "boss/arrghus/arrghus_stone",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "monstre/test",
+  destination = "destination_3",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 221,
+  direction = 1,
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 192,
+  width = 16,
+  height = 24,
+  pattern = "102",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 192,
+  width = 24,
+  height = 48,
+  pattern = "100",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 192,
+  width = 24,
+  height = 48,
+  pattern = "101",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+

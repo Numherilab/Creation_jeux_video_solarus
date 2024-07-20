@@ -1,0 +1,23 @@
+dialog{
+  id = "_confusion",
+  text = [[
+que m'arrive t'il ?
+]],
+}
+
+dialog{
+  id = "defeat",
+  text = [[
+sdsdqsd
+]],
+}
+
+dialog{
+  id = "premier_dialogue",
+  text = [[
+Bonjour, 
+bienvenue dans la séance
+d'initiation de solarus
+]],
+}
+

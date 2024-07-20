@@ -1,0 +1,274 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "0",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  pattern = "grass_light",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "140",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "142",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "141",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "138",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 144,
+  width = 16,
+  height = 8,
+  pattern = "139",
+  tileset = "oceanset_outside",
+}
+
+enemy{
+  name = "boss",
+  layer = 0,
+  x = 328,
+  y = 213,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "boss/gelidrak/gelidrak",
+}
+
+sensor{
+  name = "start_boss_sensor",
+  layer = 0,
+  x = 8,
+  y = 357,
+  width = 624,
+  height = 16,
+}
+
+pickable{
+  layer = 0,
+  x = 328,
+  y = 421,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 240,
+  y = 253,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 232,
+  y = 277,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 301,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 192,
+  y = 293,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 192,
+  y = 261,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 237,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 232,
+  y = 229,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 256,
+  y = 221,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 216,
+  y = 205,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 160,
+  y = 205,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 168,
+  y = 229,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 160,
+  y = 261,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 152,
+  y = 293,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 152,
+  y = 317,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 168,
+  y = 325,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 192,
+  y = 333,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 341,
+  treasure_name = "heart",
+}
+
+wall{
+  layer = 0,
+  x = 0,
+  y = 240,
+  width = 632,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 296,
+  y = 456,
+  width = 16,
+  height = 16,
+  destination_map = "monstre/test",
+  destination = "destination_9",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 304,
+  y = 421,
+  direction = 1,
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 432,
+  width = 16,
+  height = 24,
+  pattern = "102",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 432,
+  width = 24,
+  height = 48,
+  pattern = "100",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 432,
+  width = 24,
+  height = 48,
+  pattern = "101",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
