@@ -13,10 +13,29 @@ sdsdqsd
 }
 
 dialog{
+  id = "dialogue/lanterne",
+  question = "1",
+  text = [[
+Tien petit pour ton aventure sa coute 20 rubis !
+payer !
+J'ai po assée :'<
+]],
+}
+
+dialog{
   id = "item.potion_de_vie.non",
   text = [[
 tu es déjà en pleine
 forme !
+]],
+}
+
+dialog{
+  id = "ontavue",
+  text = [[
+heeeey !
+keske tu fé la 
+va en sélule !
 ]],
 }
 
@@ -38,6 +57,22 @@ dialog{
 Bonjour, 
 bienvenue dans la séance
 d'initiation de solarus
+]],
+}
+
+dialog{
+  id = "tappemoi",
+  text = [[
+tappe moi !
+]],
+}
+
+dialog{
+  id = "vaiselle",
+  text = [[
+un garde qui fait la vaisselle
+vaut mieux ne pas le 
+deranger
 ]],
 }
 
