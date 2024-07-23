@@ -30,6 +30,15 @@ d'initiation de solarus
 }
 
 dialog{
+  id = "sdf",
+  text = [[
+A laide 
+vient
+maider!
+]],
+}
+
+dialog{
   id = "zone_1.a_toi_de_jouer",
   text = [[
 ]],
@@ -38,6 +47,13 @@ dialog{
 dialog{
   id = "zone_2.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_2.max",
+  text = [[
+trouve les coffres!
 ]],
 }
 
