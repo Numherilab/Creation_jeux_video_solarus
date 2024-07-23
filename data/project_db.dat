@@ -49,12 +49,12 @@ map{ id = "zone_3/07" }
 map{ id = "zone_3/08" }
 map{ id = "zone_3/09" }
 map{ id = "zone_3/10" }
-map{ id = "zone_4/01" }
-map{ id = "zone_4/02" }
-map{ id = "zone_4/03" }
-map{ id = "zone_4/04" }
-map{ id = "zone_4/05" }
-map{ id = "zone_4/06" }
+map{ id = "zone_4/01", description = "e3" }
+map{ id = "zone_4/02", description = "e4" }
+map{ id = "zone_4/03", description = "e5" }
+map{ id = "zone_4/04", description = "f3" }
+map{ id = "zone_4/05", description = "f4" }
+map{ id = "zone_4/06", description = "f5" }
 map{ id = "zone_4/07" }
 map{ id = "zone_4/08" }
 map{ id = "zone_4/09" }

@@ -5377,14 +5377,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 2224,
-  y = 117,
-  direction = 0,
-  breed = "monstres_de_pierre/armos_big",
-}
-
-enemy{
-  layer = 0,
   x = 2736,
   y = 117,
   direction = 0,
@@ -5509,7 +5501,8 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "monstre/test_1",
+  destination_map = "monstre/test_3",
+  destination = "destination_1",
 }
 
 destination{
