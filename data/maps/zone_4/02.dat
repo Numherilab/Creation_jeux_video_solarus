@@ -8,3 +8,420 @@ properties{
   tileset = "0",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 224,
+  pattern = "dirt_variant_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 320,
+  height = 32,
+  pattern = "dirt_variant_1",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "275",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "276",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "277",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "278",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "dirt_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "284",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "280",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "279",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "281",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 176,
+  width = 32,
+  height = 16,
+  pattern = "47",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 152,
+  width = 32,
+  height = 24,
+  pattern = "43",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 192,
+  width = 32,
+  height = 8,
+  pattern = "48",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "46",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 152,
+  width = 16,
+  height = 24,
+  pattern = "44",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "40",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "45",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "41",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 152,
+  width = 16,
+  height = 24,
+  pattern = "42",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "20",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "23",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "25",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "19",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 104,
+  width = 32,
+  height = 32,
+  pattern = "cobblestone_medium_variant_1",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "cobblestone_medium",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "cobblestone_medium",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 0,
+  width = 192,
+  height = 16,
+  pattern = "137",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+chest{
+  layer = 0,
+  x = 216,
+  y = 133,
+  treasure_name = "fire_rod",
+  treasure_savegame_variable = "firerod",
+  sprite = "entities/chest",
+}
+
+npc{
+  layer = 0,
+  x = 96,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  sprite = "animals/meow_orange",
+}
+
+destination{
+  name = "piti",
+  layer = 0,
+  x = 40,
+  y = 197,
+  direction = 1,
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 101,
+  direction = 0,
+  breed = "monstres_de_pierre/armos",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 0,
+  x = 144,
+  y = 213,
+  direction = 0,
+  breed = "monstres_de_pierre/armos",
+  treasure_name = "gem",
+  treasure_variant = 5,
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 64,
+  height = 16,
+  destination_map = "zone_4/03",
+  destination = "pitip",
+}
+
+wall{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 64,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 56,
+  y = 120,
+  width = 16,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 112,
+  y = 120,
+  width = 16,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 40,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+

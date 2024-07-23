@@ -5,6 +5,65 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 96,
+  height = 240,
+  pattern = "shallow_water",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 224,
+  height = 32,
+  pattern = "shallow_water",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 208,
+  width = 224,
+  height = 32,
+  pattern = "shallow_water",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 24,
+  width = 224,
+  height = 192,
+  pattern = "dirt_variant_1",
+  tileset = "oceanset_outside",
+}
+
+teletransporter{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+  destination_map = "zone_4/02",
+  destination = "piti",
+}
+
+enemy{
+  layer = 0,
+  x = 216,
+  y = 125,
+  direction = 0,
+  breed = "mort_vivant/gibdo",
+  treasure_name = "heart",
 }
 
