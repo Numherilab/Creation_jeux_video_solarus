@@ -30,6 +30,26 @@ d'initiation de solarus
 }
 
 dialog{
+  id = "zone_1.DIALOGUE ARC",
+  text = [[
+wsh la zone
+ya un passage secret,
+a l'interieur il y aura un
+enemi qui te donnera 
+l'arc qui te sera indispensable
+pour ta quête
+]],
+}
+
+dialog{
+  id = "zone_1.DIALOGUE STATUE",
+  text = [[
+je te donne ma 
+benediction !!!!!
+]],
+}
+
+dialog{
   id = "zone_1.a_toi_de_jouer",
   text = [[
 ]],

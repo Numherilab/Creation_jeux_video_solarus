@@ -5,6 +5,928 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "203",
+  tileset = "01 Max Mraz/overworld_yarrowmouth",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 24,
+  width = 160,
+  height = 96,
+  pattern = "1",
+  tileset = "01 Max Mraz/grass_green_large",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 128,
+  width = 48,
+  height = 48,
+  pattern = "3_2",
+  tileset = "01 Max Mraz/grass_green_large",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 64,
+  width = 48,
+  height = 48,
+  pattern = "3",
+  tileset = "01 Max Mraz/grass_green_large",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 168,
+  width = 48,
+  height = 48,
+  pattern = "2",
+  tileset = "01 Max Mraz/grass_green_large",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 144,
+  width = 16,
+  height = 24,
+  pattern = "17",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 24,
+  pattern = "17_2",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 104,
+  width = 16,
+  height = 24,
+  pattern = "17_2",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 16,
+  height = 24,
+  pattern = "17_3",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 72,
+  width = 16,
+  height = 24,
+  pattern = "17_3",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 112,
+  width = 16,
+  height = 24,
+  pattern = "17_4",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 160,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 128,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 48,
+  width = 16,
+  height = 24,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 208,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 208,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 176,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 48,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 56,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 8,
+  height = 64,
+  pattern = "water",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 56,
+  width = 8,
+  height = 48,
+  pattern = "water",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 104,
+  width = 8,
+  height = 88,
+  pattern = "water",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 184,
+  width = 8,
+  height = 56,
+  pattern = "water",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "shallow_water_edge_5",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "shallow_water_edge_6",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "shallow_water_edge_7",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "shallow_water_edge_8",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 0,
+  width = 8,
+  height = 64,
+  pattern = "shallow_water_edge_3",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 72,
+  width = 8,
+  height = 112,
+  pattern = "shallow_water_edge_3",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 192,
+  width = 8,
+  height = 48,
+  pattern = "shallow_water_edge_3",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 192,
+  width = 8,
+  height = 48,
+  pattern = "shallow_water_edge_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "137_9",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "137_5",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "137_5",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "137_5",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "137_5",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "159",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "137_3",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 64,
+  width = 8,
+  height = 128,
+  pattern = "shallow_water_edge_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 0,
+  width = 8,
+  height = 64,
+  pattern = "shallow_water_edge_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "132_10",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "132_12",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "132_11",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 64,
+  y = 197,
+  direction = 1,
+}
+
+enemy{
+  layer = 0,
+  x = 64,
+  y = 101,
+  direction = 0,
+  breed = "vegetation/seaweed_blob",
+}
+
+enemy{
+  layer = 0,
+  x = 216,
+  y = 117,
+  direction = 0,
+  breed = "vegetation/seaweed_golem_1",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 0,
+  x = 216,
+  y = 221,
+  direction = 0,
+  breed = "vegetation/mandrake",
+}
+
+npc{
+  layer = 0,
+  x = 16,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#DIALOGUE STATUE",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 320,
+  height = 16,
+  destination_map = "zone_1/06",
+  destination = "_side",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 88,
+  width = 16,
+  height = 56,
+  pattern = "18",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 48,
+  width = 16,
+  height = 56,
+  pattern = "18_2",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 144,
+  width = 16,
+  height = 56,
+  pattern = "18_3",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 16,
+  width = 16,
+  height = 56,
+  pattern = "18_3",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 56,
+  width = 16,
+  height = 56,
+  pattern = "18_4",
+  tileset = "01 Max Mraz/trillium_trees",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 72,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 152,
+  width = 32,
+  height = 64,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = -8,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 32,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 24,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 112,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 144,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 120,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 136,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 104,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 72,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = -16,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = -24,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = -8,
+  width = 16,
+  height = 56,
+  pattern = "18",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 56,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = -32,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = -32,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = -40,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 88,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 112,
+  width = 48,
+  height = 80,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wave",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "137_11",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "137_3",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "160",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = -40,
+  width = 384,
+  height = 384,
+  pattern = "2006",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
 }
 

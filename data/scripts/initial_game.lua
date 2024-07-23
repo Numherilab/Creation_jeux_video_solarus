@@ -14,9 +14,9 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("monstre/test_0", nil)  -- Starting location.
+  game:set_starting_location("zone_1/05", nil)  -- Starting location.
 
-  game:set_max_life(70)
+  game:set_max_life(12)
   game:set_life(game:get_max_life())
   game:set_max_money(100)
   game:set_ability("lift", 1)
