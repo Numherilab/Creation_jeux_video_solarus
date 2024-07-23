@@ -8,3 +8,418 @@ properties{
   tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
+tile{
+  layer = 0,
+  x = 288,
+  y = 16,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_21",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_18",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_13",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 48,
+  width = 32,
+  height = 160,
+  pattern = "block_wall_15",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_15",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "20_22",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 104,
+  width = 32,
+  height = 16,
+  pattern = "55",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "56",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 32,
+  height = 8,
+  pattern = "54_2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 96,
+  width = 32,
+  height = 8,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "55_2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "56_2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 80,
+  width = 16,
+  height = 24,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 32,
+  height = 24,
+  pattern = "106",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "110",
+}
+
+tile{
+  layer = 0,
+  x = -72,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "79_3",
+}
+
+tile{
+  layer = 0,
+  x = -64,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "86_3",
+}
+
+tile{
+  layer = 0,
+  x = -72,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "98_3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "86_3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "98_3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "79_3",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "86_3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "98_3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 64,
+  width = 48,
+  height = 8,
+  pattern = "86_3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "86_3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "79_3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "79_3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "79_3",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "86_3",
+}
+
+teletransporter{
+  layer = 0,
+  x = 288,
+  y = 104,
+  width = 16,
+  height = 16,
+  destination_map = "zone_1/03",
+}
+
+teletransporter{
+  layer = 0,
+  x = 16,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "zone_1/03",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 40,
+  y = 125,
+  direction = 1,
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 272,
+  y = 117,
+  direction = 1,
+}
+
+npc{
+  layer = 0,
+  x = 168,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/blacksmith_03",
+}
+
+npc{
+  name = "shop",
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#dialogue/lanterne",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 96,
+  width = 16,
+  height = 32,
+  pattern = "57",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "57_2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "107",
+}
+

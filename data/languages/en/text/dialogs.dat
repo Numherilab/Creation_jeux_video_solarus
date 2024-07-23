@@ -13,10 +13,41 @@ sdsdqsd
 }
 
 dialog{
+  id = "dialogue/lanterne",
+  question = "1",
+  text = [[
+Tien petit pour ton aventure sa coute 20 rubis !
+payer !
+J'ai po assée :'<
+]],
+}
+
+dialog{
   id = "item.potion_de_vie.non",
   text = [[
 tu es déjà en pleine
 forme !
+]],
+}
+
+dialog{
+  id = "ontavue",
+  text = [[
+heeeey !
+keske tu fé la 
+va en sélule !
+]],
+}
+
+dialog{
+  id = "papier secret",
+  text = [[
+Tien ?! vous trouvez un papier
+ caché dans les buches ! 
+... ... ... 
+vous dechifrée un peu un 
+message <en bas de la salle 
+il y a un bouton pour partire>
 ]],
 }
 
@@ -38,6 +69,9 @@ a l'interieur il y aura un
 enemi qui te donnera 
 l'arc qui te sera indispensable
 pour ta quête
+  id = "tappemoi",
+  text = [[
+tappe moi !
 ]],
 }
 
@@ -46,12 +80,25 @@ dialog{
   text = [[
 je te donne ma 
 benediction !!!!!
+  id = "vaiselle",
+  text = [[
+un garde qui fait la vaisselle
+vaut mieux ne pas le 
+deranger
 ]],
 }
 
 dialog{
   id = "zone_1.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_1.halte",
+  text = [[
+halte ! 
+retourne en prison !
 ]],
 }
 
