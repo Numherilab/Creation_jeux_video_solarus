@@ -39,11 +39,11 @@ map{ id = "zone_2/07" }
 map{ id = "zone_2/08" }
 map{ id = "zone_2/09" }
 map{ id = "zone_2/10" }
-map{ id = "zone_3/01" }
-map{ id = "zone_3/02" }
-map{ id = "zone_3/03" }
-map{ id = "zone_3/04" }
-map{ id = "zone_3/05" }
+map{ id = "zone_3/01", description = "L 11 " }
+map{ id = "zone_3/02", description = "M 12" }
+map{ id = "zone_3/03", description = "M 11" }
+map{ id = "zone_3/04", description = "N 11" }
+map{ id = "zone_3/05", description = "N 12" }
 map{ id = "zone_3/06" }
 map{ id = "zone_3/07" }
 map{ id = "zone_3/08" }
@@ -142,6 +142,7 @@ tileset{ id = "house", description = "House" }
 tileset{ id = "oceanset_inside", description = "Oceanset-Inside" }
 tileset{ id = "oceanset_outside", description = "Oceanset-Outside" }
 tileset{ id = "outside", description = "Light Overworld" }
+tileset{ id = "sprite_branche" }
 
 sprite{ id = "animals/bird_red", description = "Red Bird" }
 sprite{ id = "animals/butterfly_blue", description = "Butterfly blue" }
