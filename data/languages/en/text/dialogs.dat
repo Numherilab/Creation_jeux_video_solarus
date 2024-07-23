@@ -48,6 +48,14 @@ dialog{
 }
 
 dialog{
+  id = "zone_1.halte",
+  text = [[
+halte ! 
+retourne en prison !
+]],
+}
+
+dialog{
   id = "zone_2.a_toi_de_jouer",
   text = [[
 ]],
