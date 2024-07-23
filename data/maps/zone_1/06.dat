@@ -494,7 +494,7 @@ teletransporter{
   y = 80,
   width = 16,
   height = 16,
-  destination_map = "06 SUITE 1",
+  destination_map = "zone_1/06 SUITE 1",
 }
 
 npc{

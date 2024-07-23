@@ -26,6 +26,7 @@ map{ id = "zone_1/03" }
 map{ id = "zone_1/04" }
 map{ id = "zone_1/05", description = "1 FORET" }
 map{ id = "zone_1/06", description = "2 forêt" }
+map{ id = "zone_1/06 SUITE 1", description = "zone_1/06 SUITE 1" }
 map{ id = "zone_1/07", description = "3FORET" }
 map{ id = "zone_1/08" }
 map{ id = "zone_1/09" }

@@ -5232,7 +5232,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "monstre/test_2",
-  destination = "destination",
+  destination = "destination_1",
 }
 
 wall{
