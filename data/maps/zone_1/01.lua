@@ -18,7 +18,7 @@ end
 
 function gardequimarche:on_interaction()
     local movement = sol.movement.create("path")
-    movement:set_path{0, 0, 0, 0, 2, 2, 2, 2, 4, 4, 4, 4, 6, 6, 6, 6}
+    movement:set_path{0, 0, 0, 0, 0, 0, 0, 2, 2, 2}
     movement:set_speed(45)
     movement:start(gardequimarche)
 end
