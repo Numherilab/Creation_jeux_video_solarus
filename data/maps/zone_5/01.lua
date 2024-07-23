@@ -1,4 +1,4 @@
--- Lua script of map zone_5/01.
+-- Lua script of map zone_5/02.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -22,3 +22,4 @@ end
 function map:on_opening_transition_finished()
 
 end
+

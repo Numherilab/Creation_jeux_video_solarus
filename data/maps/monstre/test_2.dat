@@ -5482,7 +5482,7 @@ enemy{
 enemy{
   layer = 0,
   x = 152,
-  y = 277,
+  y = 365,
   direction = 3,
   breed = "piege/laser",
 }
