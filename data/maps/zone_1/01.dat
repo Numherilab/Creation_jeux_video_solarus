@@ -5,17 +5,7 @@ properties{
   height = 445,
   min_layer = 0,
   max_layer = 2,
-  tileset = "01 Max Mraz/trillium_trees",
-}
-
-tile{
-  layer = 1,
-  x = 96,
-  y = -456,
-  width = 64,
-  height = 24,
-  pattern = "105",
-  tileset = "01 Max Mraz/02 oceanset_outside",
+  tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
 tile{
@@ -3783,6 +3773,16 @@ switch{
   sound = "crystal",
   needs_block = false,
   inactivate_when_leaving = true,
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = -456,
+  width = 64,
+  height = 24,
+  pattern = "105",
+  tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
