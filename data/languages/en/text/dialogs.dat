@@ -61,30 +61,11 @@ d'initiation de solarus
 }
 
 dialog{
-  id = "zone_1.DIALOGUE ARC",
+  id = "sdf",
   text = [[
-wsh la zone
-ya un passage secret,
-a l'interieur il y aura un
-enemi qui te donnera 
-l'arc qui te sera indispensable
-pour ta quête
-  id = "tappemoi",
-  text = \[\[
-tappe moi !
-]],
-}
-
-dialog{
-  id = "zone_1.DIALOGUE STATUE",
-  text = [[
-je te donne ma 
-benediction !!!!!
-  id = "vaiselle",
-  text = \[\[
-un garde qui fait la vaisselle
-vaut mieux ne pas le 
-deranger
+A laide 
+vient
+maider!
 ]],
 }
 
@@ -109,8 +90,23 @@ dialog{
 }
 
 dialog{
+  id = "zone_2.max",
+  text = [[
+trouve les coffres!
+]],
+}
+
+dialog{
   id = "zone_3.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_3.pnj_ocean_help",
+  text = [[
+bonjour. Il y a de nombreux ennemis
+si vous continuer vers ce chemin
 ]],
 }
 
