@@ -1,0 +1,109 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 488,
+  pattern = "grass_light",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 72,
+  width = 448,
+  height = 264,
+  pattern = "grass_light_1",
+  tileset = "oceanset_outside",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 328,
+  y = 437,
+  direction = 1,
+}
+
+enemy{
+  name = "boss",
+  layer = 0,
+  x = 368,
+  y = 173,
+  direction = 3,
+  breed = "boss/papillosaur_king/papillosaur_king",
+}
+
+wall{
+  layer = 0,
+  x = -16,
+  y = 56,
+  width = 672,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "monstre/test",
+  destination = "destination_14",
+}
+
+sensor{
+  name = "start_boss_sensor",
+  layer = 0,
+  x = 8,
+  y = 389,
+  width = 640,
+  height = 16,
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 448,
+  width = 24,
+  height = 48,
+  pattern = "101",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 448,
+  width = 16,
+  height = 24,
+  pattern = "102",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 448,
+  width = 24,
+  height = 48,
+  pattern = "100",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+

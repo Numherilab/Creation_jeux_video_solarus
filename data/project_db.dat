@@ -1,3 +1,4 @@
+map{ id = "monstre/Mowatulla" }
 map{ id = "monstre/aquadraco", description = "aquadraco" }
 map{ id = "monstre/arrghus" }
 map{ id = "monstre/carock" }
@@ -10,10 +11,13 @@ map{ id = "monstre/gelidrak", description = "gelidrak" }
 map{ id = "monstre/khorneth" }
 map{ id = "monstre/khotor", description = "khotor" }
 map{ id = "monstre/master_arbror" }
+map{ id = "monstre/papillosaur_king" }
+map{ id = "monstre/poutroxor", description = "monstre/poutroxor" }
 map{ id = "monstre/test" }
 map{ id = "monstre/test_2" }
 map{ id = "monstre/test_3" }
-map{ id = "poutroxor", description = "poutroxor" }
+map{ id = "monstre/test_4" }
+map{ id = "monstre/test_5" }
 map{ id = "test_1" }
 
 tileset{ id = "0", description = "House" }
@@ -137,20 +141,33 @@ sprite{ id = "doors/post_wood", description = "Post-Wood" }
 sprite{ id = "enemies/animaux/bari_blue", description = "Blue Bari" }
 sprite{ id = "enemies/animaux/bari_mini", description = "Mini Bari" }
 sprite{ id = "enemies/animaux/bari_red", description = "Red Bari" }
+sprite{ id = "enemies/animaux/bat_1", description = "Bat 1" }
+sprite{ id = "enemies/animaux/birdfox_1", description = "Birdfox 1" }
 sprite{ id = "enemies/animaux/blue_hardhat_beetle", description = "Enemy: Hardhat Beetle (blue)" }
+sprite{ id = "enemies/animaux/burrow_like", description = "Burrow Like" }
 sprite{ id = "enemies/animaux/chameleon", description = "Chameleon" }
 sprite{ id = "enemies/animaux/crab", description = "Crab" }
+sprite{ id = "enemies/animaux/crowbot", description = "Crowbot" }
 sprite{ id = "enemies/animaux/cucco", description = "Cucco" }
+sprite{ id = "enemies/animaux/hornet", description = "Hornet" }
+sprite{ id = "enemies/animaux/meandershroom_1", description = "Meandershroom 1" }
 sprite{ id = "enemies/animaux/pterobat", description = "Pterobat" }
+sprite{ id = "enemies/animaux/rambleshroom", description = "Rambleshroom" }
 sprite{ id = "enemies/animaux/red_hardhat_beetle", description = "Enemy: Hardhat Beetle (red)" }
 sprite{ id = "enemies/animaux/red_helmasaur", description = "Enemy: Helmasaur (red)" }
+sprite{ id = "enemies/animaux/shooty_fish", description = "Shooty Fish" }
+sprite{ id = "enemies/animaux/triangle_crab_red", description = "Triangle crab-red" }
+sprite{ id = "enemies/armes_enemies/air_wave", description = "Air Wave Attack" }
+sprite{ id = "enemies/armes_enemies/aster_enemy_weapon", description = "Aster - Enemy - Weapon" }
 sprite{ id = "enemies/armes_enemies/green_duck_soldier_sword", description = "Enemy: Duck Soldier (green) sword" }
 sprite{ id = "enemies/armes_enemies/green_knight_soldier_sword", description = "Enemy: Knight Soldier (green) sword" }
+sprite{ id = "enemies/armes_enemies/guard_goatshead_1_weapon", description = "Guard Goatshead 1 Weapon" }
 sprite{ id = "enemies/armes_enemies/lizalfos_sword", description = "Enemy: Lizalfos sword" }
 sprite{ id = "enemies/armes_enemies/red_bullblin_sword", description = "Enemy: Bullblin (red) sword" }
 sprite{ id = "enemies/armes_enemies/red_duck_soldier_sword", description = "Enemy: Duck Soldier (red) sword" }
 sprite{ id = "enemies/armes_enemies/red_knight_soldier_sword", description = "Enemy: Knight Soldier (red) sword" }
 sprite{ id = "enemies/armes_enemies/red_pig_soldier_sword", description = "Enemy: Pig Soldier (red) sword" }
+sprite{ id = "enemies/armes_enemies/sword_slash", description = "Sword Slash" }
 sprite{ id = "enemies/boss/aquadraco/aquadracini", description = "Aquadracini" }
 sprite{ id = "enemies/boss/aquadraco/aquadraco", description = "Aquadraco" }
 sprite{ id = "enemies/boss/arrghus/arrghus_baby", description = "Arrghus Baby" }
@@ -162,6 +179,7 @@ sprite{ id = "enemies/boss/drakomos/drakomos_head", description = "Enemy: Drakom
 sprite{ id = "enemies/boss/drakomos/drakomos_lava_spawner", description = "Enemy: Drakomos lava spawner" }
 sprite{ id = "enemies/boss/drakomos/fireball_simple", description = "Enemy: Fireball (simple)" }
 sprite{ id = "enemies/boss/drakomos/red_helmasaur", description = "Enemy: Helmasaur (red)" }
+sprite{ id = "enemies/boss/fiend_1", description = "Fiend 1" }
 sprite{ id = "enemies/boss/firebird/fire_circle", description = "Enemy: Fire circle" }
 sprite{ id = "enemies/boss/firebird/firebird", description = "Enemy: Fire Bird" }
 sprite{ id = "enemies/boss/firebird/red_flame", description = "Enemy: Red flame" }
@@ -192,9 +210,23 @@ sprite{ id = "enemies/clucko", description = "Clucko white" }
 sprite{ id = "enemies/crow", description = "Crow" }
 sprite{ id = "enemies/dodongo", description = "Dodongo" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy Killed" }
+sprite{ id = "enemies/enemy_killed_ko", description = "EnemyKilled-KO" }
+sprite{ id = "enemies/enemy_killed_projectile", description = "Enemy Killed-Projectile" }
+sprite{ id = "enemies/enemy_killed_small", description = "enemies/enemy_killed_small" }
+sprite{ id = "enemies/humain/aster_enemy", description = "Aster - Enemy" }
+sprite{ id = "enemies/humain/automatic_crow_knight", description = "Automatic Crow Knight" }
 sprite{ id = "enemies/humain/blue_knight_soldier", description = "Enemy: Knight Soldier (blue)" }
 sprite{ id = "enemies/humain/blue_knight_soldier_sword", description = "Enemy: Knight Soldier (blue) sword" }
+sprite{ id = "enemies/humain/crow_xxl", description = "Crow Knight XXL" }
 sprite{ id = "enemies/humain/green_knight_soldier", description = "Enemy: Knight Soldier (green)" }
+sprite{ id = "enemies/humain/guard_goatshead_1", description = "Guard - Goatshead 1" }
+sprite{ id = "enemies/humain/pirate_bow_brown_1", description = "Pirate - Bow 1" }
+sprite{ id = "enemies/humain/pirate_sword_brown_1", description = "Pirate- Brown 1" }
+sprite{ id = "enemies/humain/pirate_sword_brown_1_weapon", description = "weapon - pirate brown 1" }
+sprite{ id = "enemies/humain/pirate_sword_brown_2", description = "Pirate - sword brown 2" }
+sprite{ id = "enemies/humain/pirate_sword_brown_2_weapon", description = "weapon - pirate sword brown 2" }
+sprite{ id = "enemies/humain/pirate_sword_brown_3", description = "pirate - sword brown 3" }
+sprite{ id = "enemies/humain/pirate_sword_brown_3_weapon", description = "weapon - pirate sword brown 3" }
 sprite{ id = "enemies/humain/red_knight_soldier", description = "Enemy: Knight Soldier (red)" }
 sprite{ id = "enemies/humain/simple_green_soldier", description = "Enemy: Simple Soldier (green)" }
 sprite{ id = "enemies/ice_block", description = "Ice block" }
@@ -207,6 +239,9 @@ sprite{ id = "enemies/monstre_classique/blue_duck_soldier", description = "Enemy
 sprite{ id = "enemies/monstre_classique/blue_duck_soldier_sword", description = "Enemy: Duck Soldier (blue) sword" }
 sprite{ id = "enemies/monstre_classique/blue_pig_soldier", description = "Enemy: Pig Soldier (blue)" }
 sprite{ id = "enemies/monstre_classique/blue_pig_soldier_sword", description = "Enemy: Pig Soldier (blue) sword" }
+sprite{ id = "enemies/monstre_classique/cyclops_1", description = "Cyclops 01" }
+sprite{ id = "enemies/monstre_classique/ghost_1", description = "Ghost 1" }
+sprite{ id = "enemies/monstre_classique/ghost_2", description = "Ghost 2" }
 sprite{ id = "enemies/monstre_classique/globul", description = "Enemy: Globul" }
 sprite{ id = "enemies/monstre_classique/goblin_axe", description = "Goblin Axe" }
 sprite{ id = "enemies/monstre_classique/goblin_club", description = "Goblin Club" }
@@ -214,6 +249,9 @@ sprite{ id = "enemies/monstre_classique/goblin_green", description = "Goblin Gre
 sprite{ id = "enemies/monstre_classique/green_duck_soldier", description = "Enemy: Duck Soldier (green)" }
 sprite{ id = "enemies/monstre_classique/lizalfos", description = "Enemy: Lizalfos" }
 sprite{ id = "enemies/monstre_classique/mandible", description = "Enemy: Mandible" }
+sprite{ id = "enemies/monstre_classique/ogre_1", description = "Ogre 1" }
+sprite{ id = "enemies/monstre_classique/ogre_armor", description = "Ogre-Armor" }
+sprite{ id = "enemies/monstre_classique/ogre_knight", description = "Ogre Knight" }
 sprite{ id = "enemies/monstre_classique/red_bullblin", description = "Enemy: Bullblin (red)" }
 sprite{ id = "enemies/monstre_classique/red_dogman", description = "Enemy: Dogman (red)" }
 sprite{ id = "enemies/monstre_classique/red_duck_soldier", description = "Enemy: Duck Soldier (red)" }
@@ -222,10 +260,20 @@ sprite{ id = "enemies/monstre_classique/shamablin_fire", description = "Goblin S
 sprite{ id = "enemies/monstre_classique/snap_dragon", description = "Enemy: Snap Dragon" }
 sprite{ id = "enemies/monstres_de_pierre/armos", description = "Armos Statue" }
 sprite{ id = "enemies/monstres_de_pierre/armos_big", description = "Armos Statue, Big" }
+sprite{ id = "enemies/monstres_de_pierre/mud_golem_1", description = "Mud Golem 1" }
+sprite{ id = "enemies/monstres_de_pierre/rock_spider_brown", description = "rock spider - brown" }
+sprite{ id = "enemies/monstres_de_pierre/rock_spider_red", description = "enemies/normal_enemies/rock_spider_red" }
+sprite{ id = "enemies/monstres_de_pierre/spitrock_small", description = "Spitrock - Small" }
 sprite{ id = "enemies/mort_vivant/gibdo", description = "Enemy: Gibdo" }
+sprite{ id = "enemies/mort_vivant/grim_1", description = "Grim 1" }
+sprite{ id = "enemies/mort_vivant/skeleton_1", description = "Skeleton 1" }
 sprite{ id = "enemies/mort_vivant/skeletor", description = "Enemy: Skeletor" }
 sprite{ id = "enemies/mort_vivant/skelfos", description = "Skelfos" }
 sprite{ id = "enemies/mort_vivant/skullbat", description = "Skullbat" }
+sprite{ id = "enemies/piege/blade_trap", description = "Blade Trap" }
+sprite{ id = "enemies/piege/blade_trap_circle", description = "Blade Trap-Circle" }
+sprite{ id = "enemies/piege/blade_trap_collision", description = "Blade Trap Collision" }
+sprite{ id = "enemies/piege/blade_trap_linear", description = "Blade Trap-Linear" }
 sprite{ id = "enemies/piege/boulder", description = "Boulder" }
 sprite{ id = "enemies/piege/bubble", description = "Enemy: Bubble" }
 sprite{ id = "enemies/piege/bubble_blue", description = "Blue Bubble" }
@@ -234,20 +282,35 @@ sprite{ id = "enemies/piege/bubble_grey", description = "Grey Bubble" }
 sprite{ id = "enemies/piege/bubble_red", description = "Red Bubble" }
 sprite{ id = "enemies/piege/bubble_white", description = "White Bubble" }
 sprite{ id = "enemies/piege/bubble_yellow", description = "Yellow Bubble" }
+sprite{ id = "enemies/piege/crusher", description = "Crusher" }
 sprite{ id = "enemies/piege/evil_tile", description = "Enemy: Evil Tile" }
+sprite{ id = "enemies/piege/explosive_barrel", description = "Explosive Barrel" }
 sprite{ id = "enemies/piege/laser", description = "Enemy: Laser" }
 sprite{ id = "enemies/piege/pike_auto", description = "Enemy: Pike (always moving)" }
 sprite{ id = "enemies/piege/pike_detect", description = "Enemy: Pike (moves near hero)" }
 sprite{ id = "enemies/piege/pike_fixed", description = "Enemy: Pike (never moving)" }
+sprite{ id = "enemies/projectile/arrow_4", description = "Arrow - 4 directions" }
 sprite{ id = "enemies/projectile/baba_seed", description = "Baba Seed" }
 sprite{ id = "enemies/projectile/beamos_laser", description = "Beamos Laser" }
 sprite{ id = "enemies/projectile/beamos_particle", description = "Beamos Particle" }
 sprite{ id = "enemies/projectile/blue_flame", description = "Enemy: Flame (blue)" }
+sprite{ id = "enemies/projectile/bomb", description = "enemies/projectile/bomb" }
+sprite{ id = "enemies/projectile/bomb_vegetale", description = "bomb_vegetale" }
+sprite{ id = "enemies/projectile/energy_ball_black", description = "Energy Ball-Black" }
+sprite{ id = "enemies/projectile/energy_ball_small", description = "Energy Ball - Small" }
+sprite{ id = "enemies/projectile/energy_ball_small_black", description = "Energy Ball Small Black" }
+sprite{ id = "enemies/projectile/falling_rock", description = "Falling Rock" }
 sprite{ id = "enemies/projectile/fireball_triple", description = "Fireball, triple" }
 sprite{ id = "enemies/projectile/flame", description = "Flame" }
 sprite{ id = "enemies/projectile/flame_blue", description = "Flame, blue" }
 sprite{ id = "enemies/projectile/iceball", description = "Iceball" }
+sprite{ id = "enemies/projectile/octorok_stone", description = "small stone" }
+sprite{ id = "enemies/projectile/octorok_stone_2", description = "Stone 2" }
+sprite{ id = "enemies/projectile/root_small", description = "Root - Small" }
+sprite{ id = "enemies/projectile/spore", description = "Spore" }
 sprite{ id = "enemies/projectile/whirlwind_random", description = "Whirlwind" }
+sprite{ id = "enemies/projectile/zora_fire", description = "Zora Fire" }
+sprite{ id = "enemies/slime/gel_black", description = "Black Gel" }
 sprite{ id = "enemies/slime/slime_cyan", description = "Slime (cyan)" }
 sprite{ id = "enemies/slime/slime_egg", description = "Slime egg" }
 sprite{ id = "enemies/slime/slime_egg_blue", description = "Slime Egg Blue" }
@@ -262,7 +325,17 @@ sprite{ id = "enemies/soldier", description = "Soldier" }
 sprite{ id = "enemies/soldier_feather", description = "Soldier Feather" }
 sprite{ id = "enemies/soldier_sword", description = "Soldier Sword" }
 sprite{ id = "enemies/spiderskull", description = "Spiderskull" }
+sprite{ id = "enemies/vegetation/arborgeist_acorn", description = "enemies/arborgeist_acorn" }
+sprite{ id = "enemies/vegetation/arborgeist_bomber", description = "Arborgeist Bomber" }
+sprite{ id = "enemies/vegetation/arborgeist_rogue", description = "Arborgeist - Rogue" }
+sprite{ id = "enemies/vegetation/arborgeist_stump", description = "Arborgeist Stump" }
+sprite{ id = "enemies/vegetation/mandrake", description = "mandrake" }
+sprite{ id = "enemies/vegetation/mandrake_white", description = "white mandrake" }
 sprite{ id = "enemies/vegetation/ropa", description = "Enemy: Ropa" }
+sprite{ id = "enemies/vegetation/seaweed_blob", description = "Seaweed Blob" }
+sprite{ id = "enemies/vegetation/seaweed_golem_1", description = "Seaweed Golem 1" }
+sprite{ id = "enemies/vegetation/spitstump_small", description = "Spitstump - Small" }
+sprite{ id = "enemies/vegetation/stump_duck", description = "Stump Duck" }
 sprite{ id = "enemies/vegetation/tentacle", description = "Enemy: Tentacle" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block (grey)" }
@@ -272,12 +345,18 @@ sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
 sprite{ id = "entities/chest", description = "Chest (brown)" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
+sprite{ id = "entities/dust_cloud_roll", description = "Dust Cloud - Roll" }
+sprite{ id = "entities/dust_running", description = "Dust-Running" }
+sprite{ id = "entities/enemy_attack_flash", description = "Enemy Attack Flash" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/pollution_ash" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
+sprite{ id = "entities/spike_ball", description = "Spike Ball" }
+sprite{ id = "entities/splash", description = "splash" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "ground_effects/fall_on_hole", description = "Fall on hole" }
@@ -286,7 +365,7 @@ sprite{ id = "ground_effects/leaves", description = "Leaves" }
 sprite{ id = "ground_effects/water_splash", description = "Water splash" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
-sprite{ id = "hero/shield_1_above", description = "Shield 1 Above" }
+sprite{ id = "hero/shield1", description = "Shield 1 Above" }
 sprite{ id = "hero/shield_1_below", description = "Shield 1 Below" }
 sprite{ id = "hero/shield_collision_mask", description = "Shield Collision Mask" }
 sprite{ id = "hero/sword1", description = "Hero sword 1" }
@@ -696,6 +775,9 @@ sound{ id = "boss_hurt", description = "boss_hurt" }
 sound{ id = "boss_killed", description = "boss_killed" }
 sound{ id = "bounce", description = "bounce" }
 sound{ id = "bow", description = "bow" }
+sound{ id = "breaking_stone", description = "Breaking stone" }
+sound{ id = "burrow1", description = "Burrow 1" }
+sound{ id = "burrow2", description = "Burrow 2" }
 sound{ id = "bush", description = "bush" }
 sound{ id = "cane", description = "cane" }
 sound{ id = "cane2", description = "cane2" }
@@ -703,6 +785,8 @@ sound{ id = "cane3", description = "cane3" }
 sound{ id = "cat", description = "cat" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
+sound{ id = "clank", description = "clank" }
+sound{ id = "click_low", description = "click_low" }
 sound{ id = "cricket", description = "cricket" }
 sound{ id = "crystal", description = "crystal" }
 sound{ id = "crystal2", description = "crystal2" }
@@ -719,10 +803,13 @@ sound{ id = "enemy_awake", description = "enemy_awake" }
 sound{ id = "enemy_hurt", description = "enemy_hurt" }
 sound{ id = "enemy_killed", description = "enemy_killed" }
 sound{ id = "explosion", description = "explosion" }
+sound{ id = "falling", description = "falling" }
 sound{ id = "falling_on_hole", description = "falling_on_hole" }
 sound{ id = "falling_rock", description = "falling_rock" }
 sound{ id = "fire_ball", description = "fire_ball" }
 sound{ id = "fire_ball2", description = "fire_ball2" }
+sound{ id = "flail_swing", description = "flail_swing" }
+sound{ id = "flail_throw", description = "flail_throw" }
 sound{ id = "frost1", description = "frost1" }
 sound{ id = "frost2", description = "frost2" }
 sound{ id = "heart", description = "heart" }
@@ -748,6 +835,7 @@ sound{ id = "message_letter", description = "message_letter" }
 sound{ id = "money_counter", description = "money_counter" }
 sound{ id = "money_counter_end", description = "money_counter_end" }
 sound{ id = "monster_hurt", description = "zora" }
+sound{ id = "monster_roar_1", description = "Monster Roar 1" }
 sound{ id = "mouse", description = "mouse" }
 sound{ id = "ok", description = "ok" }
 sound{ id = "open_lock", description = "open_lock" }
@@ -762,6 +850,8 @@ sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "shield", description = "shield" }
 sound{ id = "shield2", description = "shield2" }
 sound{ id = "shield3", description = "shield3" }
+sound{ id = "shoot", description = "shoot" }
+sound{ id = "shoot_magic", description = "shoot_magic" }
 sound{ id = "soft_tap", description = "soft_tap" }
 sound{ id = "spark", description = "spark" }
 sound{ id = "splash", description = "splash" }
@@ -770,6 +860,7 @@ sound{ id = "stairs_down_start", description = "stairs_down_start" }
 sound{ id = "stairs_up_end", description = "stairs_up_end" }
 sound{ id = "stairs_up_start", description = "stairs_up_start" }
 sound{ id = "stone", description = "stone" }
+sound{ id = "summon_in", description = "summon_in" }
 sound{ id = "swim", description = "swim" }
 sound{ id = "switch", description = "switch" }
 sound{ id = "switch_hero", description = "switch_hero" }
@@ -788,6 +879,7 @@ sound{ id = "thunder2", description = "thunder2" }
 sound{ id = "thunder3", description = "thunder3" }
 sound{ id = "thunder_double", description = "thunder_double" }
 sound{ id = "thunder_far", description = "thunder_far" }
+sound{ id = "thunk1", description = "thunk1" }
 sound{ id = "timer", description = "timer" }
 sound{ id = "timer2", description = "timer2" }
 sound{ id = "timer_hurry", description = "timer_hurry" }
@@ -806,46 +898,59 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "wrong2", description = "wrong2" }
 sound{ id = "wrong3", description = "wrong3" }
 
-item{ id = "01 - potion de force" }
-item{ id = "01 potion de regen (temp)" }
-item{ id = "01 potion de vitesse" }
-item{ id = "01 potion_de coeur" }
-item{ id = "aiguillon de hollow knight" }
 item{ id = "arc", description = "arc" }
 item{ id = "bomb", description = "Bombs (x1 / x3 / x5)" }
 item{ id = "bomb_bag", description = "Bomb bag (small / large / huge)" }
 item{ id = "bomb_counter", description = "Bombs counter" }
 item{ id = "boomerang", description = "boomerang" }
-item{ id = "bracelet de force" }
-item{ id = "carquois" }
-item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
-item{ id = "dash" }
-item{ id = "equipment/magic_meter", description = "Magic Meter" }
-item{ id = "fire_rod", description = "fire_rod" }
-item{ id = "fleches" }
+item{ id = "carquois", description = "carquois (30, 40, 50)" }
+item{ id = "clés/clé_1" }
+item{ id = "clés/clé_2" }
+item{ id = "clés/clé_3" }
+item{ id = "clés/clé_4" }
+item{ id = "clés/clé_5" }
+item{ id = "clés/clé_6" }
+item{ id = "clés/clé_7" }
+item{ id = "clés/clé_8" }
+item{ id = "clés/clé_9" }
+item{ id = "dash", description = "Dash magie" }
+item{ id = "fire_rod", description = "Fire_rod magie" }
+item{ id = "fleches", description = "fleches" }
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
-item{ id = "heart", description = "Heart" }
-item{ id = "hookshot", description = "Hookshot" }
-item{ id = "inventory/lantern", description = "Lantern" }
-item{ id = "lantern", description = "lantern" }
+item{ id = "glove", description = "Gant de force" }
+item{ id = "heart", description = "Coeur" }
+item{ id = "heart_container", description = "Vie supplémentaire " }
+item{ id = "hookshot", description = "Grapin" }
+item{ id = "lantern", description = "lantern magie" }
 item{ id = "magic_jar", description = "magic_jar" }
 item{ id = "magic_meter", description = "magic_meter" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
+item{ id = "palme", description = "NAge" }
 item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "potion_de_vie" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
 
+enemy{ id = "animaux//burrow_like", description = "Burrow Like" }
 enemy{ id = "animaux/bari_blue", description = "Bari, Blue" }
 enemy{ id = "animaux/bari_mini", description = "bari_mini" }
 enemy{ id = "animaux/bari_red", description = "Bari, Red" }
+enemy{ id = "animaux/bat_1", description = "Bat 1" }
+enemy{ id = "animaux/birdfox_1", description = "Birdfox Burrower" }
 enemy{ id = "animaux/blue_hardhat_beetle", description = "Hardhat Beetle (blue)" }
+enemy{ id = "animaux/burrow_like", description = "animaux/burrow_like" }
 enemy{ id = "animaux/chameleon", description = "Chameleon" }
 enemy{ id = "animaux/crab", description = "Crab" }
+enemy{ id = "animaux/crowbot", description = "Crowbot" }
 enemy{ id = "animaux/cucco", description = "Cucco" }
+enemy{ id = "animaux/hornet", description = "Hornet" }
+enemy{ id = "animaux/meandershroom_1", description = "Meandershroom 1" }
 enemy{ id = "animaux/pterobat", description = "Pterobat" }
+enemy{ id = "animaux/rambleshroom", description = "Rambleshroom" }
 enemy{ id = "animaux/red_hardhat_beetle", description = "Hardhat Beetle (red)" }
 enemy{ id = "animaux/red_helmasaur", description = "Helmasaur (red)" }
+enemy{ id = "animaux/shooty_fish", description = "Shooty Fish" }
+enemy{ id = "animaux/triangle_crab_red", description = "Triangle Crab-Red" }
 enemy{ id = "boss/Mowatulla/mini_mowatulla", description = "boss/Mowatulla/mini_mowatulla" }
 enemy{ id = "boss/Mowatulla/mowatulla", description = "boss/Mowatulla/mowatulla" }
 enemy{ id = "boss/Papillosaur_king/minillosaur_egg_fixed", description = "boss/Papillosaur_king/minillosaur_egg_fixed" }
@@ -862,6 +967,7 @@ enemy{ id = "boss/drakomos/drakomos_head", description = "Drakomos head" }
 enemy{ id = "boss/drakomos/drakomos_lava_spawner", description = "Drakomos lava spawner" }
 enemy{ id = "boss/drakomos/fireball_simple", description = "Fireball (simple)" }
 enemy{ id = "boss/drakomos/red_helmasaur", description = "Helmasaur (red)" }
+enemy{ id = "boss/fiend_1", description = "Fiend 1" }
 enemy{ id = "boss/firebird/fire_circle", description = "fire_circle" }
 enemy{ id = "boss/firebird/firebird", description = "Fire Bird" }
 enemy{ id = "boss/firebird/red_flame", description = "red_flame" }
@@ -883,8 +989,16 @@ enemy{ id = "boss/papillosaur_king/minillosaur_egg_thrown", description = "Minil
 enemy{ id = "boss/papillosaur_king/papillosaur_king", description = "Papillosaur King" }
 enemy{ id = "boss/poutroxor/blue_flame", description = "Flame (blue)" }
 enemy{ id = "boss/poutroxor/poutroxor", description = "Poutroxor" }
+enemy{ id = "humain/aster_enemy", description = "Aster - Enemy" }
+enemy{ id = "humain/automatic_crow_knight", description = "Automatic Crow Knight" }
 enemy{ id = "humain/blue_knight_soldier", description = "Knight Soldier (blue)" }
+enemy{ id = "humain/crow_xxl", description = "Crow Knight XXL" }
 enemy{ id = "humain/green_knight_soldier", description = "Knight Soldier (green)" }
+enemy{ id = "humain/guard_goatshead_1", description = "Guard - Goatshead 1" }
+enemy{ id = "humain/pirate_bow_brown_1", description = "Pirate - Bow/Dodge" }
+enemy{ id = "humain/pirate_sword_brown_1", description = "Pirate lv1" }
+enemy{ id = "humain/pirate_sword_brown_2", description = "Pirate lv2" }
+enemy{ id = "humain/pirate_sword_brown_3", description = "Pirate lv3" }
 enemy{ id = "humain/red_knight_soldier", description = "Knight Soldier (red)" }
 enemy{ id = "humain/simple_green_soldier", description = "Simple Soldier (green)" }
 enemy{ id = "monstre_classique/bee_guard", description = "Bee Guard" }
@@ -892,11 +1006,17 @@ enemy{ id = "monstre_classique/blue_bullblin", description = "Bullblin (blue)" }
 enemy{ id = "monstre_classique/blue_dogman", description = "Dogman (blue)" }
 enemy{ id = "monstre_classique/blue_duck_soldier", description = "Duck Soldier (blue)" }
 enemy{ id = "monstre_classique/blue_pig_soldier", description = "Pig Soldier (blue)" }
+enemy{ id = "monstre_classique/cyclops_1", description = "Cyclops Bomber" }
+enemy{ id = "monstre_classique/ghost_1", description = "Ghost 1" }
+enemy{ id = "monstre_classique/ghost_2", description = "Ghost 2" }
 enemy{ id = "monstre_classique/globul", description = "Globul" }
 enemy{ id = "monstre_classique/goblin_green", description = "Goblin" }
 enemy{ id = "monstre_classique/green_duck_soldier", description = "Duck Soldier (green)" }
 enemy{ id = "monstre_classique/lizalfos", description = "Lizalfos" }
 enemy{ id = "monstre_classique/mandible", description = "Mandible" }
+enemy{ id = "monstre_classique/ogre_1", description = "Ogre 1" }
+enemy{ id = "monstre_classique/ogre_armor", description = "Ogre - Armored" }
+enemy{ id = "monstre_classique/ogre_knight", description = "Ogre Knight" }
 enemy{ id = "monstre_classique/red_bullblin", description = "Bullblin (red)" }
 enemy{ id = "monstre_classique/red_dogman", description = "Dogman (red)" }
 enemy{ id = "monstre_classique/red_duck_soldier", description = "Duck Soldier (red)" }
@@ -905,10 +1025,21 @@ enemy{ id = "monstre_classique/shamablin_fire", description = "Goblin Shaman Fir
 enemy{ id = "monstre_classique/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "monstres_de_pierre/armos", description = "Armos Statue" }
 enemy{ id = "monstres_de_pierre/armos_big", description = "Armos Statue, Big (laser)" }
+enemy{ id = "monstres_de_pierre/mud_golem_1", description = "Mud Golem 1" }
+enemy{ id = "monstres_de_pierre/rock_spider_brown", description = "rock spider - brown" }
+enemy{ id = "monstres_de_pierre/rock_spider_red", description = "rock spider - red" }
+enemy{ id = "monstres_de_pierre/spitrock_small", description = "Spitrock-small" }
+enemy{ id = "mort_vivant//grim_1", description = "Grim 1" }
 enemy{ id = "mort_vivant/gibdo", description = "Gibdo" }
+enemy{ id = "mort_vivant/grim_1", description = "mort_vivant/grim_1" }
+enemy{ id = "mort_vivant/skeleton_1", description = "Skeleton 1" }
 enemy{ id = "mort_vivant/skeletor", description = "Skeletor" }
 enemy{ id = "mort_vivant/skelfos", description = "Skelfos" }
 enemy{ id = "mort_vivant/skullbat", description = "Skullbat" }
+enemy{ id = "piege/blade_trap", description = "Blade Trap" }
+enemy{ id = "piege/blade_trap_circle", description = "Blade Trap - Circle" }
+enemy{ id = "piege/blade_trap_collision", description = "Blade Trap Collision" }
+enemy{ id = "piege/blade_trap_linear", description = "Blade Trap - Linear" }
 enemy{ id = "piege/boulder", description = "Boulder" }
 enemy{ id = "piege/bubble", description = "Bubble" }
 enemy{ id = "piege/bubble_blue", description = "Bubble, Blue (Water)" }
@@ -917,24 +1048,40 @@ enemy{ id = "piege/bubble_grey", description = "Bubble, Grey (Confuse)" }
 enemy{ id = "piege/bubble_red", description = "Bubble, Red (Fire)" }
 enemy{ id = "piege/bubble_white", description = "Bubble, White (Ice)" }
 enemy{ id = "piege/bubble_yellow", description = "Bubble, Yellow (Electric)" }
+enemy{ id = "piege/crusher", description = "Crusher" }
 enemy{ id = "piege/evil_tile", description = "Evil Tile" }
+enemy{ id = "piege/explosive_barrel", description = "explosive barrel" }
 enemy{ id = "piege/laser", description = "Laser" }
 enemy{ id = "piege/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "piege/pike_detect", description = "Pike (moves near hero)" }
 enemy{ id = "piege/pike_fixed", description = "Pike (never moving)" }
+enemy{ id = "projectile/arrow_4", description = "Arrow - 4 directions" }
 enemy{ id = "projectile/baba_seed", description = "Baba Seed" }
 enemy{ id = "projectile/beam_particle", description = "Beam Particle" }
 enemy{ id = "projectile/blue_flame", description = "Flame (blue)" }
+enemy{ id = "projectile/bomb_vegetale", description = "Nitrodendron Bomb" }
+enemy{ id = "projectile/energy_ball_black", description = "Energy Ball-Black" }
+enemy{ id = "projectile/energy_ball_small", description = "Energy Ball Small" }
+enemy{ id = "projectile/energy_ball_small_black", description = "EnergyBallSmallBlack" }
+enemy{ id = "projectile/falling_rock", description = "Falling Rock" }
 enemy{ id = "projectile/fireball_triple", description = "Fireball, Triple" }
 enemy{ id = "projectile/flame", description = "Flame" }
 enemy{ id = "projectile/flame_blue", description = "Flame, Blue" }
 enemy{ id = "projectile/generic_projectile", description = "Projectile" }
 enemy{ id = "projectile/iceball", description = "Iceball" }
+enemy{ id = "projectile/octorok_stone", description = "Small Stone" }
+enemy{ id = "projectile/octorok_stone_2", description = "Stone 2" }
+enemy{ id = "projectile/root_small", description = "Root - Small" }
+enemy{ id = "projectile/spore", description = "spore" }
 enemy{ id = "projectile/whirlwind_random", description = "Whirlwind" }
+enemy{ id = "projectile/zora_fire", description = "Zora Fire" }
 enemy{ id = "scrypts/bm//waiting_hero", description = "Generic Waiting for Hero" }
 enemy{ id = "scrypts/bm/bubble", description = "Bubble (generic)" }
 enemy{ id = "scrypts/bm/toward_hero", description = "Generic Toward Hero" }
 enemy{ id = "scrypts/bm/waiting_hero", description = "scrypts/bm/waiting_hero" }
+enemy{ id = "scrypts/oh/enemy_weapon", description = "Enemy Weapon" }
+enemy{ id = "scrypts/oh/underground_toward_hero", description = "scrypts/oh/underground_toward_hero" }
+enemy{ id = "slime/gel_black", description = "Black Gel" }
 enemy{ id = "slime/slime_cyan", description = "Slime (cyan)" }
 enemy{ id = "slime/slime_egg", description = "Slime egg" }
 enemy{ id = "slime/slime_green", description = "Slime (green)" }
@@ -942,7 +1089,17 @@ enemy{ id = "slime/slime_purple", description = "Slime (purple)" }
 enemy{ id = "slime/slime_red", description = "Slime (red)" }
 enemy{ id = "slime/slime_yellow", description = "Slime (yellow)" }
 enemy{ id = "slime/slimy_green", description = "Slimy Green" }
+enemy{ id = "vegetation/arborgeist_acorn", description = "Arborgeist Acorn" }
+enemy{ id = "vegetation/arborgeist_bomber", description = "Arborgeist Bomber" }
+enemy{ id = "vegetation/arborgeist_rogue", description = "Arborgeist Rogue" }
+enemy{ id = "vegetation/arborgeist_stump", description = "Arborgeist Stump" }
+enemy{ id = "vegetation/mandrake", description = "mandrake" }
+enemy{ id = "vegetation/mandrake_white", description = "White Mandrake" }
 enemy{ id = "vegetation/ropa", description = "Ropa" }
+enemy{ id = "vegetation/seaweed_blob", description = "Seaweed Blob" }
+enemy{ id = "vegetation/seaweed_golem_1", description = "Seaweed Golem 1" }
+enemy{ id = "vegetation/spitstump_small", description = "Spitstump - Small" }
+enemy{ id = "vegetation/stump_duck", description = "Stump Duck" }
 enemy{ id = "vegetation/tentacle", description = "Tentacle" }
 
 entity{ id = "fire", description = "Fire" }
@@ -956,16 +1113,26 @@ font{ id = "enter_command", description = "Enter Command" }
 shader{ id = "grayscale", description = "grayscale" }
 shader{ id = "hq2x", description = "hq2x" }
 
+file{ path = "enemies/animaux//burrow_like.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/animaux/bat_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/animaux/birdfox_1.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/animaux/blue_hardhat_beetle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/animaux/chameleon.lua", author = "Diarandor", license = "GPL v3" }
+file{ path = "enemies/animaux/crowbot.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/animaux/hornet.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/animaux/meandershroom_1.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/animaux/pterobat.lua", author = "Diarandor", license = "GPL v3" }
+file{ path = "enemies/animaux/rambleshroom.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/animaux/red_hardhat_beetle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/animaux/red_helmasaur.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/animaux/shooty_fish.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/animaux/triangle_crab_red.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/boss/drakomos/drakomos.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/drakomos/drakomos_head.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/drakomos/drakomos_lava_spawner.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/drakomos/fireball_simple.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/drakomos/red_helmasaur.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/boss/fiend_1.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/boss/firebird/fire_circle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/firebird/firebird.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/firebird/red_flame.lua", author = "Christopho", license = "GPL v3" }
@@ -985,8 +1152,16 @@ file{ path = "enemies/boss/papillosaur_king/minillosaur_egg_thrown.lua", author 
 file{ path = "enemies/boss/papillosaur_king/papillosaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/poutroxor/blue_flame.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/boss/poutroxor/poutroxor.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/humain/aster_enemy.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/humain/automatic_crow_knight.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/humain/blue_knight_soldier.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/humain/crow_xxl.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/humain/green_knight_soldier.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/humain/guard_goatshead_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/humain/pirate_bow_brown_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/humain/pirate_sword_brown_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/humain/pirate_sword_brown_2.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/humain/pirate_sword_brown_3.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/humain/red_knight_soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/humain/simple_green_soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/bee_guard.lua", author = "Christopho", license = "GPL v3" }
@@ -994,32 +1169,63 @@ file{ path = "enemies/monstre_classique/blue_bullblin.lua", author = "Christopho
 file{ path = "enemies/monstre_classique/blue_dogman.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/blue_duck_soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/blue_pig_soldier.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/monstre_classique/cyclops_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstre_classique/ghost_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstre_classique/ghost_2.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/monstre_classique/globul.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/goblin_green.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/green_duck_soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/lizalfos.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/mandible.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/monstre_classique/ogre_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstre_classique/ogre_armor.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstre_classique/ogre_knight.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/monstre_classique/red_bullblin.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/red_dogman.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/red_duck_soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/red_pig_soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/shamablin_fire.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/monstre_classique/snap_dragon.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/monstres_de_pierre/mud_golem_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstres_de_pierre/rock_spider_brown.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstres_de_pierre/rock_spider_red.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/monstres_de_pierre/spitrock_small.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/mort_vivant//grim_1.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/mort_vivant/gibdo.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/mort_vivant/skeleton_1.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/mort_vivant/skeletor.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/mort_vivant/skelfos.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/mort_vivant/skullbat.lua", author = "Diarandor", license = "GPL v3" }
+file{ path = "enemies/piege/blade_trap.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/piege/blade_trap_circle.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/piege/blade_trap_collision.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/piege/blade_trap_linear.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/piege/bubble.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/piege/crusher.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/piege/evil_tile.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/piege/explosive_barrel.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/piege/laser.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/piege/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/piege/pike_detect.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/piege/pike_fixed.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/projectile/arrow_4.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/projectile/blue_flame.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/projectile/bomb_vegetale.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/energy_ball_black.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/energy_ball_small.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/energy_ball_small_black.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/falling_rock.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/projectile/flame.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/projectile/generic_projectile.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/projectile/iceball.lua", author = "Diarandor", license = "GPL v3" }
+file{ path = "enemies/projectile/octorok_stone.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/octorok_stone_2.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/root_small.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/spore.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/projectile/zora_fire.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/scrypts/dx/generic_towards_hero.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/scrypts/oh/enemy_weapon.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/slime/gel_black.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/slime/slime_cyan.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/slime/slime_egg.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/slime/slime_green.lua", author = "Diarandor", license = "GPL v3" }
@@ -1027,19 +1233,26 @@ file{ path = "enemies/slime/slime_purple.lua", author = "Diarandor", license = "
 file{ path = "enemies/slime/slime_red.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/slime/slime_yellow.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/slime/slimy_green.lua", author = "Diarandor", license = "GPL v3" }
+file{ path = "enemies/vegetation/arborgeist_acorn.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/arborgeist_bomber.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/arborgeist_rogue.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/arborgeist_stump.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/mandrake.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/mandrake_white.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/vegetation/ropa.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/vegetation/seaweed_blob.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/seaweed_golem_1.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/spitstump_small.lua", author = "Max Mraz", license = "MIT" }
+file{ path = "enemies/vegetation/stump_duck.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/vegetation/tentacle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/enter_command.ttf", author = "Jeti", license = "CC BY 4.0" }
 file{ path = "items/arc.lua", author = "lionel", }
-file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/gem.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/hookshot.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/lantern.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", license = "GPL v3" }
 file{ path = "items/money_bag.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/pegasus_shoes.lua", author = "Christopho", license = "GPL v3" }
@@ -1089,6 +1302,7 @@ file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v
 file{ path = "scripts/menus/start_game.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/tutoriel_ecran_titre.lua", license = "GPL v3" }
 file{ path = "scripts/menus/tutoriel_ecran_titre_2.lua", license = "GPL v3" }
+file{ path = "scripts/meta/camera.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "scripts/meta/enemy.lua", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "scripts/text_fx_helper.lua", author = "Olivier Cléro", license = "GPL v3" }
@@ -1109,6 +1323,10 @@ file{ path = "sounds/boss_hurt.ogg", author = "Diarandor", license = "CC BY-SA 4
 file{ path = "sounds/boss_killed.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/bounce.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/bow.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/breaking_stone.ogg", author = "Max Mraz", license = "All Rights Reserved a refaire" }
+file{ path = "sounds/burrow1.ogg", author = "Max Mraz", license = "a refaire" }
+file{ path = "sounds/burrow2.ogg", author = "Max Mraz", license = "a refaire" }
+file{ path = "sounds/burrow4.ogg", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sounds/bush.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/cane.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/cane2.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1116,6 +1334,8 @@ file{ path = "sounds/cane3.ogg", author = "Diarandor", license = "CC BY-SA 4.0" 
 file{ path = "sounds/cat.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/chest_appears.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/chest_open.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/clank.ogg", author = "Max Mraz", license = "All Rights Reserved a refaire" }
+file{ path = "sounds/click_low.ogg", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sounds/cricket.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/crystal.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/crystal2.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1132,10 +1352,13 @@ file{ path = "sounds/enemy_awake.ogg", author = "Diarandor", license = "CC BY-SA
 file{ path = "sounds/enemy_hurt.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/enemy_killed.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/explosion.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/falling.ogg", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
 file{ path = "sounds/falling_on_hole.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/falling_rock.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/fire_ball.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/fire_ball2.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/flail_swing.ogg", author = "Max Mraz", license = "All Rights Reserved(a refaire)" }
+file{ path = "sounds/flail_throw.ogg", author = "Max Mraz", license = "All Rights Reserved(a refaire)" }
 file{ path = "sounds/frost1.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/frost2.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/heart.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1160,6 +1383,7 @@ file{ path = "sounds/message_letter.ogg", author = "Diarandor", license = "CC BY
 file{ path = "sounds/money_counter.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/money_counter_end.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/monster_hurt.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/monster_roar_1.ogg", author = "Max Mraz", license = "All Rights Reserved ( a faire )" }
 file{ path = "sounds/mouse.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/ok.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/open_lock.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1174,6 +1398,8 @@ file{ path = "sounds/running_obstacle.ogg", author = "Diarandor", license = "CC 
 file{ path = "sounds/shield.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/shield2.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/shield3.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/shoot.ogg", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sounds/shoot_magic.ogg", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sounds/soft_tap.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/splash.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/stairs_down_end.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1181,6 +1407,7 @@ file{ path = "sounds/stairs_down_start.ogg", author = "Diarandor", license = "CC
 file{ path = "sounds/stairs_up_end.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/stairs_up_start.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/stone.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/summon_in.ogg", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sounds/swim.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/switch.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/switch_hero.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1199,6 +1426,7 @@ file{ path = "sounds/thunder2.ogg", author = "Diarandor", license = "CC BY-SA 4.
 file{ path = "sounds/thunder3.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/thunder_double.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/thunder_far.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sounds/thunk1.ogg", author = "Max Mraz", license = "All Rights Reserved ( a refaire )" }
 file{ path = "sounds/timer.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/timer2.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sounds/timer_hurry.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1319,27 +1547,53 @@ file{ path = "sprites/doors/post_doors.png", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/post_stone.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/doors/post_wood.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/enemies", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/bat_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/bat_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/birdfox_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/birdfox_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/blue_hardhat_beetle.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/burrow_like.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/burrow_like.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/chameleon.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/chameleon.png", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/crowbot.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/crowbot.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/cucco.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/hardhat_beetle.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/animaux/hornet.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/hornet.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/meandershroom_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/meandershroom_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/pterobat.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/rambleshroom.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/rambleshroom.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/red_hardhat_beetle.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/red_helmasaur.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/animaux/red_helmasaur.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/animaux/shooty_fish.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/shooty_fish.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/triangle_crab_red.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/animaux/triangle_crab_red.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/armes_enemies/air_wave.dat", author = "Max Mraz", license = "All Rights Reserved ( a refaire )" }
+file{ path = "sprites/enemies/armes_enemies/air_wave.png", author = "Max Mraz", license = "All Rights Reserved ( a refaire )" }
+file{ path = "sprites/enemies/armes_enemies/aster_enemy_weapon.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/green_duck_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/green_knight_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/armes_enemies/guard_goatshead_1_weapon.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/lizalfos_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/red_bullblin_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/red_duck_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/red_knight_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/armes_enemies/red_pig_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/armes_enemies/sword_slash.dat", author = "Max Mraz", license = "All Rights Reserved ( a refaire )" }
+file{ path = "sprites/enemies/armes_enemies/sword_slash.png", author = "Max Mraz", license = "All Rights Reserved ( a refaire )" }
 file{ path = "sprites/enemies/boss/drakomos/drakomos.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/drakomos/drakomos_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/drakomos/drakomos_lava_spawner.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/drakomos/fireball_simple.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/drakomos/red_helmasaur.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/boss/fiend_1.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/boss/fiend_1.png", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sprites/enemies/boss/firebird/fire_circle.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/firebird/fire_circle.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/firebird/firebird.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1379,17 +1633,41 @@ file{ path = "sprites/enemies/crow.dat", author = "Diarandor", license = "CC BY-
 file{ path = "sprites/enemies/crow.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/enemy_killed.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/enemy_killed.png", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/enemy_killed_ko.dat", author = "Max Mraz", license = "All Rights Reserved ( a refaire )" }
+file{ path = "sprites/enemies/enemy_killed_ko.png", author = "Max Mraz", license = "All Rights Reserved a refaire )" }
+file{ path = "sprites/enemies/enemy_killed_projectile.dat", author = "Max Mraz/lionel martin", }
+file{ path = "sprites/enemies/enemy_killed_projectile.png", author = "lionel martin", }
+file{ path = "sprites/enemies/humain/aster_enemy.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/aster_enemy.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/automatic_crow_knight.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/automatic_crow_knight.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/blue_knight_soldier.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/blue_knight_soldier.png", author = "Nintendo, Newlink", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/humain/blue_knight_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/crow_xxl.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/crow_xxl.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/green_knight_soldier.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/green_knight_soldier.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/guard_goatshead_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/guard_goatshead_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_bow_brown_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_bow_brown_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_1_weapon.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_2.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_2.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_2_weapon.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_3.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_3.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/pirate_sword_brown_3_weapon.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/red_knight_soldier.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/red_knight_soldier.png", author = "Nintendo, Newlink", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/humain/simple_green_soldier.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/simple_green_soldier.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/ice_block.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/bee_guard.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/bee_guard.png", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/bee_guard_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/blue_bullblin.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/blue_bullblin.png", author = "Newlink", license = "CC BY-SA 4.0" }
@@ -1402,6 +1680,12 @@ file{ path = "sprites/enemies/monstre_classique/blue_duck_soldier_sword.dat", au
 file{ path = "sprites/enemies/monstre_classique/blue_pig_soldier.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/blue_pig_soldier.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/blue_pig_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/cyclops_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/cyclops_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ghost_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ghost_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ghost_2.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ghost_2.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/globul.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/globul.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/goblin_axe.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1413,6 +1697,12 @@ file{ path = "sprites/enemies/monstre_classique/lizalfos.dat", author = "Christo
 file{ path = "sprites/enemies/monstre_classique/lizalfos.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/mandible.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/mandible.png", author = "Newlink", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ogre_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ogre_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ogre_armor.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ogre_armor.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ogre_knight.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstre_classique/ogre_knight.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/red_bullblin.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/red_bullblin.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/red_dogman.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1424,15 +1714,37 @@ file{ path = "sprites/enemies/monstre_classique/red_pig_soldier.png", author = "
 file{ path = "sprites/enemies/monstre_classique/shamablin_fire.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/snap_dragon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/monstre_classique/snap_dragon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/monstres_de_pierre/mud_golem_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/mud_golem_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/rock_spider_brown.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/rock_spider_brown.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/rock_spider_red.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/rock_spider_red.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/spitrock_small.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/monstres_de_pierre/spitrock_smallll.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/mort_vivant//grim_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/mort_vivant/gibdo.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/mort_vivant/gibdo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/mort_vivant/grim_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/mort_vivant/grim_1.png", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/mort_vivant/skeleton_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/mort_vivant/skeleton_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/mort_vivant/skeletor.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/mort_vivant/skeletor.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/mort_vivant/skelfos.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/mort_vivant/skullbat.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/piege/blade_trap.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/piege/blade_trap.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/piege/blade_trap_circle.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/piege/blade_trap_collision.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/piege/blade_trap_linear.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/piege/bubble.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/piege/bubble.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/piege/crusher.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/piege/crusher.png", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sprites/enemies/piege/evil_tile.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/piege/explosive_barrel.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/piege/explosive_barrel.png", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sprites/enemies/piege/laser.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/piege/laser.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/piege/pike.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1441,8 +1753,28 @@ file{ path = "sprites/enemies/piege/pike_detect.dat", author = "Christopho", lic
 file{ path = "sprites/enemies/piege/pike_fixed.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/projectile/blue_flame.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/projectile/blue_flame.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/projectile/bomb_vegetale.dat", author = "lionel martin", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/bomb_vegetale.png", author = "lionel martin", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/energy_ball.png", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/projectile/energy_ball_black.dat", author = "Max Mraz", license = "All Rights Reserved ( a faire )" }
+file{ path = "sprites/enemies/projectile/energy_ball_small.dat", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/projectile/energy_ball_small_black.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/projectile/falling_rock.dat", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/projectile/falling_rock.png", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/projectile/fireball_red_small.png", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
 file{ path = "sprites/enemies/projectile/flame.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/projectile/iceball.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/octorok_stone.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/octorok_stone.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/octorok_stone_2.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/octorok_stone_2.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/root_small", author = "Max Mraz", }
+file{ path = "sprites/enemies/projectile/root_small.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/projectile/spore.dat", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/projectile/spore.png", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/projectile/zora_fire.dat", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/enemies/slime/gel_black.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/slime/gel_black.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/slime/slime_cyan.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/slime/slime_cyan.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/slime/slime_egg.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -1467,8 +1799,28 @@ file{ path = "sprites/enemies/soldier_sword.dat", author = "Diarandor", license 
 file{ path = "sprites/enemies/soldier_sword.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/spiderskull.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/spiderskull.png", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_acorn.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_acorn.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_bomber.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_bomber.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_rogue.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_rogue.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_stump.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/arborgeist_stump.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/mandrake.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/mandrake.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/mandrake_white.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/mandrake_white.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/vegetation/ropa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/vegetation/ropa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/vegetation/seaweed_blob.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/seaweed_blob.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/seaweed_golem_1.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/seaweed_golem_1.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/vegetation/spitstump_small.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/vegetation/spitstump_small.png", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/vegetation/stump_duck.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/enemies/vegetation/stump_duck.png", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sprites/enemies/vegetation/tentacle.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/vegetation/tentacle.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities", license = "CC BY-SA 4.0" }
@@ -1479,6 +1831,11 @@ file{ path = "sprites/entities/chest.dat", author = "Diarandor", license = "CC B
 file{ path = "sprites/entities/crystal.dat", author = "Alex Gleason", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/crystal_block.dat", author = "Alex Gleason", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/crystal_block.png", author = "Alex Gleason, Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/dust_cloud_roll.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/entities/dust_cloud_roll.png", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/entities/dust_running.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/entities/enemy_attack_flash.dat", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/entities/enemy_attack_flash.png", author = "Max Mraz", license = "All Rights Reserved" }
 file{ path = "sprites/entities/explosion.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/fire.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1490,6 +1847,10 @@ file{ path = "sprites/entities/items.png", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/rupee_icon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/shadow.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/shadow.png", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/spike_ball.dat", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/entities/spike_ball.png", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/entities/splash.dat", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
+file{ path = "sprites/entities/splash.png", author = "Max Mraz", license = "All Rights Reserved (à refaire)" }
 file{ path = "sprites/entities/star.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/torch.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/torch.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1592,7 +1953,8 @@ file{ path = "sprites/hero/robyne_sword_brandish v2.0.ase", license = "CC BY-SA 
 file{ path = "sprites/hero/robyne_sword_loading v2.0.ase", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/robyne_sword_tapping v2.0.ase", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/robyne_victory v2.0.ase", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/shield_1_above.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/running.png", author = "Max Mraz", license = "All Rights Reserved" }
+file{ path = "sprites/hero/shield1.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/shield_1_above.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/shield_1_below.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/shield_1_below.png", author = "Diarandor", license = "CC BY-SA 4.0" }

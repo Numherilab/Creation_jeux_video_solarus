@@ -79,7 +79,7 @@ function behavior:create(item, properties)
     -- Do magic if there is enough magic.
     if game:get_magic() >= properties.magic_needed then
       if properties.sound_on_success then
-        sol.audio.play_sound(properties.sound_on_success)
+        sol.audio.play_sound("lamp")
       end
       game:remove_magic(properties.magic_needed)
       properties.do_magic() -- the customized part is here

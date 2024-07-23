@@ -5854,3 +5854,11 @@ wall{
   stops_blocks = true,
 }
 
+enemy{
+  layer = 0,
+  x = 2464,
+  y = 117,
+  direction = 0,
+  breed = "vegetation/arborgeist_acorn",
+}
+

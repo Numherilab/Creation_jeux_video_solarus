@@ -13,6 +13,14 @@ sdsdqsd
 }
 
 dialog{
+  id = "item.potion_de_vie.non",
+  text = [[
+tu es déjà en pleine
+forme !
+]],
+}
+
+dialog{
   id = "premier_dialogue",
   text = [[
 Bonjour, 

@@ -6723,7 +6723,7 @@ enemy{
 
 chest{
   layer = 0,
-  x = 64,
+  x = 160,
   y = 205,
   treasure_name = "arc",
   sprite = "entities/chest",
@@ -6731,15 +6731,16 @@ chest{
 
 chest{
   layer = 0,
-  x = 104,
+  x = 192,
   y = 205,
-  treasure_name = "bomb_counter",
+  treasure_name = "bomb_bag",
+  treasure_variant = 3,
   sprite = "entities/chest",
 }
 
 chest{
   layer = 0,
-  x = 136,
+  x = 208,
   y = 205,
   treasure_name = "boomerang",
   sprite = "entities/chest",
@@ -6747,7 +6748,7 @@ chest{
 
 chest{
   layer = 0,
-  x = 168,
+  x = 224,
   y = 205,
   treasure_name = "fire_rod",
   sprite = "entities/chest",
@@ -6755,7 +6756,7 @@ chest{
 
 chest{
   layer = 0,
-  x = 200,
+  x = 240,
   y = 205,
   treasure_name = "hookshot",
   sprite = "entities/chest",
@@ -6789,7 +6790,7 @@ destination{
 
 chest{
   layer = 0,
-  x = 232,
+  x = 256,
   y = 205,
   treasure_name = "lantern",
   sprite = "entities/chest",
@@ -6998,7 +6999,8 @@ teletransporter{
   y = 448,
   width = 16,
   height = 16,
-  destination_map = "monstre/test",
+  destination_map = "monstre/Mowatulla",
+  destination = "destination",
 }
 
 destination{
@@ -7015,7 +7017,8 @@ teletransporter{
   y = 448,
   width = 16,
   height = 16,
-  destination_map = "monstre/test",
+  destination_map = "monstre/papillosaur_king",
+  destination = "destination",
 }
 
 destination{
@@ -7032,7 +7035,8 @@ teletransporter{
   y = 448,
   width = 16,
   height = 16,
-  destination_map = "monstre/test",
+  destination_map = "monstre/poutroxor",
+  destination = "destination",
 }
 
 destination{
@@ -7062,9 +7066,27 @@ destination{
 
 chest{
   layer = 0,
-  x = 80,
+  x = 176,
   y = 205,
   treasure_name = "pegasus_shoes",
   sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 144,
+  y = 205,
+  treasure_name = "dash",
+  sprite = "entities/chest",
+}
+
+teletransporter{
+  layer = 0,
+  x = 16,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "test_1",
+  destination = "destination",
 }
 

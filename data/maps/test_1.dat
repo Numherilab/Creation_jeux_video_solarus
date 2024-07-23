@@ -5,7 +5,7 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
 tile{
@@ -98,11 +98,48 @@ tile{
   tileset = "oceanset_inside",
 }
 
+tile{
+  layer = 0,
+  x = 224,
+  y = 152,
+  width = 64,
+  height = 56,
+  pattern = "water",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "55",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "56",
+}
+
 destination{
   name = "destination",
   layer = 0,
-  x = 168,
-  y = 197,
+  x = 272,
+  y = 133,
   direction = 1,
 }
 
@@ -110,15 +147,14 @@ destructible{
   layer = 0,
   x = 72,
   y = 125,
-  treasure_variant = 2,
   sprite = "destructibles/stone_white",
-  weight = 2,
+  weight = 3,
 }
 
 custom_entity{
   layer = 0,
   x = 160,
-  y = 69,
+  y = 53,
   width = 16,
   height = 16,
   direction = 0,
@@ -139,5 +175,55 @@ chest{
   y = 69,
   treasure_name = "fire_rod",
   sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 120,
+  y = 157,
+  treasure_name = "potion_de_vie",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 200,
+  y = 157,
+  treasure_name = "palme",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 136,
+  y = 157,
+  treasure_name = "potion_de_vie",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 176,
+  y = 157,
+  treasure_name = "potion_de_vie",
+  sprite = "entities/chest",
+}
+
+enemy{
+  layer = 0,
+  x = 128,
+  y = 109,
+  direction = 0,
+  breed = "piege/explosive_barrel",
+}
+
+teletransporter{
+  layer = 0,
+  x = 288,
+  y = 120,
+  width = 16,
+  height = 16,
+  destination_map = "monstre/test",
+  destination = "destination_1",
 }
 
