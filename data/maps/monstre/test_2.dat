@@ -5377,14 +5377,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 2224,
-  y = 117,
-  direction = 0,
-  breed = "monstres_de_pierre/armos_big",
-}
-
-enemy{
-  layer = 0,
   x = 2736,
   y = 117,
   direction = 0,
