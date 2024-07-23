@@ -21,6 +21,18 @@ forme !
 }
 
 dialog{
+  id = "papier secret",
+  text = [[
+Tien ?! vous trouvez un papier
+ caché dans les buches ! 
+... ... ... 
+vous dechifrée un peu un 
+message <en bas de la salle 
+il y a un bouton pour partire>
+]],
+}
+
+dialog{
   id = "premier_dialogue",
   text = [[
 Bonjour, 

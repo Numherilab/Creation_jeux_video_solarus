@@ -14,6 +14,3 @@ function torche_1:is_lit()
  coffrec_torche:set_enabled(true)
 end
 
-function  map:has_entities("torchec_"):is_lit()
- coffrec_torche:set_enabled(true)
-end

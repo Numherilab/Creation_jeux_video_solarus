@@ -10,15 +10,15 @@
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
+function secret:on_activated()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+sol.audio.play_sound("treasure")
+map:set_entities_enabled("secretmur",false)   
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+function gardequimarche:on_interaction()
+    local movement = sol.movement.create("path")
+    movement:set_path{0, 0, 0, 0, 2, 2, 2, 2, 4, 4, 4, 4, 6, 6, 6, 6}
+    movement:set_speed(45)
+    movement:start(gardequimarche)
 end

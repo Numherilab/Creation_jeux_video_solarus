@@ -19,7 +19,7 @@ map{ id = "monstre/test_2" }
 map{ id = "monstre/test_3" }
 map{ id = "monstre/test_4" }
 map{ id = "monstre/test_5" }
-map{ id = "zone_1/01" }
+map{ id = "zone_1/01", description = "prison h8" }
 map{ id = "zone_1/02" }
 map{ id = "zone_1/03" }
 map{ id = "zone_1/04" }
