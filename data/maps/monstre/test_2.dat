@@ -5509,7 +5509,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "monstre/test",
+  destination_map = "monstre/test_1",
 }
 
 destination{
@@ -5542,7 +5542,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "monstre/test",
+  destination_map = "monstre/test_1",
   destination = "destination",
 }
 

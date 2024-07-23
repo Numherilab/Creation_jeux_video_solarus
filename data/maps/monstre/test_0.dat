@@ -140,81 +140,7 @@ destination{
   layer = 0,
   x = 272,
   y = 133,
-  direction = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 72,
-  y = 125,
-  sprite = "destructibles/stone_white",
-  weight = 3,
-}
-
-custom_entity{
-  layer = 0,
-  x = 160,
-  y = 53,
-  width = 16,
-  height = 16,
   direction = 0,
-  model = "torch",
-}
-
-chest{
-  layer = 0,
-  x = 72,
-  y = 69,
-  treasure_name = "lantern",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 104,
-  y = 69,
-  treasure_name = "fire_rod",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 120,
-  y = 157,
-  treasure_name = "potion_de_vie",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 200,
-  y = 157,
-  treasure_name = "palme",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 136,
-  y = 157,
-  treasure_name = "potion_de_vie",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 176,
-  y = 157,
-  treasure_name = "potion_de_vie",
-  sprite = "entities/chest",
-}
-
-enemy{
-  layer = 0,
-  x = 128,
-  y = 109,
-  direction = 0,
-  breed = "piege/explosive_barrel",
 }
 
 teletransporter{
@@ -223,7 +149,129 @@ teletransporter{
   y = 120,
   width = 16,
   height = 16,
-  destination_map = "monstre/test",
+  destination_map = "monstre/test_1",
   destination = "destination_1",
+}
+
+chest{
+  layer = 0,
+  x = 40,
+  y = 141,
+  treasure_name = "arc",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 40,
+  y = 173,
+  treasure_name = "bomb_bag",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 64,
+  y = 141,
+  treasure_name = "boomerang",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 88,
+  y = 141,
+  treasure_name = "carquois",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 40,
+  y = 93,
+  treasure_name = "dash",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 64,
+  y = 93,
+  treasure_name = "fire_rod",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 141,
+  treasure_name = "glove",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 280,
+  y = 45,
+  treasure_name = "heart_container",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 64,
+  y = 173,
+  treasure_name = "hookshot",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 88,
+  y = 93,
+  treasure_name = "lantern",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 256,
+  y = 45,
+  treasure_name = "magic_jar",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 88,
+  y = 173,
+  treasure_name = "money_bag",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 173,
+  treasure_name = "palme",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 232,
+  y = 45,
+  treasure_name = "potion_de_vie",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 93,
+  treasure_name = "pegasus_shoes",
+  sprite = "entities/chest",
 }
 

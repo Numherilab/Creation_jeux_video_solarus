@@ -250,3 +250,115 @@ animation{
     { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
+animation{
+  name = "zone_1/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_1/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_2/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_2/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_3/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_3/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_4/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_4/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_5/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_5/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_6/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_6/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_7/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_7/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_8/clés/clé_1",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "zone_8/clés/clé_2",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

@@ -13,12 +13,92 @@ map{ id = "monstre/khotor", description = "khotor" }
 map{ id = "monstre/master_arbror" }
 map{ id = "monstre/papillosaur_king" }
 map{ id = "monstre/poutroxor", description = "monstre/poutroxor" }
-map{ id = "monstre/test" }
+map{ id = "monstre/test_0" }
+map{ id = "monstre/test_1" }
 map{ id = "monstre/test_2" }
 map{ id = "monstre/test_3" }
 map{ id = "monstre/test_4" }
 map{ id = "monstre/test_5" }
-map{ id = "test_1" }
+map{ id = "zone_1/01" }
+map{ id = "zone_1/02" }
+map{ id = "zone_1/03" }
+map{ id = "zone_1/04" }
+map{ id = "zone_1/05" }
+map{ id = "zone_1/06" }
+map{ id = "zone_1/07" }
+map{ id = "zone_1/08" }
+map{ id = "zone_1/09" }
+map{ id = "zone_1/10" }
+map{ id = "zone_2/01" }
+map{ id = "zone_2/02" }
+map{ id = "zone_2/03" }
+map{ id = "zone_2/04" }
+map{ id = "zone_2/05" }
+map{ id = "zone_2/06" }
+map{ id = "zone_2/07" }
+map{ id = "zone_2/08" }
+map{ id = "zone_2/09" }
+map{ id = "zone_2/10" }
+map{ id = "zone_3/01" }
+map{ id = "zone_3/02" }
+map{ id = "zone_3/03" }
+map{ id = "zone_3/04" }
+map{ id = "zone_3/05" }
+map{ id = "zone_3/06" }
+map{ id = "zone_3/07" }
+map{ id = "zone_3/08" }
+map{ id = "zone_3/09" }
+map{ id = "zone_3/10" }
+map{ id = "zone_4/01" }
+map{ id = "zone_4/02" }
+map{ id = "zone_4/03" }
+map{ id = "zone_4/04" }
+map{ id = "zone_4/05" }
+map{ id = "zone_4/06" }
+map{ id = "zone_4/07" }
+map{ id = "zone_4/08" }
+map{ id = "zone_4/09" }
+map{ id = "zone_4/10" }
+map{ id = "zone_5/01" }
+map{ id = "zone_5/02" }
+map{ id = "zone_5/03" }
+map{ id = "zone_5/04" }
+map{ id = "zone_5/05" }
+map{ id = "zone_5/06" }
+map{ id = "zone_5/07" }
+map{ id = "zone_5/08" }
+map{ id = "zone_5/09" }
+map{ id = "zone_5/10" }
+map{ id = "zone_6/01" }
+map{ id = "zone_6/02" }
+map{ id = "zone_6/03" }
+map{ id = "zone_6/04" }
+map{ id = "zone_6/05" }
+map{ id = "zone_6/06" }
+map{ id = "zone_6/07" }
+map{ id = "zone_6/08" }
+map{ id = "zone_6/09" }
+map{ id = "zone_6/10" }
+map{ id = "zone_7/01" }
+map{ id = "zone_7/02" }
+map{ id = "zone_7/03" }
+map{ id = "zone_7/04" }
+map{ id = "zone_7/05" }
+map{ id = "zone_7/06" }
+map{ id = "zone_7/07" }
+map{ id = "zone_7/08" }
+map{ id = "zone_7/09" }
+map{ id = "zone_7/10" }
+map{ id = "zone_8/01" }
+map{ id = "zone_8/02" }
+map{ id = "zone_8/03" }
+map{ id = "zone_8/04" }
+map{ id = "zone_8/05" }
+map{ id = "zone_8/06" }
+map{ id = "zone_8/07" }
+map{ id = "zone_8/08" }
+map{ id = "zone_8/09" }
+map{ id = "zone_8/10" }
 
 tileset{ id = "0", description = "House" }
 tileset{ id = "01 Max Mraz/01 oceanset_inside", description = "01 Max Mraz/01 oceanset_inside" }
@@ -930,6 +1010,22 @@ item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "potion_de_vie" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
+item{ id = "zone_1/clés/clé_1" }
+item{ id = "zone_1/clés/clé_2" }
+item{ id = "zone_2/clés/clé_1" }
+item{ id = "zone_2/clés/clé_2" }
+item{ id = "zone_3/clés/clé_1" }
+item{ id = "zone_3/clés/clé_2" }
+item{ id = "zone_4/clés/clé_1" }
+item{ id = "zone_4/clés/clé_2" }
+item{ id = "zone_5/clés/clé_1" }
+item{ id = "zone_5/clés/clé_2" }
+item{ id = "zone_6/clés/clé_1" }
+item{ id = "zone_6/clés/clé_2" }
+item{ id = "zone_7/clés/clé_1" }
+item{ id = "zone_7/clés/clé_2" }
+item{ id = "zone_8/clés/clé_1" }
+item{ id = "zone_8/clés/clé_2" }
 
 enemy{ id = "animaux//burrow_like", description = "Burrow Like" }
 enemy{ id = "animaux/bari_blue", description = "Bari, Blue" }
