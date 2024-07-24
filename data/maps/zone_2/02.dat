@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/trillium_ruins",
+  music = "eduardo/soldiers",
 }
 
 tile{
@@ -735,7 +736,7 @@ chest{
 
 enemy{
   layer = 0,
-  x = 72,
+  x = 64,
   y = 125,
   direction = 0,
   breed = "monstre_classique/blue_bullblin",
@@ -750,6 +751,15 @@ enemy{
   breed = "monstre_classique/blue_bullblin",
   treasure_name = "gem",
   treasure_variant = 2,
+}
+
+chest{
+  layer = 0,
+  x = 8,
+  y = 117,
+  treasure_name = "tunic",
+  treasure_variant = 2,
+  sprite = "entities/chest",
 }
 
 tile{
