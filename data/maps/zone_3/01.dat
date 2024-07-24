@@ -19,6 +19,36 @@ tile{
 
 tile{
   layer = 0,
+  x = 152,
+  y = 144,
+  width = 48,
+  height = 48,
+  pattern = "2_2",
+  tileset = "01 Max Mraz/grass_green_large",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 64,
+  width = 48,
+  height = 48,
+  pattern = "7",
+  tileset = "01 Max Mraz/grass_brown",
+}
+
+tile{
+  layer = 0,
+  x = -536,
+  y = 32,
+  width = 304,
+  height = 240,
+  pattern = "8",
+  tileset = "01 Max Mraz/grass_brown",
+}
+
+tile{
+  layer = 0,
   x = 0,
   y = 144,
   width = 144,
@@ -546,15 +576,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt_variant_5",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 8,
-  width = 16,
-  height = 8,
-  pattern = "grass_detail_2",
 }
 
 tile{
@@ -1499,25 +1520,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
-  y = 56,
-  width = 16,
-  height = 16,
-  pattern = "110_2",
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 64,
-  width = 8,
-  height = 16,
-  pattern = "124",
-  tileset = "0",
-}
-
-tile{
-  layer = 0,
   x = 80,
   y = 8,
   width = 16,
@@ -1527,8 +1529,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 8,
-  y = 16,
+  x = 16,
+  y = 8,
   width = 16,
   height = 16,
   pattern = "101_4",
@@ -2128,6 +2130,1062 @@ tile{
   pattern = "137_5",
 }
 
+tile{
+  layer = 0,
+  x = 296,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "276",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "277",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "dirt_2",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "275",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 144,
+  width = 16,
+  height = 8,
+  pattern = "278",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 168,
+  width = 32,
+  height = 32,
+  pattern = "cobblestone_medium_variant_2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_7",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "flower_2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "flower_1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 32,
+  width = 32,
+  height = 32,
+  pattern = "dirt_variant_3",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 120,
+  width = 32,
+  height = 32,
+  pattern = "dirt_variant_1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 64,
+  width = 32,
+  height = 32,
+  pattern = "dirt_variant_2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "dirt_variant_6",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "dirt_variant_4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "dirt_variant_7",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "dirt_variant_5",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_22",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_15",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_21",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_18",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_24",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_16",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_13",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "grass_dark_edge_19",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "vine_soil",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 208,
+  width = 48,
+  height = 32,
+  pattern = "stone_tile_1",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 208,
+  width = 16,
+  height = 32,
+  pattern = "stone_tile_2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 216,
+  width = 16,
+  height = 32,
+  pattern = "stone_tile_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_1",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "stone_tile_border_2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "stone_tile_border_3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "stone_tile_border_1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_2",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "stone_tile_border_1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "stone_tile_3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "stone_tile_border_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_9",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "dirt_edge_6",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "stone_tile_border_2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "stone_tile_border_2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "135",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "133",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "134",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "126",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "127",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_8",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 216,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = -8,
+  width = 64,
+  height = 32,
+  pattern = "102",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 8,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "100_4",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_12",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_11",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_10",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_9",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "grass_detail_6",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_9",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "dirt_edge_9",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "132_5",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "132_7",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "132_11",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "132_10",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "132_8",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "132_4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "flower_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "16",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "108_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "109_2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "5",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "17",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "2",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "14",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "9",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "6",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "195",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "264",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "58",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "273",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "1052",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "549",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "553",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "552",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "504",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "242",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "504",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "1656",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "861",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "1852",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "1092",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "14",
+  tileset = "01 Max Mraz/trillium_enemy_camp",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 64,
+  height = 8,
+  pattern = "52",
+  tileset = "01 Max Mraz/trillium_field",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "110_2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "124",
+  tileset = "0",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "49",
+  tileset = "01 Max Mraz/trillium_snow",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "19",
+  tileset = "01 Max Mraz/flintneedle",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 40,
+  width = 32,
+  height = 16,
+  pattern = "550",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "544",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "246",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "1457",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "1455",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "1456",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "1853",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 40,
+  width = 16,
+  height = 32,
+  pattern = "221",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
 npc{
   layer = 0,
   x = 8,
@@ -2150,9 +3208,9 @@ chest{
   layer = 0,
   x = 216,
   y = 21,
-  treasure_name = "carquois",
+  treasure_name = "gem",
   treasure_variant = 2,
-  treasure_savegame_variable = "carquois2",
+  treasure_savegame_variable = "Gemzone3_1",
   sprite = "entities/chest",
 }
 
@@ -2172,7 +3230,7 @@ teletransporter{
   width = 32,
   height = 16,
   destination_map = "zone_3/02",
-  destination = "destination_L12",
+  destination = "destination_m12_1",
 }
 
 destination{
@@ -2185,10 +3243,46 @@ destination{
 
 enemy{
   layer = 0,
-  x = 32,
-  y = 221,
+  x = 40,
+  y = 229,
   direction = 0,
   breed = "animaux/shooty_fish",
+  treasure_name = "carquois",
+  treasure_variant = 2,
+  treasure_savegame_variable = "carquois2",
+}
+
+enemy{
+  layer = 0,
+  x = 232,
+  y = 117,
+  direction = 0,
+  breed = "animaux/triangle_crab_red",
+  savegame_variable = "crabzone3_1",
+  treasure_name = "gem",
+  treasure_savegame_variable = "gemzone3_2",
+}
+
+wall{
+  layer = 0,
+  x = 224,
+  y = 56,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+}
+
+enemy{
+  layer = 0,
+  x = 272,
+  y = 221,
+  direction = 0,
+  breed = "animaux/triangle_crab_red",
+  savegame_variable = "crabzone3_2",
+  treasure_name = "gem",
+  treasure_savegame_variable = "gemzone3_3",
 }
 
 tile{
@@ -2201,11 +3295,12 @@ tile{
 }
 
 tile{
-  layer = 1,
-  x = 48,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "100_4",
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "1",
+  tileset = "enderwater",
 }
 

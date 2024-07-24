@@ -103,10 +103,19 @@ dialog{
 }
 
 dialog{
+  id = "zone_3.panneau",
+  text = [[
+*C'est écrit dans une langue 
+ancienne*
+]],
+}
+
+dialog{
   id = "zone_3.pnj_ocean_help",
   text = [[
-bonjour. Il y a de nombreux ennemis
-si vous continuer vers ce chemin
+salut !
+ Peut tu m'aider à tuer le monstre 
+qui est dans l'eau
 ]],
 }
 

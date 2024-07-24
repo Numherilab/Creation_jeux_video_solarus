@@ -139,6 +139,7 @@ tileset{ id = "01 Max Mraz/waves_teal", description = "Waves-Teal" }
 tileset{ id = "10", description = "Orange dungeon (DW)" }
 tileset{ id = "3", description = "Cave" }
 tileset{ id = "castle", description = "Castle" }
+tileset{ id = "enderwater" }
 tileset{ id = "house", description = "House" }
 tileset{ id = "oceanset_inside", description = "Oceanset-Inside" }
 tileset{ id = "oceanset_outside", description = "Oceanset-Outside" }
@@ -1018,6 +1019,7 @@ item{ id = "zone_2/clés/clé_1" }
 item{ id = "zone_2/clés/clé_2" }
 item{ id = "zone_3/clés/clé_1" }
 item{ id = "zone_3/clés/clé_2" }
+item{ id = "zone_3/clés/clé_9" }
 item{ id = "zone_4/clés/clé_1" }
 item{ id = "zone_4/clés/clé_2" }
 item{ id = "zone_5/clés/clé_1" }

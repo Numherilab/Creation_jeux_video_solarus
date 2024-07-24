@@ -293,6 +293,13 @@ animation{
   },
 }
 animation{
+  name = "zone_3/clés/clé_9",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 256, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "zone_4/clés/clé_1",
   src_image = "entities/items.png",
   directions = {
