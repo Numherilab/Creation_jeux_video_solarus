@@ -96,16 +96,6 @@ teletransporter{
 
 tile{
   layer = 1,
-  x = 80,
-  y = 80,
-  width = 32,
-  height = 16,
-  pattern = "99",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 1,
   x = 112,
   y = 152,
   width = 32,
@@ -176,51 +166,117 @@ tile{
 
 tile{
   layer = 1,
-  x = 160,
+  x = 80,
   y = 48,
-  width = 32,
+  width = 48,
   height = 16,
-  pattern = "99",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 1,
-  x = 160,
-  y = 120,
-  width = 32,
-  height = 16,
-  pattern = "99",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 1,
-  x = 104,
-  y = 32,
-  width = 32,
-  height = 16,
-  pattern = "99",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 1,
-  x = 160,
-  y = 48,
-  width = 24,
-  height = 32,
-  pattern = "16",
-  tileset = "01 Max Mraz/trillium_enemy_camp",
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
 tile{
   layer = 1,
   x = 152,
+  y = 96,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 208,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 16,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 80,
   y = 120,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 56,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 40,
   width = 24,
   height = 32,
   pattern = "16",
   tileset = "01 Max Mraz/trillium_enemy_camp",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 200,
+  width = 24,
+  height = 32,
+  pattern = "16",
+  tileset = "01 Max Mraz/trillium_enemy_camp",
+}
+
+enemy{
+  layer = 1,
+  x = 104,
+  y = 125,
+  direction = 0,
+  breed = "animaux/bat_1",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 1,
+  x = 176,
+  y = 101,
+  direction = 0,
+  breed = "animaux/bat_1",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 1,
+  x = 192,
+  y = 61,
+  direction = 0,
+  breed = "animaux/bat_1",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 1,
+  x = 192,
+  y = 21,
+  direction = 0,
+  breed = "animaux/bat_1",
+  treasure_name = "gem",
 }
 

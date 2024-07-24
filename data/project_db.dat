@@ -20,16 +20,17 @@ map{ id = "monstre/test_3" }
 map{ id = "monstre/test_4" }
 map{ id = "monstre/test_5" }
 map{ id = "zone_1/01", description = "prison h8" }
-map{ id = "zone_1/02" }
-map{ id = "zone_1/03" }
-map{ id = "zone_1/04" }
+map{ id = "zone_1/02", description = "salles des guardes" }
+map{ id = "zone_1/03", description = "armureries" }
+map{ id = "zone_1/04", description = "dongeon/prison" }
 map{ id = "zone_1/05", description = "1 FORET" }
 map{ id = "zone_1/06", description = "2 forêt" }
 map{ id = "zone_1/06 SUITE 1" }
 map{ id = "zone_1/07", description = "3FORET" }
-map{ id = "zone_1/08" }
-map{ id = "zone_1/09" }
-map{ id = "zone_1/10" }
+map{ id = "zone_1/08", description = "4 forêt" }
+map{ id = "zone_1/09", description = "5 fprêt" }
+map{ id = "zone_1/10", description = "victoir foret" }
+map{ id = "zone_1/qute 2 forêt" }
 map{ id = "zone_2/01" }
 map{ id = "zone_2/02" }
 map{ id = "zone_2/03" }
@@ -56,20 +57,22 @@ map{ id = "zone_4/03", description = "e5" }
 map{ id = "zone_4/04", description = "f3" }
 map{ id = "zone_4/05", description = "f4" }
 map{ id = "zone_4/06", description = "f5" }
-map{ id = "zone_4/07" }
-map{ id = "zone_4/08" }
-map{ id = "zone_4/09" }
-map{ id = "zone_4/10" }
+map{ id = "zone_4/07", description = "f5_2" }
+map{ id = "zone_4/08", description = "f5_3" }
+map{ id = "zone_4/09", description = "f5_4" }
+map{ id = "zone_4/10", description = "f5_5" }
+map{ id = "zone_4/f5_6" }
 map{ id = "zone_5/01", description = "d11" }
 map{ id = "zone_5/02", description = "d12" }
 map{ id = "zone_5/03", description = "e11" }
 map{ id = "zone_5/04", description = "e12" }
 map{ id = "zone_5/05", description = "f11" }
 map{ id = "zone_5/06", description = "f12" }
-map{ id = "zone_5/07" }
-map{ id = "zone_5/08" }
-map{ id = "zone_5/09" }
-map{ id = "zone_5/10" }
+map{ id = "zone_5/07", description = "GROTTE1" }
+map{ id = "zone_5/08", description = "GRPTTTE2" }
+map{ id = "zone_5/09", description = "GROTTZE3" }
+map{ id = "zone_5/10", description = "GROTTTE4" }
+map{ id = "zone_5/11", description = "boss" }
 map{ id = "zone_6/01" }
 map{ id = "zone_6/02" }
 map{ id = "zone_6/03" }

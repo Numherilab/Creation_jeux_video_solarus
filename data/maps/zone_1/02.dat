@@ -191,42 +191,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "89",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 32,
-  width = 8,
-  height = 16,
-  pattern = "88",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 32,
-  width = 8,
-  height = 16,
-  pattern = "88",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 40,
-  width = 16,
-  height = 16,
-  pattern = "89",
-}
-
-tile{
-  layer = 0,
   x = 120,
   y = 96,
   width = 8,
@@ -291,7 +255,7 @@ tile{
 tile{
   layer = 0,
   x = 248,
-  y = 8,
+  y = 0,
   width = 16,
   height = 24,
   pattern = "100",
@@ -405,6 +369,26 @@ tile{
   pattern = "83",
 }
 
+tile{
+  layer = 0,
+  x = 96,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "53",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "54",
+  tileset = "castle",
+}
+
 pickable{
   layer = 0,
   x = 272,
@@ -418,6 +402,7 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
+  transition = "scrolling",
   destination_map = "zone_1/01",
   destination = "prison/portedesgardes",
 }
@@ -456,6 +441,18 @@ sensor{
   y = 69,
   width = 64,
   height = 32,
+}
+
+destructible{
+  name = "pot1",
+  layer = 0,
+  x = 272,
+  y = 197,
+  treasure_name = "gem",
+  treasure_savegame_variable = "df",
+  sprite = "destructibles/pot_1",
+  destruction_sound = "door_closed",
+  can_be_cut = true,
 }
 
 tile{

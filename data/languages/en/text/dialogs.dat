@@ -2,13 +2,32 @@ dialog{
   id = "_confusion",
   text = [[
 que m'arrive t'il ?
+jE SSUis BourééE !
+]],
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+VA CHERCHER DE 
+L'ARGENT VOLEUR
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Prix : $v rubis
+Oui
+Non
 ]],
 }
 
 dialog{
   id = "defeat",
   text = [[
-sdsdqsd
+ouie ;/
 ]],
 }
 
@@ -16,9 +35,17 @@ dialog{
   id = "dialogue/lanterne",
   question = "1",
   text = [[
-Tien petit pour ton aventure sa coute 20 rubis !
-payer !
+Tien petit pour ton aventure !
+payer 20 rubis !
 J'ai po assée :'<
+]],
+}
+
+dialog{
+  id = "donnelanterne",
+  text = [[
+merci de ton achat et bonne chance !
+:D
 ]],
 }
 
@@ -31,11 +58,18 @@ forme !
 }
 
 dialog{
+  id = "lanternedonnée",
+  text = [[
+j'ai plus rien pour toi pour l'instants !
+]],
+}
+
+dialog{
   id = "ontavue",
   text = [[
 heeeey !
-keske tu fé la 
-va en sélule !
+quesque tu fait toi la 
+vien la >:(
 ]],
 }
 
@@ -52,11 +86,44 @@ il y a un bouton pour partire>
 }
 
 dialog{
+  id = "pasargent",
+  text = [[
+Tu n'a pas assée de thunax !
+:(
+]],
+}
+
+dialog{
   id = "premier_dialogue",
   text = [[
 Bonjour, 
 bienvenue dans la séance
 d'initiation de solarus
+]],
+}
+
+dialog{
+  id = "saute",
+  question = "1",
+  text = [[
+veut-tu une recompense ?
+oui 
+non
+]],
+}
+
+dialog{
+  id = "saute non",
+  text = [[
+bas ne vien pas :/
+]],
+}
+
+dialog{
+  id = "saute oui",
+  text = [[
+alors vas vers la plateforme et
+saute !
 ]],
 }
 
@@ -72,6 +139,17 @@ maider!
 dialog{
   id = "zone_1.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_1.dialogue fin",
+  text = [[
+Lance la bomb 
+sur les rocher
+mais elle est tres
+lourde il faut les gant
+de force NIV 1!!!
 ]],
 }
 
@@ -128,6 +206,74 @@ dialog{
 dialog{
   id = "zone_5.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_5.direction",
+  text = [[
+<------------ RIEN
+MARCHÉ---------->
+]],
+}
+
+dialog{
+  id = "zone_5.quiveutpoisson",
+  text = [[
+POISSON, POISON FRAIS !!!!
+]],
+}
+
+dialog{
+  id = "zone_5.shop",
+  text = [[
+Que de beaux objets
+]],
+}
+
+dialog{
+  id = "zone_5.vendre",
+  text = [[
+MOI JE VENDS DES POTIONS 
+A TOUT LE MONDE.
+]],
+}
+
+dialog{
+  id = "zone_5.vendre poisson",
+  text = [[
+Je ne vends pas mon beau poisson 
+au étranger
+]],
+}
+
+dialog{
+  id = "zone_5.vendredialo",
+  text = [[
+Je te vend tout
+]],
+}
+
+dialog{
+  id = "zone_5.vendrepas",
+  text = [[
+ON VENT FRUIT ET LEGUME 
+MAIS PAS AU ETRANGER.
+]],
+}
+
+dialog{
+  id = "zone_5.vendrepasdialo",
+  text = [[
+Je t'ai déja dis que 
+je vendais rien
+]],
+}
+
+dialog{
+  id = "zone_5.wouaf",
+  text = [[
+WOUAF WOUAF
 ]],
 }
 
