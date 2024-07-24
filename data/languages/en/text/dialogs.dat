@@ -7,6 +7,24 @@ jE SSUis BourééE !
 }
 
 dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+VA CHERCHER DE 
+L'ARGENT VOLEUR
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Prix : $v rubis
+Oui
+Non
+]],
+}
+
+dialog{
   id = "defeat",
   text = [[
 ouie ;/
@@ -125,6 +143,17 @@ dialog{
 }
 
 dialog{
+  id = "zone_1.dialogue fin",
+  text = [[
+Lance la bomb 
+sur les rocher
+mais elle est tres
+lourde il faut les gant
+de force NIV 1!!!
+]],
+}
+
+dialog{
   id = "zone_1.halte",
   text = [[
 halte ! 
@@ -168,6 +197,74 @@ dialog{
 dialog{
   id = "zone_5.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_5.direction",
+  text = [[
+<------------ RIEN
+MARCHÉ---------->
+]],
+}
+
+dialog{
+  id = "zone_5.quiveutpoisson",
+  text = [[
+POISSON, POISON FRAIS !!!!
+]],
+}
+
+dialog{
+  id = "zone_5.shop",
+  text = [[
+Que de beaux objets
+]],
+}
+
+dialog{
+  id = "zone_5.vendre",
+  text = [[
+MOI JE VENDS DES POTIONS 
+A TOUT LE MONDE.
+]],
+}
+
+dialog{
+  id = "zone_5.vendre poisson",
+  text = [[
+Je ne vends pas mon beau poisson 
+au étranger
+]],
+}
+
+dialog{
+  id = "zone_5.vendredialo",
+  text = [[
+Je te vend tout
+]],
+}
+
+dialog{
+  id = "zone_5.vendrepas",
+  text = [[
+ON VENT FRUIT ET LEGUME 
+MAIS PAS AU ETRANGER.
+]],
+}
+
+dialog{
+  id = "zone_5.vendrepasdialo",
+  text = [[
+Je t'ai déja dis que 
+je vendais rien
+]],
+}
+
+dialog{
+  id = "zone_5.wouaf",
+  text = [[
+WOUAF WOUAF
 ]],
 }
 

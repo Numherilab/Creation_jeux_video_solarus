@@ -462,12 +462,21 @@ enemy{
   breed = "vegetation/spitstump_small",
 }
 
+enemy{
+  layer = 0,
+  x = 64,
+  y = 149,
+  direction = 0,
+  breed = "vegetation/stump_duck",
+}
+
 teletransporter{
   layer = 0,
   x = 0,
   y = 240,
   width = 320,
   height = 16,
+  transition = "scrolling",
   destination_map = "zone_1/05",
   destination = "_side",
 }
@@ -489,22 +498,13 @@ teletransporter{
   destination_map = "zone_1/06 SUITE 1",
 }
 
-npc{
-  layer = 0,
-  x = 56,
-  y = 229,
-  direction = 3,
-  subtype = 1,
-  sprite = "enemies/clucko",
-  behavior = "dialog#DIALOGUE ARC",
-}
-
 teletransporter{
   layer = 0,
   x = 0,
   y = -16,
   width = 320,
   height = 16,
+  transition = "scrolling",
   destination_map = "zone_1/07",
   destination = "_side",
 }
@@ -915,8 +915,8 @@ tile{
 
 tile{
   layer = 1,
-  x = -24,
-  y = -8,
+  x = -40,
+  y = -16,
   width = 384,
   height = 256,
   pattern = "2006",
