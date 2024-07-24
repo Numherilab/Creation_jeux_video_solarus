@@ -206,18 +206,37 @@ chest{
   layer = 0,
   x = 136,
   y = 29,
-  treasure_name = "bomb_counter",
+  treasure_name = "bomb_bag",
+  treasure_variant = 3,
   treasure_savegame_variable = "bombs",
   sprite = "entities/chest",
 }
 
 enemy{
   layer = 0,
-  x = 152,
-  y = 117,
+  x = 160,
+  y = 53,
   direction = 0,
   breed = "humain/aster_enemy",
-  treasure_name = "heart",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 0,
+  x = 136,
+  y = 53,
+  direction = 0,
+  breed = "humain/pirate_bow_brown_1",
+  treasure_name = "gem",
+}
+
+teletransporter{
+  layer = 0,
+  x = 128,
+  y = 0,
+  width = 48,
+  height = 16,
+  destination_map = "zone_4/07",
 }
 
 tile{
@@ -337,6 +356,46 @@ tile{
   width = 16,
   height = 16,
   pattern = "64",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 16,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 24,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 136,
+  width = 48,
+  height = 16,
+  pattern = "39",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 176,
+  width = 48,
+  height = 16,
+  pattern = "39",
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
