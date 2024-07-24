@@ -488,6 +488,36 @@ tile{
   tileset = "01 Max Mraz/trillium_ruins",
 }
 
+tile{
+  layer = 0,
+  x = 72,
+  y = 72,
+  width = 48,
+  height = 32,
+  pattern = "7",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 112,
+  width = 48,
+  height = 32,
+  pattern = "7",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 160,
+  width = 48,
+  height = 32,
+  pattern = "7",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
 wall{
   layer = 0,
   x = 240,
@@ -507,8 +537,8 @@ enemy{
   y = 133,
   direction = 0,
   breed = "monstre_classique/ghost_1",
-  treasure_name = "gem",
-  treasure_variant = 5,
+  treasure_name = "heart",
+  treasure_variant = 4,
 }
 
 enemy{
@@ -557,5 +587,21 @@ teletransporter{
   height = 16,
   destination_map = "zone_4/05",
   destination = "pioyut",
+}
+
+chest{
+  layer = 0,
+  x = 32,
+  y = 53,
+  treasure_name = "magic_jar",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 280,
+  y = 53,
+  treasure_name = "magic_jar",
+  sprite = "entities/chest",
 }
 

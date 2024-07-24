@@ -60,10 +60,37 @@ teletransporter{
 
 enemy{
   layer = 0,
-  x = 216,
-  y = 125,
+  x = 208,
+  y = 189,
   direction = 0,
-  breed = "mort_vivant/gibdo",
-  treasure_name = "heart",
+  breed = "animaux/crab",
+  treasure_name = "gem",
+}
+
+enemy{
+  layer = 0,
+  x = 200,
+  y = 69,
+  direction = 0,
+  breed = "animaux/crab",
+  treasure_name = "gem",
+}
+
+chest{
+  layer = 0,
+  x = 128,
+  y = 101,
+  treasure_name = "hookshot",
+  sprite = "entities/chest",
+}
+
+teletransporter{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 32,
+  destination_map = "zone_4/10",
+  destination = "jjjj",
 }
 

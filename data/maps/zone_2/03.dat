@@ -2,77 +2,16 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 633,
+  height = 84,
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
-  music = "eduardo/sword_fanfare",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 128,
-  width = 320,
-  height = 400,
-  pattern = "62",
-  tileset = "01 Max Mraz/trillium_ruins",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 128,
-  width = 320,
-  height = 400,
-  pattern = "62",
-  tileset = "01 Max Mraz/trillium_ruins",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 128,
-  width = 320,
-  height = 400,
-  pattern = "62",
-  tileset = "01 Max Mraz/trillium_ruins",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 128,
-  width = 320,
-  height = 400,
-  pattern = "62",
-  tileset = "01 Max Mraz/trillium_ruins",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 128,
-  width = 320,
-  height = 400,
-  pattern = "62",
-  tileset = "01 Max Mraz/trillium_ruins",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 544,
-  width = 8,
-  height = 8,
-  pattern = "62",
-  tileset = "01 Max Mraz/trillium_ruins",
 }
 
 tile{
   layer = 1,
   x = 0,
-  y = 264,
+  y = 16,
   width = 320,
   height = 64,
   pattern = "cobblestone_large_dark",
@@ -82,7 +21,7 @@ tile{
 tile{
   layer = 1,
   x = 0,
-  y = 312,
+  y = 64,
   width = 32,
   height = 24,
   pattern = "133",
@@ -91,7 +30,7 @@ tile{
 tile{
   layer = 1,
   x = 32,
-  y = 312,
+  y = 64,
   width = 288,
   height = 24,
   pattern = "133",
@@ -100,7 +39,7 @@ tile{
 tile{
   layer = 1,
   x = 0,
-  y = 248,
+  y = 0,
   width = 288,
   height = 24,
   pattern = "133",
@@ -109,7 +48,7 @@ tile{
 tile{
   layer = 1,
   x = 288,
-  y = 248,
+  y = 0,
   width = 32,
   height = 24,
   pattern = "133",
@@ -127,14 +66,14 @@ destination{
   name = "destination_55",
   layer = 1,
   x = 296,
-  y = 301,
+  y = 53,
   direction = 2,
 }
 
 teletransporter{
   layer = 1,
   x = 0,
-  y = 264,
+  y = 16,
   width = 16,
   height = 56,
   destination_map = "zone_2/01",
@@ -144,7 +83,7 @@ teletransporter{
 teletransporter{
   layer = 1,
   x = 304,
-  y = 264,
+  y = 16,
   width = 16,
   height = 56,
   destination_map = "zone_2/03",
