@@ -141,7 +141,8 @@ enemy{
   y = 157,
   direction = 0,
   breed = "monstres_de_pierre/mud_golem_1",
-  treasure_name = "arc",
+  treasure_name = "gem",
+  treasure_variant = 5,
 }
 
 teletransporter{

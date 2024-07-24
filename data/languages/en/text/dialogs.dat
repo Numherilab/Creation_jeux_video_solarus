@@ -76,6 +76,17 @@ dialog{
 }
 
 dialog{
+  id = "zone_1.dialogue fin",
+  text = [[
+Lance la bomb 
+sur les rocher
+mais elle est tres
+lourde il faut les gant
+de force NIV 1!!!
+]],
+}
+
+dialog{
   id = "zone_1.halte",
   text = [[
 halte ! 
