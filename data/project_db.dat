@@ -66,10 +66,11 @@ map{ id = "zone_5/03", description = "e11" }
 map{ id = "zone_5/04", description = "e12" }
 map{ id = "zone_5/05", description = "f11" }
 map{ id = "zone_5/06", description = "f12" }
-map{ id = "zone_5/07" }
-map{ id = "zone_5/08" }
-map{ id = "zone_5/09" }
-map{ id = "zone_5/10" }
+map{ id = "zone_5/07", description = "GROTTE1" }
+map{ id = "zone_5/08", description = "GRPTTTE2" }
+map{ id = "zone_5/09", description = "GROTTZE3" }
+map{ id = "zone_5/10", description = "GROTTTE4" }
+map{ id = "zone_5/11", description = "boss" }
 map{ id = "zone_6/01" }
 map{ id = "zone_6/02" }
 map{ id = "zone_6/03" }

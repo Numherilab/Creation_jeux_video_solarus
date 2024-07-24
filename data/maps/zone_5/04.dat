@@ -2,9 +2,127 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 240,
+  height = 320,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 320,
+  pattern = "1928",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 0,
+  width = 8,
+  height = 320,
+  pattern = "98_2",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 32,
+  height = 32,
+  pattern = "statue_base",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 40,
+  width = 32,
+  height = 32,
+  pattern = "statue_base",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 312,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "zone_5/02",
+  destination = "_side",
+}
+
+shop_treasure{
+  layer = 0,
+  x = 128,
+  y = 40,
+  treasure_name = "carquois",
+  treasure_variant = 3,
+  price = 10,
+  dialog = "",
+}
+
+shop_treasure{
+  layer = 0,
+  x = 184,
+  y = 40,
+  treasure_name = "bomb_bag",
+  treasure_variant = 3,
+  price = 10,
+  dialog = "",
+}
+
+npc{
+  layer = 0,
+  x = 240,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/static_villager14",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 320,
+  transition = "scrolling",
+  destination_map = "zone_5/03",
+  destination = "_side",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "1056",
 }
 
