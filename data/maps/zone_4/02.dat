@@ -322,18 +322,9 @@ chest{
   layer = 0,
   x = 216,
   y = 133,
-  treasure_name = "fire_rod",
+  treasure_name = "dash",
   treasure_savegame_variable = "firerod",
   sprite = "entities/chest",
-}
-
-npc{
-  layer = 0,
-  x = 96,
-  y = 149,
-  direction = 3,
-  subtype = 1,
-  sprite = "animals/meow_orange",
 }
 
 destination{
@@ -378,45 +369,6 @@ wall{
   x = 256,
   y = 0,
   width = 64,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 56,
-  y = 120,
-  width = 16,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 112,
-  y = 120,
-  width = 16,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 72,
-  y = 104,
-  width = 40,
   height = 16,
   stops_hero = true,
   stops_npcs = true,
