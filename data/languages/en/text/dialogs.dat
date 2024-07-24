@@ -2,13 +2,14 @@ dialog{
   id = "_confusion",
   text = [[
 que m'arrive t'il ?
+jE SSUis BourééE !
 ]],
 }
 
 dialog{
   id = "defeat",
   text = [[
-sdsdqsd
+ouie ;/
 ]],
 }
 
@@ -16,9 +17,17 @@ dialog{
   id = "dialogue/lanterne",
   question = "1",
   text = [[
-Tien petit pour ton aventure sa coute 20 rubis !
-payer !
+Tien petit pour ton aventure !
+payer 20 rubis !
 J'ai po assée :'<
+]],
+}
+
+dialog{
+  id = "donnelanterne",
+  text = [[
+merci de ton achat et bonne chance !
+:D
 ]],
 }
 
@@ -31,11 +40,18 @@ forme !
 }
 
 dialog{
+  id = "lanternedonnée",
+  text = [[
+j'ai plus rien pour toi pour l'instants !
+]],
+}
+
+dialog{
   id = "ontavue",
   text = [[
 heeeey !
-keske tu fé la 
-va en sélule !
+quesque tu fait toi la 
+vien la >:(
 ]],
 }
 
@@ -52,11 +68,44 @@ il y a un bouton pour partire>
 }
 
 dialog{
+  id = "pasargent",
+  text = [[
+Tu n'a pas assée de thunax !
+:(
+]],
+}
+
+dialog{
   id = "premier_dialogue",
   text = [[
 Bonjour, 
 bienvenue dans la séance
 d'initiation de solarus
+]],
+}
+
+dialog{
+  id = "saute",
+  question = "1",
+  text = [[
+veut-tu une recompense ?
+oui 
+non
+]],
+}
+
+dialog{
+  id = "saute non",
+  text = [[
+bas ne vien pas :/
+]],
+}
+
+dialog{
+  id = "saute oui",
+  text = [[
+alors vas vers la plateforme et
+saute !
 ]],
 }
 
