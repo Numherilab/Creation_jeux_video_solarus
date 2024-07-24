@@ -1,4 +1,4 @@
--- Lua script of map zone_2/01.
+-- Lua script of map f5_6.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
