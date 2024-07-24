@@ -118,7 +118,7 @@ tile{
 destination{
   name = "destination_2",
   layer = 1,
-  x = 24,
+  x = 40,
   y = 301,
   direction = 0,
 }
@@ -148,5 +148,13 @@ teletransporter{
   width = 16,
   height = 56,
   destination_map = "zone_2/03",
+}
+
+enemy{
+  layer = 1,
+  x = 80,
+  y = 293,
+  direction = 0,
+  breed = "animaux/hornet",
 }
 
