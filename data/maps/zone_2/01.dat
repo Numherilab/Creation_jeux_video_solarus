@@ -835,7 +835,7 @@ destination{
   name = "destination666",
   layer = 0,
   x = 96,
-  y = 173,
+  y = 181,
   enabled_at_start = false,
   direction = 3,
 }
