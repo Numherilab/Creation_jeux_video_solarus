@@ -419,6 +419,7 @@ sprite{ id = "enemies/vegetation/seaweed_golem_1", description = "Seaweed Golem 
 sprite{ id = "enemies/vegetation/spitstump_small", description = "Spitstump - Small" }
 sprite{ id = "enemies/vegetation/stump_duck", description = "Stump Duck" }
 sprite{ id = "enemies/vegetation/tentacle", description = "Enemy: Tentacle" }
+sprite{ id = "enemies/zone_2/cyclops_1", description = "enemies/zone_2/cyclops_1" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block (grey)" }
 sprite{ id = "entities/bomb", description = "Bomb" }
@@ -1199,6 +1200,7 @@ enemy{ id = "vegetation/seaweed_golem_1", description = "Seaweed Golem 1" }
 enemy{ id = "vegetation/spitstump_small", description = "Spitstump - Small" }
 enemy{ id = "vegetation/stump_duck", description = "Stump Duck" }
 enemy{ id = "vegetation/tentacle", description = "Tentacle" }
+enemy{ id = "zone_2/cyclops_1" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "torch", description = "Torch" }

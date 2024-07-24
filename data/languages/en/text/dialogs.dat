@@ -92,7 +92,12 @@ dialog{
 dialog{
   id = "zone_2.max",
   text = [[
-trouve les coffres!
+merci
+trouve
+les coffres!
+est encore
+une foit
+merci
 ]],
 }
 
