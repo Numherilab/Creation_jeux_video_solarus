@@ -3804,6 +3804,14 @@ separator{
   height = 256,
 }
 
+chest{
+  layer = 0,
+  x = 352,
+  y = 317,
+  treasure_name = "water_rod",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 96,

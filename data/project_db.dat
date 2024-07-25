@@ -445,6 +445,7 @@ sprite{ id = "entities/spike_ball", description = "Spike Ball" }
 sprite{ id = "entities/splash", description = "splash" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/torch", description = "Torch" }
+sprite{ id = "entities/water" }
 sprite{ id = "ground_effects/fall_on_hole", description = "Fall on hole" }
 sprite{ id = "ground_effects/lava_splash", description = "Lava splash" }
 sprite{ id = "ground_effects/leaves", description = "Leaves" }
@@ -471,6 +472,7 @@ sprite{ id = "hud/icon_pause", description = "Pause icon" }
 sprite{ id = "hud/magic_bar", description = "Magic bar" }
 sprite{ id = "items/fire", description = "items/fire" }
 sprite{ id = "items/fire_rod", description = "items/fire_rod" }
+sprite{ id = "items/water_rod" }
 sprite{ id = "menus/arrow", description = "Arrow" }
 sprite{ id = "menus/inventory/selector", description = "Selector" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }
@@ -1016,6 +1018,7 @@ item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "potion_de_vie" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
+item{ id = "water_rod" }
 item{ id = "zone_1/clés/clé_1" }
 item{ id = "zone_1/clés/clé_2" }
 item{ id = "zone_2/clés/clé_1" }
@@ -1207,6 +1210,7 @@ enemy{ id = "vegetation/tentacle", description = "Tentacle" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "torch", description = "Torch" }
+entity{ id = "water" }
 
 language{ id = "en", description = "English" }
 

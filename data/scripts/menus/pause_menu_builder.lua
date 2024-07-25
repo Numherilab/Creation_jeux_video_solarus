@@ -10,6 +10,7 @@ local item_names = {
  "hookshot" ,
  "bomb_counter" ,
  "dash" ,
+ "water_rod",
 }
 
 
