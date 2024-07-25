@@ -1,0 +1,290 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 820,
+  height = 456,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "0",
+  music = "boss",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 8,
+  height = 232,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 40,
+  height = 280,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 240,
+  width = 320,
+  height = 40,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 280,
+  width = 408,
+  height = 80,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 64,
+  width = 48,
+  height = 224,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 0,
+  width = 48,
+  height = 64,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 0,
+  width = 8,
+  height = 296,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 296,
+  width = 8,
+  height = 64,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 360,
+  width = 408,
+  height = 96,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 368,
+  width = 8,
+  height = 88,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 432,
+  width = 128,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 432,
+  width = 128,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 0,
+  width = 408,
+  height = 328,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 312,
+  width = 416,
+  height = 144,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 432,
+  width = 64,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 304,
+  height = 248,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 8,
+  height = 256,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 8,
+  height = 272,
+  pattern = "120",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 432,
+  width = 352,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 288,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 0,
+  width = 320,
+  height = 24,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+destination{
+  name = "klklm",
+  layer = 0,
+  x = 408,
+  y = 429,
+  direction = 1,
+}
+
+enemy{
+  name = "boss",
+  layer = 0,
+  x = 400,
+  y = 229,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "boss/drakomos/drakomos",
+  treasure_name = "glove",
+  treasure_variant = 3,
+}
+
+sensor{
+  name = "start_boss_sensor",
+  layer = 0,
+  x = 8,
+  y = 341,
+  width = 832,
+  height = 16,
+}
+
+teletransporter{
+  layer = 0,
+  x = 288,
+  y = 8,
+  width = 208,
+  height = 16,
+  destination_map = "zone_4/f5_8",
+  destination = "kkkkk",
+}
+

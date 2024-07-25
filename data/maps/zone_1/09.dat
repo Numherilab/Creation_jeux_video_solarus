@@ -840,9 +840,9 @@ destination{
 
 enemy{
   layer = 0,
-  x = 144,
+  x = 152,
   y = 117,
-  direction = 2,
+  direction = 3,
   breed = "boss/arrghus/arrghus_stone",
   treasure_name = "glove",
 }
