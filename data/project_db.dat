@@ -46,7 +46,7 @@ map{ id = "zone_3/02", description = "M 12" }
 map{ id = "zone_3/03", description = "M 11" }
 map{ id = "zone_3/04", description = "N 11" }
 map{ id = "zone_3/05", description = "N 12" }
-map{ id = "zone_3/06" }
+map{ id = "zone_3/06", description = "N 10" }
 map{ id = "zone_3/07" }
 map{ id = "zone_3/08" }
 map{ id = "zone_3/09" }

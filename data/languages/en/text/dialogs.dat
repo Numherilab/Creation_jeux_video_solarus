@@ -181,6 +181,20 @@ dialog{
 }
 
 dialog{
+  id = "zone_3.final",
+  text = [[
+Merci de nous avoir débarrassé de
+cet horrible monstre !
+
+prennez la porte a ma droite
+pour retourner a la foret.
+
+allez au volcan quelqu'un a 
+besoin de votre force !
+]],
+}
+
+dialog{
   id = "zone_3.panneau",
   text = [[
 *C'est écrit dans une langue 
