@@ -6,14 +6,15 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/02 oceanset_outside",
+  music = "eduardo/mini_game",
 }
 
 tile{
   layer = 0,
   x = 176,
-  y = 0,
+  y = -8,
   width = 144,
-  height = 240,
+  height = 256,
   pattern = "dirt",
 }
 

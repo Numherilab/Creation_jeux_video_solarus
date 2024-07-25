@@ -275,3 +275,35 @@ chest{
   sprite = "entities/chest",
 }
 
+chest{
+  layer = 0,
+  x = 40,
+  y = 45,
+  treasure_name = "sword",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 56,
+  y = 45,
+  treasure_name = "water_rod",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 72,
+  y = 45,
+  treasure_name = "boomerang",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 88,
+  y = 45,
+  treasure_name = "hookshot",
+  sprite = "entities/chest",
+}
+
