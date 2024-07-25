@@ -1712,6 +1712,71 @@ tile{
   tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
+tile{
+  layer = 0,
+  x = 928,
+  y = 968,
+  width = 16,
+  height = 16,
+  pattern = "1558",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 952,
+  width = 48,
+  height = 16,
+  pattern = "1561",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 968,
+  width = 16,
+  height = 16,
+  pattern = "1560",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 968,
+  width = 16,
+  height = 16,
+  pattern = "1559",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 952,
+  width = 16,
+  height = 8,
+  pattern = "ladder_wood_middle",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 960,
+  width = 16,
+  height = 8,
+  pattern = "ladder_wood_down",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 920,
+  width = 16,
+  height = 16,
+  pattern = "1652",
+}
+
 teletransporter{
   layer = 0,
   x = 0,
@@ -1789,6 +1854,15 @@ enemy{
   direction = 0,
   breed = "monstre_classique/globul",
   treasure_name = "fleches",
+}
+
+teletransporter{
+  layer = 0,
+  x = 944,
+  y = 952,
+  width = 16,
+  height = 16,
+  destination_map = "zone_1/1foret map 2",
 }
 
 tile{
@@ -2864,11 +2938,56 @@ tile{
 }
 
 tile{
+  layer = 1,
+  x = 928,
+  y = 944,
+  width = 48,
+  height = 8,
+  pattern = "1562",
+}
+
+tile{
+  layer = 1,
+  x = 944,
+  y = 944,
+  width = 16,
+  height = 8,
+  pattern = "ladder_wood_up",
+  tileset = "outside",
+}
+
+tile{
+  layer = 1,
+  x = 912,
+  y = 904,
+  width = 16,
+  height = 16,
+  pattern = "1655",
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 952,
+  y = 949,
+  direction = 1,
+}
+
+tile{
   layer = 2,
   x = 368,
   y = 600,
   width = 16,
   height = 24,
   pattern = "1841",
+}
+
+tile{
+  layer = 2,
+  x = -56,
+  y = -24,
+  width = 1056,
+  height = 1024,
+  pattern = "2006",
 }
 

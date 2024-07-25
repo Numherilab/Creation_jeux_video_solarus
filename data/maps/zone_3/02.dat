@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_outside",
+  music = "eduardo/mini_game",
 }
 
 tile{
@@ -736,15 +737,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt_edge_11",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "137_10",
 }
 
 tile{
@@ -2366,6 +2358,33 @@ tile{
   pattern = "148",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "dirt",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "dirt_variant_7",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "137_10",
+}
+
 destination{
   name = "destination_m12_1",
   layer = 0,
@@ -2500,9 +2519,8 @@ chest{
   layer = 0,
   x = 296,
   y = 77,
-  treasure_name = "glove",
-  treasure_variant = 2,
-  treasure_savegame_variable = "gant2",
+  treasure_name = "arc",
+  treasure_savegame_variable = "bombbagsmall",
   sprite = "entities/chest",
   opening_method = "interaction_if_item",
   opening_condition = "zone_3/clés/clé_9",
