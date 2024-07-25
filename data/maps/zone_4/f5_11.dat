@@ -1,0 +1,535 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 384,
+  height = 328,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "0",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 256,
+  height = 16,
+  pattern = "dirt_variant_6",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 232,
+  width = 320,
+  height = 96,
+  pattern = "dirt_variant_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 288,
+  height = 224,
+  pattern = "dirt_variant_1",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 16,
+  width = 64,
+  height = 224,
+  pattern = "dirt_variant_1",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 64,
+  height = 64,
+  pattern = "dirt_variant_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "15",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "13",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 176,
+  width = 16,
+  height = 32,
+  pattern = "17",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 144,
+  width = 32,
+  height = 32,
+  pattern = "9",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 176,
+  width = 16,
+  height = 32,
+  pattern = "18",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 208,
+  width = 16,
+  height = 24,
+  pattern = "22",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "14",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 144,
+  width = 16,
+  height = 32,
+  pattern = "11",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 144,
+  width = 16,
+  height = 32,
+  pattern = "10",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 208,
+  width = 16,
+  height = 24,
+  pattern = "20",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 208,
+  width = 32,
+  height = 24,
+  pattern = "21",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "19",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "12",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 40,
+  width = 32,
+  height = 16,
+  pattern = "15",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "13",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "17",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 72,
+  width = 32,
+  height = 32,
+  pattern = "9",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "18",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 136,
+  width = 16,
+  height = 24,
+  pattern = "22",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "14",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "11",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "10",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 16,
+  height = 24,
+  pattern = "20",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "21",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 104,
+  width = 32,
+  height = 32,
+  pattern = "19",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "12",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 56,
+  width = 64,
+  height = 32,
+  pattern = "60",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 64,
+  height = 80,
+  pattern = "42",
+  tileset = "01 Max Mraz/trillium_castle",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 32,
+  height = 288,
+  pattern = "dirt_variant_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "dirt_variant_1",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 32,
+  width = 32,
+  height = 288,
+  pattern = "dirt_variant_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 280,
+  width = 64,
+  height = 48,
+  pattern = "dirt_variant_4",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "215_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "214_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "213_2",
+  tileset = "oceanset_outside",
+}
+
+destination{
+  name = "ghgh",
+  layer = 0,
+  x = 72,
+  y = 77,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 248,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "zone_4/f5_12",
+}
+
+wall{
+  layer = 0,
+  x = 208,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 200,
+  width = 16,
+  height = 64,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 304,
+  y = 200,
+  width = 16,
+  height = 64,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 208,
+  y = 248,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 248,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "216_3",
+  tileset = "oceanset_outside",
+}
+

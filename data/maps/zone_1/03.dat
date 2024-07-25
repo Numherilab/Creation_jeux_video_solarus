@@ -409,14 +409,6 @@ npc{
   behavior = "dialog#dialogue/lanterne",
 }
 
-pickable{
-  layer = 0,
-  x = 104,
-  y = 109,
-  treasure_name = "gem",
-  treasure_variant = 3,
-}
-
 tile{
   layer = 1,
   x = 304,

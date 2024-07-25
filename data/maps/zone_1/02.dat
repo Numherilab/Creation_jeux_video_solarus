@@ -2,7 +2,7 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 240,
+  height = 500,
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/01 oceanset_inside",
@@ -11,7 +11,16 @@ properties{
 tile{
   layer = 0,
   x = 32,
-  y = 208,
+  y = 232,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_13",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 472,
   width = 256,
   height = 32,
   pattern = "39_7",
@@ -20,7 +29,7 @@ tile{
 tile{
   layer = 0,
   x = 288,
-  y = 208,
+  y = 472,
   width = 32,
   height = 32,
   pattern = "38_8",
@@ -29,7 +38,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 32,
+  y = 296,
   width = 32,
   height = 176,
   pattern = "41_8",
@@ -38,7 +47,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 0,
+  y = 264,
   width = 256,
   height = 32,
   pattern = "35_8",
@@ -47,7 +56,7 @@ tile{
 tile{
   layer = 0,
   x = 288,
-  y = 0,
+  y = 264,
   width = 32,
   height = 32,
   pattern = "36_8",
@@ -56,7 +65,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 208,
+  y = 472,
   width = 32,
   height = 32,
   pattern = "40_7",
@@ -65,7 +74,7 @@ tile{
 tile{
   layer = 0,
   x = 288,
-  y = 32,
+  y = 296,
   width = 32,
   height = 176,
   pattern = "37_7",
@@ -74,7 +83,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 0,
+  y = 264,
   width = 32,
   height = 32,
   pattern = "34_8",
@@ -83,7 +92,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 32,
+  y = 296,
   width = 256,
   height = 176,
   pattern = "20_13",
@@ -92,7 +101,7 @@ tile{
 tile{
   layer = 0,
   x = 168,
-  y = 208,
+  y = 472,
   width = 8,
   height = 32,
   pattern = "51_8",
@@ -101,7 +110,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 208,
+  y = 472,
   width = 16,
   height = 32,
   pattern = "52_8",
@@ -110,7 +119,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 208,
+  y = 472,
   width = 8,
   height = 32,
   pattern = "50_7",
@@ -118,18 +127,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 264,
-  y = 48,
-  width = 24,
-  height = 16,
-  pattern = "223",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 0,
   x = 104,
-  y = 96,
+  y = 360,
   width = 8,
   height = 24,
   pattern = "76",
@@ -138,7 +137,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 96,
+  y = 360,
   width = 8,
   height = 24,
   pattern = "78",
@@ -147,7 +146,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 96,
+  y = 360,
   width = 16,
   height = 24,
   pattern = "77",
@@ -156,7 +155,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 32,
+  y = 296,
   width = 8,
   height = 24,
   pattern = "76",
@@ -165,7 +164,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 32,
+  y = 296,
   width = 8,
   height = 24,
   pattern = "78",
@@ -174,7 +173,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 32,
+  y = 296,
   width = 16,
   height = 24,
   pattern = "77",
@@ -183,7 +182,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 32,
+  y = 296,
   width = 16,
   height = 8,
   pattern = "table_sink",
@@ -192,7 +191,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 96,
+  y = 360,
   width = 8,
   height = 16,
   pattern = "87",
@@ -201,7 +200,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 96,
+  y = 360,
   width = 16,
   height = 16,
   pattern = "75",
@@ -210,7 +209,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 112,
+  y = 376,
   width = 16,
   height = 16,
   pattern = "75",
@@ -219,7 +218,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 96,
+  y = 360,
   width = 16,
   height = 16,
   pattern = "75",
@@ -228,7 +227,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 40,
+  y = 304,
   width = 48,
   height = 16,
   pattern = "68",
@@ -237,7 +236,7 @@ tile{
 tile{
   layer = 0,
   x = 192,
-  y = 40,
+  y = 304,
   width = 48,
   height = 16,
   pattern = "68",
@@ -246,7 +245,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 104,
+  y = 368,
   width = 16,
   height = 8,
   pattern = "92",
@@ -254,8 +253,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 248,
-  y = 0,
+  x = 224,
+  y = 264,
   width = 16,
   height = 24,
   pattern = "100",
@@ -264,7 +263,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 8,
+  y = 272,
   width = 16,
   height = 24,
   pattern = "99",
@@ -273,7 +272,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 176,
+  y = 440,
   width = 16,
   height = 16,
   pattern = "75",
@@ -282,7 +281,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 160,
+  y = 424,
   width = 16,
   height = 16,
   pattern = "75",
@@ -291,7 +290,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 184,
+  y = 448,
   width = 16,
   height = 16,
   pattern = "75",
@@ -300,7 +299,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 184,
+  y = 448,
   width = 16,
   height = 16,
   pattern = "95",
@@ -309,7 +308,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 176,
+  y = 440,
   width = 16,
   height = 16,
   pattern = "96",
@@ -318,7 +317,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 24,
+  y = 288,
   width = 32,
   height = 24,
   pattern = "106",
@@ -327,7 +326,7 @@ tile{
 tile{
   layer = 0,
   x = 40,
-  y = 24,
+  y = 288,
   width = 16,
   height = 16,
   pattern = "110",
@@ -336,7 +335,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 104,
+  y = 368,
   width = 16,
   height = 16,
   pattern = "82",
@@ -345,7 +344,7 @@ tile{
 tile{
   layer = 0,
   x = 296,
-  y = 104,
+  y = 368,
   width = 16,
   height = 16,
   pattern = "84",
@@ -354,7 +353,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 8,
+  y = 272,
   width = 16,
   height = 16,
   pattern = "83",
@@ -363,7 +362,7 @@ tile{
 tile{
   layer = 0,
   x = 184,
-  y = 8,
+  y = 272,
   width = 16,
   height = 16,
   pattern = "83",
@@ -372,7 +371,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 32,
+  y = 296,
   width = 16,
   height = 16,
   pattern = "53",
@@ -382,24 +381,290 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 32,
+  y = 296,
   width = 16,
   height = 16,
   pattern = "54",
   tileset = "castle",
 }
 
-pickable{
+tile{
+  layer = 0,
+  x = 256,
+  y = 232,
+  width = 16,
+  height = 32,
+  pattern = "52_8",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 264,
+  width = 8,
+  height = 32,
+  pattern = "50_5",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 232,
+  width = 8,
+  height = 32,
+  pattern = "50_7",
+}
+
+tile{
   layer = 0,
   x = 272,
-  y = 45,
-  treasure_name = "sword",
+  y = 232,
+  width = 8,
+  height = 32,
+  pattern = "51_8",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 264,
+  width = 8,
+  height = 32,
+  pattern = "51_7",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 264,
+  width = 16,
+  height = 32,
+  pattern = "52_7",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 232,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_18",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 8,
+  width = 32,
+  height = 224,
+  pattern = "block_wall_21",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 32,
+  height = 224,
+  pattern = "block_wall_15",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 232,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 40,
+  width = 256,
+  height = 192,
+  pattern = "20_21",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 16,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "1055",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 184,
+  width = 24,
+  height = 16,
+  pattern = "80",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "1706",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "75",
 }
 
 teletransporter{
   layer = 0,
   x = 152,
-  y = 208,
+  y = 472,
   width = 16,
   height = 16,
   transition = "scrolling",
@@ -411,23 +676,14 @@ destination{
   name = "destination",
   layer = 0,
   x = 160,
-  y = 205,
+  y = 469,
   direction = 1,
-}
-
-npc{
-  name = "taudeau",
-  layer = 0,
-  x = 272,
-  y = 61,
-  direction = 3,
-  subtype = 1,
 }
 
 npc{
   layer = 0,
   x = 112,
-  y = 61,
+  y = 325,
   direction = 1,
   subtype = 1,
   sprite = "npc/ilex",
@@ -438,7 +694,7 @@ sensor{
   name = "guardevaiselle",
   layer = 0,
   x = 88,
-  y = 69,
+  y = 333,
   width = 64,
   height = 32,
 }
@@ -447,7 +703,7 @@ destructible{
   name = "pot1",
   layer = 0,
   x = 272,
-  y = 197,
+  y = 461,
   treasure_name = "gem",
   treasure_savegame_variable = "df",
   sprite = "destructibles/pot_1",
@@ -455,10 +711,35 @@ destructible{
   can_be_cut = true,
 }
 
+pickable{
+  layer = 0,
+  x = 272,
+  y = 61,
+  treasure_name = "sword",
+}
+
+sensor{
+  layer = 0,
+  x = 56,
+  y = 149,
+  width = 32,
+  height = 96,
+}
+
+npc{
+  name = "a_1",
+  layer = 0,
+  x = 40,
+  y = 173,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/blacksmith_03",
+}
+
 tile{
   layer = 1,
   x = 144,
-  y = 224,
+  y = 488,
   width = 32,
   height = 16,
   pattern = "53_6",
@@ -466,18 +747,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 264,
-  y = 40,
-  width = 24,
-  height = 8,
-  pattern = "224",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 1,
   x = 136,
-  y = 32,
+  y = 296,
   width = 48,
   height = 8,
   pattern = "69",
@@ -486,7 +757,7 @@ tile{
 tile{
   layer = 1,
   x = 192,
-  y = 32,
+  y = 296,
   width = 48,
   height = 8,
   pattern = "69",
@@ -495,7 +766,7 @@ tile{
 tile{
   layer = 1,
   x = 136,
-  y = 32,
+  y = 296,
   width = 16,
   height = 8,
   pattern = "93",
@@ -504,7 +775,7 @@ tile{
 tile{
   layer = 1,
   x = 200,
-  y = 32,
+  y = 296,
   width = 16,
   height = 8,
   pattern = "93",
@@ -513,7 +784,7 @@ tile{
 tile{
   layer = 1,
   x = 160,
-  y = 24,
+  y = 288,
   width = 16,
   height = 16,
   pattern = "89",
@@ -522,7 +793,7 @@ tile{
 tile{
   layer = 1,
   x = 224,
-  y = 24,
+  y = 288,
   width = 16,
   height = 16,
   pattern = "89",
@@ -531,7 +802,7 @@ tile{
 tile{
   layer = 1,
   x = 56,
-  y = 160,
+  y = 424,
   width = 16,
   height = 16,
   pattern = "94",
@@ -540,7 +811,7 @@ tile{
 tile{
   layer = 1,
   x = 32,
-  y = 160,
+  y = 424,
   width = 16,
   height = 16,
   pattern = "97",
@@ -549,9 +820,96 @@ tile{
 tile{
   layer = 1,
   x = 32,
-  y = 8,
+  y = 272,
   width = 32,
   height = 16,
   pattern = "107",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 264,
+  width = 32,
+  height = 16,
+  pattern = "53_5",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 248,
+  width = 32,
+  height = 16,
+  pattern = "53_6",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "1056",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 168,
+  width = 24,
+  height = 16,
+  pattern = "81",
 }
 
