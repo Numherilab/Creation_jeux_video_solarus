@@ -204,6 +204,15 @@ dialog{
 }
 
 dialog{
+  id = "zone_4.viens",
+  text = [[
+a l'aide !
+ il y a un monstre très dur à battre 
+derière le chateau.
+]],
+}
+
+dialog{
   id = "zone_5.a_toi_de_jouer",
   text = [[
 ]],

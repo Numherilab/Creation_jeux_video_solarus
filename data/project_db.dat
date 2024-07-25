@@ -61,7 +61,14 @@ map{ id = "zone_4/07", description = "f5_2" }
 map{ id = "zone_4/08", description = "f5_3" }
 map{ id = "zone_4/09", description = "f5_4" }
 map{ id = "zone_4/10", description = "f5_5" }
+map{ id = "zone_4/f5_10" }
+map{ id = "zone_4/f5_11" }
+map{ id = "zone_4/f5_12" }
 map{ id = "zone_4/f5_6" }
+map{ id = "zone_4/f5_7", description = "f5_7" }
+map{ id = "zone_4/f5_8" }
+map{ id = "zone_4/f5_9" }
+map{ id = "zone_4_f5_10" }
 map{ id = "zone_5/01", description = "d11" }
 map{ id = "zone_5/02", description = "d12" }
 map{ id = "zone_5/03", description = "e11" }
