@@ -20,6 +20,7 @@ local start_x, start_y = 73, 328
 local end_x, end_y = 336, 64
 local detection_radius = 48 -- Définir le rayon de détection autour du PNJ
 local detection_interval = 100 -- Intervalle de vérification en millisecondes
+local teleport_x, teleport_y = 376, 320 -- Position de téléportation du héros
 
 local function create_movement(npc, target_x, target_y)
   local movement = sol.movement.create("target")
@@ -45,7 +46,10 @@ local function check_hero_distance(npc)
   local distance = math.sqrt((npc_x - hero_x)^2 + (npc_y - hero_y)^2)
 
   if distance <= detection_radius then
-    game:start_dialog("zone_1.halte")
+    game:start_dialog("zone_1.halte", function()
+      -- Téléporter le héros après le dialogue
+      hero:set_position(teleport_x, teleport_y)
+    end)
     return false -- Arrêter le timer après la détection
   else
     return true -- Continuer le timer

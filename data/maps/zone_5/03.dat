@@ -2508,6 +2508,14 @@ destination{
   direction = 1,
 }
 
+enemy{
+  layer = 0,
+  x = 192,
+  y = 205,
+  direction = 0,
+  breed = "zone5/mud_golem_1",
+}
+
 tile{
   layer = 1,
   x = 32,

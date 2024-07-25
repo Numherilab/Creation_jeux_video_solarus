@@ -30,7 +30,7 @@ map{ id = "zone_1/07", description = "3FORET" }
 map{ id = "zone_1/08", description = "4 forêt" }
 map{ id = "zone_1/09", description = "5 fprêt" }
 map{ id = "zone_1/10", description = "victoir foret" }
-map{ id = "zone_1/qute 2 forêt" }
+map{ id = "zone_1/1foret map 2" }
 map{ id = "zone_2/01" }
 map{ id = "zone_2/02" }
 map{ id = "zone_2/03" }
@@ -47,7 +47,7 @@ map{ id = "zone_3/02", description = "M 12" }
 map{ id = "zone_3/03", description = "M 11" }
 map{ id = "zone_3/04", description = "N 11" }
 map{ id = "zone_3/05", description = "N 12" }
-map{ id = "zone_3/06" }
+map{ id = "zone_3/06", description = "N 10" }
 map{ id = "zone_3/07" }
 map{ id = "zone_3/08" }
 map{ id = "zone_3/09" }
@@ -62,7 +62,14 @@ map{ id = "zone_4/07", description = "f5_2" }
 map{ id = "zone_4/08", description = "f5_3" }
 map{ id = "zone_4/09", description = "f5_4" }
 map{ id = "zone_4/10", description = "f5_5" }
+map{ id = "zone_4/f5_10" }
+map{ id = "zone_4/f5_11" }
+map{ id = "zone_4/f5_12" }
 map{ id = "zone_4/f5_6" }
+map{ id = "zone_4/f5_7", description = "f5_7" }
+map{ id = "zone_4/f5_8" }
+map{ id = "zone_4/f5_9" }
+map{ id = "zone_4_f5_10" }
 map{ id = "zone_5/01", description = "d11" }
 map{ id = "zone_5/02", description = "d12" }
 map{ id = "zone_5/03", description = "e11" }
@@ -424,6 +431,7 @@ sprite{ id = "enemies/vegetation/seaweed_golem_1", description = "Seaweed Golem 
 sprite{ id = "enemies/vegetation/spitstump_small", description = "Spitstump - Small" }
 sprite{ id = "enemies/vegetation/stump_duck", description = "Stump Duck" }
 sprite{ id = "enemies/vegetation/tentacle", description = "Enemy: Tentacle" }
+sprite{ id = "enemies/zone_2/cyclops_1", description = "enemies/zone_2/cyclops_1" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block (grey)" }
 sprite{ id = "entities/bomb", description = "Bomb" }
@@ -1208,6 +1216,7 @@ enemy{ id = "vegetation/seaweed_golem_1", description = "Seaweed Golem 1" }
 enemy{ id = "vegetation/spitstump_small", description = "Spitstump - Small" }
 enemy{ id = "vegetation/stump_duck", description = "Stump Duck" }
 enemy{ id = "vegetation/tentacle", description = "Tentacle" }
+enemy{ id = "zone5/mud_golem_1" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "torch", description = "Torch" }

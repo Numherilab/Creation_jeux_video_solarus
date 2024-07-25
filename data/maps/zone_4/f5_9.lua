@@ -1,4 +1,4 @@
--- Lua script of map qute 2 forêt.
+-- Lua script of map zone_4/f5_9.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

@@ -1,4 +1,4 @@
--- Lua script of map zone_5/09.
+-- Lua script of map zone_4_f5_10.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -21,8 +21,4 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
-end
-
-function krakralekrapetore:on_activated()
-      hero:set_layer(hero:get_layer() + 1)
 end

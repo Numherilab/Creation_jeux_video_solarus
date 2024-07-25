@@ -84,7 +84,7 @@ shop_treasure{
   treasure_name = "carquois",
   treasure_variant = 3,
   price = 10,
-  dialog = "",
+  dialog = "zone_5.shop",
 }
 
 shop_treasure{
@@ -94,16 +94,7 @@ shop_treasure{
   treasure_name = "bomb_bag",
   treasure_variant = 3,
   price = 10,
-  dialog = "",
-}
-
-npc{
-  layer = 0,
-  x = 240,
-  y = 61,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/static_villager14",
+  dialog = "zone_5.shop",
 }
 
 teletransporter{
@@ -114,6 +105,17 @@ teletransporter{
   height = 320,
   transition = "scrolling",
   destination_map = "zone_5/03",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 320,
+  width = 312,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "zone_5/06",
   destination = "_side",
 }
 
