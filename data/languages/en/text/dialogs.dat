@@ -25,6 +25,15 @@ Non
 }
 
 dialog{
+  id = "blablaguarde",
+  text = [[
+blablablablablablablablabla
+blablablablablablablablabla
+blablablablablablablablabla
+]],
+}
+
+dialog{
   id = "defeat",
   text = [[
 ouie ;/
@@ -50,6 +59,18 @@ merci de ton achat et bonne chance !
 }
 
 dialog{
+  id = "ester egg",
+  text = [[
+Here's an ester egg for
+ you Max from merik
+if you don't understand, 
+it's hazelnut in oceant 
+heart that gives you the sword
+ and there's MR chips next to it.
+]],
+}
+
+dialog{
   id = "item.potion_de_vie.non",
   text = [[
 tu es déjà en pleine
@@ -70,6 +91,14 @@ dialog{
 heeeey !
 quesque tu fait toi la 
 vien la >:(
+]],
+}
+
+dialog{
+  id = "papier",
+  text = [[
+voici l'objet pour 
+le corbeaux !
 ]],
 }
 
