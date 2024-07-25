@@ -1849,11 +1849,10 @@ teletransporter{
 
 enemy{
   layer = 0,
-  x = 824,
+  x = 816,
   y = 893,
   direction = 0,
-  breed = "monstre_classique/globul",
-  treasure_name = "fleches",
+  breed = "monstre_classique/ogre_knight",
 }
 
 teletransporter{
@@ -2907,15 +2906,6 @@ tile{
   width = 24,
   height = 16,
   pattern = "1736",
-}
-
-tile{
-  layer = 1,
-  x = -48,
-  y = -24,
-  width = 1056,
-  height = 1024,
-  pattern = "2006",
 }
 
 tile{

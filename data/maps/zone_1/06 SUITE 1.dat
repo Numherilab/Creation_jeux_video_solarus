@@ -140,9 +140,9 @@ enemy{
   x = 64,
   y = 157,
   direction = 0,
-  breed = "monstre_classique/ogre_1",
+  breed = "monstres_de_pierre/mud_golem_1",
   treasure_name = "gem",
-  treasure_variant = 2,
+  treasure_variant = 5,
 }
 
 teletransporter{
