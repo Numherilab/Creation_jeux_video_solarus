@@ -282,8 +282,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 536,
-  y = 256,
+  x = 560,
+  y = 280,
   width = 16,
   height = 16,
   pattern = "41_2",
@@ -412,7 +412,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 520,
+  x = 528,
   y = 104,
   width = 16,
   height = 24,
@@ -2377,7 +2377,7 @@ tile{
 tile{
   layer = 0,
   x = 224,
-  y = 264,
+  y = 280,
   width = 32,
   height = 24,
   pattern = "19",
@@ -2446,16 +2446,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "71",
-  tileset = "01 Max Mraz/trillium_desert",
-}
-
-tile{
-  layer = 0,
   x = 168,
   y = 280,
   width = 16,
@@ -2486,18 +2476,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
-  y = 88,
-  width = 16,
-  height = 16,
-  pattern = "71",
-  tileset = "01 Max Mraz/trillium_desert",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 152,
+  x = 376,
+  y = 160,
   width = 16,
   height = 16,
   pattern = "71",
@@ -2584,6 +2564,186 @@ tile{
   tileset = "01 Max Mraz/trillium_desert",
 }
 
+tile{
+  layer = 0,
+  x = 408,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "4",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "4",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "4",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "5",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "3",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "9",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "8",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "11",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "6",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 192,
+  width = 48,
+  height = 48,
+  pattern = "7",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "7",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
 npc{
   name = "sdf",
   layer = 0,
@@ -2667,6 +2827,263 @@ sensor{
   y = 117,
   width = 352,
   height = 16,
+}
+
+teletransporter{
+  layer = 0,
+  x = 392,
+  y = 176,
+  width = 80,
+  height = 80,
+  destination_map = "zone_2/04",
+  destination = "destination_96",
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 101,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 117,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 133,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 149,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 165,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 181,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 317,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 301,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 285,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 269,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 253,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 464,
+  y = 197,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 141,
+  direction = 6,
+  speed = 104,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 157,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 165,
+  direction = 6,
+  speed = 112,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 181,
+  direction = 6,
+  speed = 104,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 197,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 109,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 125,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 141,
+  direction = 6,
+  speed = 160,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 157,
+  direction = 6,
+  speed = 160,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 173,
+  direction = 6,
+  speed = 160,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 189,
+  direction = 6,
+  speed = 160,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 317,
+  direction = 2,
+  speed = 112,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 301,
+  direction = 2,
+  speed = 112,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 285,
+  direction = 2,
+  speed = 112,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 269,
+  direction = 2,
+  speed = 104,
+}
+
+stream{
+  layer = 0,
+  x = 448,
+  y = 253,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 317,
+  direction = 2,
+  speed = 160,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 301,
+  direction = 2,
+  speed = 160,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 285,
+  direction = 2,
+  speed = 152,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 269,
+  direction = 2,
+  speed = 144,
+}
+
+stream{
+  layer = 0,
+  x = 432,
+  y = 253,
+  direction = 2,
+  speed = 96,
 }
 
 tile{
@@ -2810,7 +3227,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 520,
+  x = 528,
   y = 96,
   width = 16,
   height = 8,
@@ -3021,7 +3438,7 @@ tile{
 tile{
   layer = 1,
   x = 224,
-  y = 256,
+  y = 272,
   width = 32,
   height = 8,
   pattern = "20",

@@ -1790,6 +1790,14 @@ enemy{
   breed = "monstre_classique/ogre_knight",
 }
 
+destination{
+  name = "destination_8_8",
+  layer = 0,
+  x = 424,
+  y = 13,
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 8,
@@ -2836,8 +2844,8 @@ tile{
 
 tile{
   layer = 1,
-  x = -56,
-  y = -24,
+  x = -24,
+  y = -16,
   width = 1056,
   height = 1024,
   pattern = "2006",

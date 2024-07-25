@@ -35,6 +35,7 @@ map{ id = "zone_2/01" }
 map{ id = "zone_2/02" }
 map{ id = "zone_2/03" }
 map{ id = "zone_2/04" }
+map{ id = "zone_2/04_2" }
 map{ id = "zone_2/05" }
 map{ id = "zone_2/06" }
 map{ id = "zone_2/07" }

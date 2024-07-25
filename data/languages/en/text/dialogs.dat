@@ -168,9 +168,41 @@ dialog{
 }
 
 dialog{
+  id = "zone_2.ert",
+  text = [[
+va dans la 
+foret
+tu itrouvras
+de l'aide
+]],
+}
+
+dialog{
   id = "zone_2.max",
   text = [[
 trouve les coffres!
+]],
+}
+
+dialog{
+  id = "zone_2.pano",
+  text = [[
+va dans la foret
+tu oras une 
+surprise!
+]],
+}
+
+dialog{
+  id = "zone_2.tintin",
+  text = [[
+&é"'('(-(-è_è__çà__àç))'""éé_(_
+-;:!,!;'))==$$$^^ù*!;!,:(é"'à-àç
+èààé'èç(-))()-ù*:ù:;:!;
+*:*::ù*!!;!
+:ù!!;ù:;ù'(ç'ç("'ç-('"-ç_(àç-
+-_(à'_--'"_-:;,,ù*$$^"è((àèà
+(è((-)è:ù:ù!:*
 ]],
 }
 
