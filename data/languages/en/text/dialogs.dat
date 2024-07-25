@@ -225,6 +225,13 @@ POISSON, POISON FRAIS !!!!
 }
 
 dialog{
+  id = "zone_5.rentrecheztoi",
+  text = [[
+ON  VEUT PAS D'ETRANGER
+]],
+}
+
+dialog{
   id = "zone_5.shop",
   text = [[
 Que de beaux objets

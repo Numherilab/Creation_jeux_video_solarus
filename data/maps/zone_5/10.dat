@@ -2111,17 +2111,17 @@ tile{
 
 tile{
   layer = 0,
-  x = -32,
+  x = 0,
   y = 0,
   width = 32,
-  height = 320,
+  height = 288,
   pattern = "41_3",
 }
 
 tile{
   layer = 0,
   x = 0,
-  y = 320,
+  y = 288,
   width = 320,
   height = 32,
   pattern = "39_3",
@@ -2129,8 +2129,8 @@ tile{
 
 tile{
   layer = 0,
-  x = -32,
-  y = 320,
+  x = 0,
+  y = 288,
   width = 32,
   height = 32,
   pattern = "40_3",
@@ -2139,7 +2139,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 184,
+  y = 176,
   width = 208,
   height = 32,
   pattern = "39_6",
@@ -2148,7 +2148,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 216,
+  y = 208,
   width = 208,
   height = 32,
   pattern = "35_5",
@@ -2157,7 +2157,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 184,
+  y = 176,
   width = 32,
   height = 32,
   pattern = "40_6",
@@ -2166,10 +2166,19 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 216,
+  y = 208,
   width = 32,
   height = 32,
   pattern = "34_5",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 240,
+  width = 32,
+  height = 16,
+  pattern = "41_5",
 }
 
 tile{
@@ -2184,18 +2193,9 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 264,
+  y = -40,
   width = 32,
-  height = 16,
-  pattern = "41_5",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = -8,
-  width = 32,
-  height = 192,
+  height = 224,
   pattern = "41_5",
 }
 
@@ -2213,32 +2213,34 @@ tile{
   x = 56,
   y = 184,
   width = 32,
-  height = 96,
+  height = 80,
   pattern = "37_6",
 }
 
 teletransporter{
   layer = 0,
   x = 320,
-  y = 0,
+  y = 240,
   width = 16,
-  height = 328,
+  height = 48,
   destination_map = "zone_5/10",
 }
 
 teletransporter{
   layer = 0,
-  x = 0,
+  x = 24,
   y = -16,
-  width = 320,
+  width = 40,
   height = 16,
-  destination_map = "zone_5/10",
+  transition = "scrolling",
+  destination_map = "zone_5/09",
+  destination = "_side",
 }
 
 destructible{
   layer = 0,
   x = 128,
-  y = 181,
+  y = 165,
   treasure_name = "gem",
   treasure_savegame_variable = "pasreprendrebarrile",
   sprite = "destructibles/barrel",
@@ -2248,7 +2250,7 @@ destructible{
 destructible{
   layer = 0,
   x = 144,
-  y = 181,
+  y = 165,
   treasure_name = "gem",
   treasure_savegame_variable = "pasreprendrebarrile",
   sprite = "destructibles/barrel",
@@ -2258,7 +2260,7 @@ destructible{
 destructible{
   layer = 0,
   x = 160,
-  y = 181,
+  y = 165,
   treasure_name = "gem",
   treasure_savegame_variable = "pasreprendrebarrile",
   sprite = "destructibles/barrel",
@@ -2268,10 +2270,32 @@ destructible{
 destructible{
   layer = 0,
   x = 176,
-  y = 181,
+  y = 165,
   treasure_name = "gem",
   treasure_savegame_variable = "pasreprendrebarrile",
   sprite = "destructibles/barrel",
   can_explode = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 120,
+  y = -16,
+  width = 112,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "zone_5/09",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 16,
+  height = 176,
+  transition = "scrolling",
+  destination_map = "zone_5/07",
+  destination = "_side",
 }
 

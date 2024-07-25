@@ -22,3 +22,16 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function dees:on_activated()
+    game:start_dialog("zone_5.rentrecheztoi", function()
+        hero:freeze()
+        
+        local movement = sol.movement.create("straight")
+           hero:start_jumping(6,80)
+            hero:set_animation("stopped") 
+            sol.timer.start(map, 1000, function() 
+                hero:unfreeze()
+    end)
+  end)
+end

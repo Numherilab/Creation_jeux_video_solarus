@@ -22,3 +22,7 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function krakralekrapetore:on_activated()
+      hero:set_layer(hero:get_layer() + 1)
+end
