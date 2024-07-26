@@ -10,7 +10,7 @@ dialog{
   id = "_shop.not_enough_money",
   text = [[
 VA CHERCHER DE 
-L'ARGENT VOLEUR
+L'ARGENT, VOLEUR !
 ]],
 }
 
@@ -36,7 +36,7 @@ blablablablablablablablabla
 dialog{
   id = "defeat",
   text = [[
-ouie ;/
+ouille ;/
 ]],
 }
 
@@ -44,16 +44,16 @@ dialog{
   id = "dialogue/lanterne",
   question = "1",
   text = [[
-Tien petit pour ton aventure !
-payer 20 rubis !
-J'ai po assée :'<
+Tiens petit, pour ton aventure !
+Payer 20 rubis !
+J'ai pô assez :'<
 ]],
 }
 
 dialog{
   id = "donnelanterne",
   text = [[
-merci de ton achat et bonne chance !
+Merci de ton achat et bonne chance !
 :D
 ]],
 }
@@ -62,18 +62,18 @@ dialog{
   id = "ester egg",
   text = [[
 Here's an ester egg for
- you Max from merik
+ you Max from Merik
 if you don't understand, 
-it's hazelnut in oceant 
-heart that gives you the sword
- and there's MR chips next to it.
+it's hazelnut in ocean's
+heart who gives you the sword
+ and there's Mr chips next to her.
 ]],
 }
 
 dialog{
   id = "item.potion_de_vie.non",
   text = [[
-tu es déjà en pleine
+Tu es déjà en pleine
 forme !
 ]],
 }
@@ -81,35 +81,35 @@ forme !
 dialog{
   id = "lanternedonnée",
   text = [[
-j'ai plus rien pour toi pour l'instants !
+J'ai plus rien pour toi pour l'instant !
 ]],
 }
 
 dialog{
   id = "ontavue",
   text = [[
-heeeey !
-quesque tu fait toi la 
-vien la >:(
+Heeeey !
+Qu'es-ce que tu fais toi là ?
+Viens là >:(
 ]],
 }
 
 dialog{
   id = "papier",
   text = [[
-voici l'objet pour 
-le corbeaux !
+Voici l'objet pour 
+le corbeau !
 ]],
 }
 
 dialog{
   id = "papier secret",
   text = [[
-Tien ?! vous trouvez un papier
- caché dans les buches ! 
+Tiens ?! Vous trouvez un papier
+ caché dans les bûches ! 
 ... ... ... 
-vous dechifrée un peu un 
-message <en bas de la salle 
+Vous déchiffrez un peu un 
+message : <en bas de la salle 
 il y a un bouton pour partire>
 ]],
 }
@@ -117,7 +117,7 @@ il y a un bouton pour partire>
 dialog{
   id = "pasargent",
   text = [[
-Tu n'a pas assée de thunax !
+Tu n'as pas assez de thunax !
 :(
 ]],
 }
@@ -127,7 +127,7 @@ dialog{
   text = [[
 Bonjour, 
 bienvenue dans la séance
-d'initiation de solarus
+d'initiation de Solarus
 ]],
 }
 
@@ -135,23 +135,23 @@ dialog{
   id = "saute",
   question = "1",
   text = [[
-veut-tu une recompense ?
-oui 
-non
+Veux-tu une récompense ?
+Oui 
+Non
 ]],
 }
 
 dialog{
   id = "saute non",
   text = [[
-bas ne vien pas :/
+Bah ne viens pas :/
 ]],
 }
 
 dialog{
   id = "saute oui",
   text = [[
-alors vas vers la plateforme et
+Alors vas vers la plateforme et
 saute !
 ]],
 }
@@ -159,9 +159,9 @@ saute !
 dialog{
   id = "sdf",
   text = [[
-A laide 
-vient
-maider!
+A l'aide 
+Viens
+m'aider !
 ]],
 }
 
@@ -174,19 +174,19 @@ dialog{
 dialog{
   id = "zone_1.dialogue fin",
   text = [[
-Lance la bomb 
-sur les rocher
-mais elle est tres
-lourde il faut les gant
-de force NIV 1!!!
+Lance la bombe
+sur les rochers.
+Mais elle est très
+lourde, il faut les gants
+de force NIV 1 !!!
 ]],
 }
 
 dialog{
   id = "zone_1.halte",
   text = [[
-halte ! 
-retourne en prison !
+Halte ! 
+Retourne en prison !
 ]],
 }
 
@@ -199,9 +199,9 @@ dialog{
 dialog{
   id = "zone_2.ert",
   text = [[
-va dans la 
-foret
-tu itrouvras
+Va dans la 
+forêt
+tu y trouveras
 de l'aide
 ]],
 }
@@ -209,16 +209,16 @@ de l'aide
 dialog{
   id = "zone_2.max",
   text = [[
-trouve les coffres!
+Trouve les coffres !
 ]],
 }
 
 dialog{
   id = "zone_2.pano",
   text = [[
-va dans la foret
-tu oras une 
-surprise!
+Va dans la forêt
+Tu auras une 
+surprise !
 ]],
 }
 
@@ -244,13 +244,13 @@ dialog{
 dialog{
   id = "zone_3.final",
   text = [[
-Merci de nous avoir débarrassé de
+Merci de nous avoir débarrassés de
 cet horrible monstre !
 
-prennez la porte a ma droite
-pour retourner a la foret.
+Prenez la porte à ma droite
+pour retourner a la forêt.
 
-allez au volcan quelqu'un a 
+Allez au volcan, quelqu'un a 
 besoin de votre force !
 ]],
 }
@@ -266,9 +266,9 @@ ancienne*
 dialog{
   id = "zone_3.pnj_ocean_help",
   text = [[
-salut !
- Peut tu m'aider à tuer le monstre 
-qui est dans l'eau
+Salut !
+ Peux tu m'aider à tuer le monstre 
+qui est dans l'eau ?
 ]],
 }
 
@@ -281,9 +281,9 @@ dialog{
 dialog{
   id = "zone_4.viens",
   text = [[
-a l'aide !
- il y a un monstre très dur à battre 
-derière le chateau.
+A l'aide !
+ Il y a un monstre très dur à battre 
+derrière le château.
 ]],
 }
 
@@ -304,7 +304,7 @@ MARCHÉ---------->
 dialog{
   id = "zone_5.quiveutpoisson",
   text = [[
-POISSON, POISON FRAIS !!!!
+POISSON, POISSON FRAIS !!!
 ]],
 }
 
@@ -318,7 +318,7 @@ ON  VEUT PAS D'ETRANGER
 dialog{
   id = "zone_5.shop",
   text = [[
-Que de beaux objets
+Que de beaux objets !
 ]],
 }
 
@@ -334,29 +334,29 @@ dialog{
   id = "zone_5.vendre poisson",
   text = [[
 Je ne vends pas mon beau poisson 
-au étranger
+aux étrangers.
 ]],
 }
 
 dialog{
   id = "zone_5.vendredialo",
   text = [[
-Je te vend tout
+Je te vends tout
 ]],
 }
 
 dialog{
   id = "zone_5.vendrepas",
   text = [[
-ON VENT FRUIT ET LEGUME 
-MAIS PAS AU ETRANGER.
+ON VEND FRUITS ET LEGUMES
+MAIS PAS AUX ETRANGERS
 ]],
 }
 
 dialog{
   id = "zone_5.vendrepasdialo",
   text = [[
-Je t'ai déja dis que 
+Je t'ai déja dit que 
 je vendais rien
 ]],
 }
