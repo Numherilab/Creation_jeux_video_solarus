@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "boss",
 }
 
 tile{
@@ -318,6 +319,46 @@ tile{
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
+tile{
+  layer = 0,
+  x = 304,
+  y = 16,
+  width = 16,
+  height = 192,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "19",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 224,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
 chest{
   layer = 0,
   x = 216,
@@ -340,7 +381,7 @@ enemy{
   x = 56,
   y = 101,
   direction = 0,
-  breed = "monstres_de_pierre/armos",
+  breed = "mort_vivant/grim_1",
   treasure_name = "gem",
 }
 
@@ -349,7 +390,7 @@ enemy{
   x = 144,
   y = 213,
   direction = 0,
-  breed = "monstres_de_pierre/armos",
+  breed = "mort_vivant/grim_1",
   treasure_name = "gem",
   treasure_variant = 5,
 }

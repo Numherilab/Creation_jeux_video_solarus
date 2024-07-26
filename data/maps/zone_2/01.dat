@@ -1266,26 +1266,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
-  y = 136,
-  width = 16,
-  height = 16,
-  pattern = "29",
-  tileset = "01 Max Mraz/trillium_desert",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 152,
-  width = 32,
-  height = 16,
-  pattern = "28",
-  tileset = "01 Max Mraz/trillium_desert",
-}
-
-tile{
-  layer = 0,
   x = 184,
   y = 224,
   width = 16,
@@ -1576,7 +1556,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 48,
   y = 168,
   width = 16,
   height = 16,
@@ -1586,17 +1566,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 80,
-  y = 152,
-  width = 16,
-  height = 16,
-  pattern = "66",
-  tileset = "01 Max Mraz/trillium_desert",
-}
-
-tile{
-  layer = 0,
-  x = 80,
+  x = 64,
   y = 168,
   width = 16,
   height = 16,
@@ -1606,7 +1576,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 48,
   y = 152,
   width = 16,
   height = 16,
@@ -2406,8 +2376,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 472,
-  y = 64,
+  x = 680,
+  y = 24,
   width = 48,
   height = 24,
   pattern = "21",
@@ -2436,8 +2406,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 480,
-  y = 280,
+  x = 248,
+  y = 272,
   width = 48,
   height = 32,
   pattern = "22",
@@ -2496,7 +2466,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 472,
+  x = 464,
   y = 16,
   width = 16,
   height = 24,
@@ -2744,6 +2714,223 @@ tile{
   tileset = "01 Max Mraz/trillium_desert",
 }
 
+tile{
+  layer = 0,
+  x = 504,
+  y = 280,
+  width = 8,
+  height = 16,
+  pattern = "81",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "79",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 296,
+  width = 8,
+  height = 16,
+  pattern = "80",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 16,
+  width = 8,
+  height = 288,
+  pattern = "80",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 16,
+  width = 8,
+  height = 320,
+  pattern = "76",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "74",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "81",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "75",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 16,
+  width = 16,
+  height = 304,
+  pattern = "13",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "waterfall_top",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "waterfall_base_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 32,
+  width = 16,
+  height = 288,
+  pattern = "shallow_water",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "66_4",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "66",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "66_2",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "66_3",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "66",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "29",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "28",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "93",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "92",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "94",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
 npc{
   name = "sdf",
   layer = 0,
@@ -2798,7 +2985,7 @@ teletransporter{
   width = 56,
   height = 16,
   destination_map = "zone_2/03",
-  destination = "destination_2",
+  destination = "destination_55",
 }
 
 teletransporter{
@@ -2808,7 +2995,7 @@ teletransporter{
   width = 16,
   height = 32,
   destination_map = "zone_2/03",
-  destination = "destination_2",
+  destination = "destination_55",
 }
 
 enemy{
@@ -3086,6 +3273,26 @@ stream{
   speed = 96,
 }
 
+wall{
+  layer = 0,
+  x = 480,
+  y = 0,
+  width = 32,
+  height = 320,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "destination_fin_donjon",
+  layer = 0,
+  x = 120,
+  y = 117,
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 584,
@@ -3307,16 +3514,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 88,
-  y = 104,
-  width = 48,
-  height = 48,
-  pattern = "26",
-  tileset = "01 Max Mraz/trillium_desert",
-}
-
-tile{
-  layer = 1,
   x = 56,
   y = 248,
   width = 48,
@@ -3467,8 +3664,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 472,
-  y = 56,
+  x = 680,
+  y = 16,
   width = 48,
   height = 8,
   pattern = "24",
@@ -3497,8 +3694,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 480,
-  y = 264,
+  x = 248,
+  y = 256,
   width = 48,
   height = 16,
   pattern = "23",
@@ -3517,7 +3714,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 472,
+  x = 464,
   y = 8,
   width = 16,
   height = 8,
@@ -3582,6 +3779,16 @@ tile{
   width = 16,
   height = 8,
   pattern = "40",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 120,
+  width = 48,
+  height = 48,
+  pattern = "26",
   tileset = "01 Max Mraz/trillium_desert",
 }
 

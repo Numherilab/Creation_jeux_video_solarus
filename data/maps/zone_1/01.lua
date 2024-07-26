@@ -16,8 +16,8 @@ function secret:on_activated()
 end
 
 -- Definition of the movement for the NPC "gardequimarche"
-local start_x, start_y = 73, 328
-local end_x, end_y = 336, 64
+local start_x, start_y = 72, 384
+local end_x, end_y = 384, 104
 local detection_radius = 48 -- Définir le rayon de détection autour du PNJ
 local detection_interval = 100 -- Intervalle de vérification en millisecondes
 local teleport_x, teleport_y = 376, 320 -- Position de téléportation du héros
@@ -78,3 +78,9 @@ function map:on_restarted()
     start_detection(npc) -- Start detection for the hero
   end
 end
+
+function MRchips:on_interaction()
+        game:start_dialog("MR.chipsdonnechips")
+                hero:start_treasure("tunic", 1, "MR.chipsdonnechips", function()
+        end)
+    end

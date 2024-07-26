@@ -23,3 +23,24 @@ game:start_dialog("saute" , function(answer)
 end
 end)
 end
+
+function crow:on_interaction()
+
+    if not game:get_value("crow_1") then
+        game:start_dialog("crow_question", function(answer)
+            if answer == 1 then
+                if game:get_money() >= 100 then
+                    game:remove_money(100)
+                    game:start_dialog("crow_oui")
+                else
+                    game:start_dialog("not_enough_money")  -- Assurez-vous d'avoir un dialogue pour cette situation
+                end
+            elseif answer == 2 then
+                game:start_dialog("crow_non")
+            end
+            game:set_value("crow_1", true)   
+        end)
+    else
+        game:start_dialog("crow_already_done")  -- Assurez-vous d'avoir un dialogue pour cette situation
+    end
+end
