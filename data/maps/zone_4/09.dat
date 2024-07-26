@@ -618,6 +618,46 @@ tile{
   tileset = "01 Max Mraz/bottomless_cliffs",
 }
 
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 192,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "23",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 0,
+  width = 96,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 224,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
 destination{
   name = "kloip",
   layer = 0,
@@ -821,8 +861,8 @@ teletransporter{
   y = 80,
   width = 16,
   height = 16,
-  destination_map = "zone_4/f5_6",
-  destination = "oioioioioi",
+  destination_map = "zone_4/10",
+  destination = "jjjj",
 }
 
 teletransporter{
@@ -831,7 +871,8 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "zone_4/f5_6",
+  destination_map = "zone_4/10",
+  destination = "jjjj",
 }
 
 teletransporter{
@@ -840,7 +881,7 @@ teletransporter{
   y = 56,
   width = 16,
   height = 16,
-  destination_map = "zone_4/f5_6",
-  destination = "oioioioioi",
+  destination_map = "zone_4/10",
+  destination = "jjjj",
 }
 

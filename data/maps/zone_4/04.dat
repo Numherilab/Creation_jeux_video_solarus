@@ -518,6 +518,66 @@ tile{
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 192,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 16,
+  width = 16,
+  height = 192,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
 wall{
   layer = 0,
   x = 240,

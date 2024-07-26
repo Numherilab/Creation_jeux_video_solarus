@@ -1,4 +1,48 @@
 dialog{
+  id = "MR.chipsdonnechips",
+  text = [[
+tien un packet de chips !
+]],
+}
+
+dialog{
+  id = "Q1",
+  text = [[
+1er Question :
+qui est le gobelin ? 
+]],
+}
+
+dialog{
+  id = "Q2",
+  text = [[
+de quelle couleur est une 
+chips ?
+]],
+}
+
+dialog{
+  id = "Q3",
+  text = [[
+quelle metier pratique le 
+hero ?
+]],
+}
+
+dialog{
+  id = "Q4",
+  text = [[
+]],
+}
+
+dialog{
+  id = "Qbonus",
+  text = [[
+devine ou passer !
+]],
+}
+
+dialog{
   id = "_confusion",
   text = [[
 que m'arrive t'il ?
@@ -34,6 +78,29 @@ blablablablablablablablabla
 }
 
 dialog{
+  id = "cle_1",
+  text = [[
+il te faut une clé il y a un 
+guard rouge qui te la 
+donnera !
+]],
+}
+
+dialog{
+  id = "debut",
+  text = [[
+voici une enigme ! pour 
+passer il faufra repondre
+juste sour toutes 
+les questions ! c'est facile
+tu devrais y ariver ! 
+  id = "dada",
+  text = [[
+merci de m'avoir sauver jeune homme
+]],
+}
+
+dialog{
   id = "defeat",
   text = [[
 ouie ;/
@@ -53,7 +120,8 @@ J'ai po assée :'<
 dialog{
   id = "donnelanterne",
   text = [[
-merci de ton achat et bonne chance !
+merci de ton achat et bonne
+ chance !
 :D
 ]],
 }
@@ -115,10 +183,26 @@ il y a un bouton pour partire>
 }
 
 dialog{
+  id = "parcourt",
+  text = [[
+si tu réussint se parcourt 
+tu auras la récompense 
+pour le corbeaux !
+]],
+}
+
+dialog{
   id = "pasargent",
   text = [[
 Tu n'a pas assée de thunax !
 :(
+]],
+}
+
+dialog{
+  id = "plusdethune",
+  text = [[
+tu n'as plus de thune !
 ]],
 }
 
@@ -128,6 +212,49 @@ dialog{
 Bonjour, 
 bienvenue dans la séance
 d'initiation de solarus
+]],
+}
+
+dialog{
+  id = "reponseaQ2_1",
+  text = [[
+garde 
+]],
+}
+
+dialog{
+  id = "reponseaQ2_2",
+  text = [[
+fermier
+]],
+}
+
+dialog{
+  id = "reponseaQ2_3",
+  text = [[
+medatequaire
+]],
+}
+
+dialog{
+  id = "reponseaQ3_1",
+  text = [[
+vert fluot !
+]],
+}
+
+dialog{
+  id = "reponseaQ3_2",
+  text = [[
+jaune
+]],
+}
+
+dialog{
+  id = "reponseaQ3_3",
+  text = [[
+violet foncé avec une teint 
+de girs fusionnée a du bleu !
 ]],
 }
 
@@ -166,8 +293,54 @@ maider!
 }
 
 dialog{
+  id = "secretpouresteregg",
+  text = [[
+hey mec aparament il y a 
+dans la salle 
+il y a un ester egg !
+]],
+}
+
+dialog{
   id = "zone_1.a_toi_de_jouer",
   text = [[
+]],
+}
+
+dialog{
+  id = "zone_1.crow_1",
+  text = [[
+je te laisse passer que si tu 
+me donne 100 rubis  !
+]],
+}
+
+dialog{
+  id = "zone_1.crow_2",
+  text = [[
+meci pour l'argnet passe 
+mon gars 
+]],
+}
+
+dialog{
+  id = "zone_1.crow_non",
+  text = [[
+bas vas en chercher !
+]],
+}
+
+dialog{
+  id = "zone_1.crow_oui",
+  text = [[
+alors donne les moi !
+]],
+}
+
+dialog{
+  id = "zone_1.crow_question",
+  text = [[
+a-tu des rubis
 ]],
 }
 
