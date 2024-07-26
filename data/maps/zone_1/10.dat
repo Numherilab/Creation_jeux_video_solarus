@@ -230,8 +230,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
-  y = -80,
+  x = 264,
+  y = -72,
   width = 64,
   height = 144,
   pattern = "4",
@@ -332,6 +332,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "zone_2/03",
+  destination = "destination_2",
 }
 
 destructible{
@@ -345,7 +346,7 @@ destructible{
 
 teletransporter{
   layer = 0,
-  x = 272,
+  x = 280,
   y = 200,
   width = 16,
   height = 16,
@@ -363,11 +364,11 @@ destructible{
 }
 
 destination{
-  name = "destination_3",
+  name = "destination1",
   layer = 0,
-  x = 264,
+  x = 272,
   y = 213,
-  direction = 1,
+  direction = 2,
   default = true,
 }
 
@@ -383,26 +384,26 @@ npc{
 
 chest{
   layer = 0,
-  x = 96,
-  y = 229,
+  x = 120,
+  y = 221,
   treasure_name = "glove",
   sprite = "entities/chest",
 }
 
 chest{
   layer = 0,
-  x = 112,
-  y = 229,
+  x = 136,
+  y = 221,
   treasure_name = "fleches",
   sprite = "entities/chest",
 }
 
 destination{
-  name = "destination",
+  name = "destination2",
   layer = 0,
   x = 152,
   y = 29,
-  direction = 1,
+  direction = 3,
 }
 
 destructible{

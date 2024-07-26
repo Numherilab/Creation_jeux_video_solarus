@@ -302,7 +302,7 @@ tile{
   x = 0,
   y = 80,
   width = 8,
-  height = 32,
+  height = 192,
   pattern = "10",
   tileset = "castle",
 }
@@ -1162,6 +1162,36 @@ tile{
   width = 16,
   height = 16,
   pattern = "137_2",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 40,
+  width = 8,
+  height = 32,
+  pattern = "11",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 72,
+  width = 8,
+  height = 192,
+  pattern = "12",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 240,
+  width = 304,
+  height = 8,
+  pattern = "93",
+  tileset = "castle",
 }
 
 chest{
