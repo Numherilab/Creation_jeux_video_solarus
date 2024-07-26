@@ -1284,7 +1284,7 @@ tile{
 tile{
   layer = 2,
   x = 0,
-  y = 0,
+  y = -8,
   width = 320,
   height = 256,
   pattern = "1",

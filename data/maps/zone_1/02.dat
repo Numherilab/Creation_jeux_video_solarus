@@ -729,7 +729,7 @@ sensor{
 npc{
   name = "a_1",
   layer = 0,
-  x = 40,
+  x = 48,
   y = 173,
   direction = 3,
   subtype = 1,
@@ -911,5 +911,15 @@ tile{
   width = 24,
   height = 16,
   pattern = "81",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "1117",
+  tileset = "01 Max Mraz/overworld_oakhaven",
 }
 
