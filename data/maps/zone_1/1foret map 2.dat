@@ -19,8 +19,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 8,
-  y = 8,
+  x = 24,
+  y = -8,
   width = 1008,
   height = 1008,
   pattern = "20_13",
@@ -2066,8 +2066,8 @@ enemy{
 enemy{
   name = "enemi_13",
   layer = 0,
-  x = 792,
-  y = 261,
+  x = 56,
+  y = 469,
   direction = 0,
   breed = "monstre_classique/ogre_1",
   treasure_name = "heart_container",
@@ -2129,7 +2129,6 @@ destination{
   x = 704,
   y = 277,
   direction = 1,
-  default = true,
 }
 
 wall{
@@ -2147,9 +2146,10 @@ wall{
 destination{
   name = "destination_2dfvdc",
   layer = 0,
-  x = 272,
-  y = 277,
+  x = 48,
+  y = 853,
   direction = 1,
+  default = true,
 }
 
 teletransporter{
@@ -2158,7 +2158,7 @@ teletransporter{
   y = -8,
   width = 16,
   height = 16,
-  destination_map = "zone_1/1foret map 2",
+  destination_map = "zone_1/vic 2 foret",
 }
 
 destination{
@@ -2176,6 +2176,178 @@ door{
   y = -8,
   direction = 3,
   sprite = "doors/post_wood",
+}
+
+enemy{
+  name = "enemi_12",
+  layer = 0,
+  x = 472,
+  y = 277,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_14",
+  layer = 0,
+  x = 592,
+  y = 525,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_15",
+  layer = 0,
+  x = 696,
+  y = 597,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_16",
+  layer = 0,
+  x = 544,
+  y = 613,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_17",
+  layer = 0,
+  x = 704,
+  y = 677,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_18",
+  layer = 0,
+  x = 864,
+  y = 325,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_19",
+  layer = 0,
+  x = 704,
+  y = 901,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_20",
+  layer = 0,
+  x = 856,
+  y = 965,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_21",
+  layer = 0,
+  x = 416,
+  y = 845,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_22",
+  layer = 0,
+  x = 224,
+  y = 389,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  name = "enemi_23",
+  layer = 0,
+  x = 248,
+  y = 557,
+  direction = 0,
+  breed = "mort_vivant/skeleton_1",
+}
+
+enemy{
+  layer = 0,
+  x = 232,
+  y = 973,
+  direction = 0,
+  breed = "animaux/shooty_fish",
+}
+
+enemy{
+  layer = 0,
+  x = 240,
+  y = 837,
+  direction = 0,
+  breed = "animaux/shooty_fish",
+}
+
+enemy{
+  layer = 0,
+  x = 440,
+  y = 485,
+  direction = 0,
+  breed = "animaux/burrow_like",
+}
+
+enemy{
+  layer = 0,
+  x = 456,
+  y = 685,
+  direction = 0,
+  breed = "animaux/burrow_like",
+}
+
+enemy{
+  layer = 0,
+  x = 624,
+  y = 917,
+  direction = 0,
+  breed = "animaux/burrow_like",
+}
+
+enemy{
+  layer = 0,
+  x = 208,
+  y = 645,
+  direction = 0,
+  breed = "animaux/burrow_like",
+}
+
+enemy{
+  layer = 0,
+  x = 64,
+  y = 885,
+  direction = 0,
+  breed = "animaux/burrow_like",
+}
+
+teletransporter{
+  layer = 0,
+  x = 376,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "zone_1/eester eggs",
+}
+
+destination{
+  name = "destination_3",
+  layer = 0,
+  x = 384,
+  y = 845,
+  direction = 1,
 }
 
 tile{

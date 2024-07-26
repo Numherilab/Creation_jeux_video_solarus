@@ -1056,7 +1056,7 @@ destination{
   layer = 1,
   x = 312,
   y = 37,
-  direction = 1,
+  direction = 3,
 }
 
 tile{
