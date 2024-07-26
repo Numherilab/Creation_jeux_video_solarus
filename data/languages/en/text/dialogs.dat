@@ -294,6 +294,13 @@ dialog{
 }
 
 dialog{
+  id = "zone_5.attend",
+  text = [[
+Attend ça va mordre
+]],
+}
+
+dialog{
   id = "zone_5.direction",
   text = [[
 <------------ RIEN
@@ -358,6 +365,16 @@ dialog{
   text = [[
 Je t'ai déja dis que 
 je vendais rien
+]],
+}
+
+dialog{
+  id = "zone_5.wazodefe",
+  text = [[
+Cette oiseau amene
+ a la montagne mais
+ il a l'aire d'etre blocké.
+Comme si il avait etait attaqué.
 ]],
 }
 

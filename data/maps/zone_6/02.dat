@@ -2,9 +2,145 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 240,
+  height = 320,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 320,
+  pattern = "cave_ground_2",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 152,
+  width = 64,
+  height = 16,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 16,
+  height = 96,
+  pattern = "74",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 48,
+  width = 128,
+  height = 16,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 0,
+  width = 16,
+  height = 64,
+  pattern = "74",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "96",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 0,
+  width = 128,
+  height = 48,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = -8,
+  width = 64,
+  height = 160,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 0,
+  width = 48,
+  height = 48,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 16,
+  height = 96,
+  pattern = "74",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = -16,
+  width = 16,
+  height = 16,
+  pattern = "96",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 96,
+  width = 32,
+  height = 16,
+  pattern = "78",
 }
 

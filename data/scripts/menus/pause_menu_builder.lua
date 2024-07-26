@@ -6,6 +6,7 @@ local item_names = {
  "lantern",
  "fire_rod",
  "potion_de_vie" ,
+ "potionlavie" ,
  "pegasus_shoes" ,
  "hookshot" ,
  "bomb_counter" ,

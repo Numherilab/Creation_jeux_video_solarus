@@ -22,3 +22,9 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+
+function boss:on_dead()
+map:set_entities_enabled("mur_boss",false)  
+game:set_value("boss_zone_5_dead")
+end

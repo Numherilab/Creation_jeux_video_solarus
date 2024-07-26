@@ -2,9 +2,208 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 240,
+  height = 320,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 320,
+  pattern = "cave_ground_2",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 184,
+  width = 16,
+  height = 160,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 48,
+  width = 192,
+  height = 16,
+  pattern = "72",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 64,
+  width = 16,
+  height = 96,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 160,
+  width = 96,
+  height = 16,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "71",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 176,
+  width = 16,
+  height = 32,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "95",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 56,
+  width = 80,
+  height = 272,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 64,
+  width = 128,
+  height = 96,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 256,
+  width = 16,
+  height = 96,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "71",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 136,
+  width = 128,
+  height = 16,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 64,
+  width = 128,
+  height = 16,
+  pattern = "72",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "71",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 80,
+  width = 16,
+  height = 64,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "73",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 80,
+  width = 16,
+  height = 64,
+  pattern = "74",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "75",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 240,
+  width = 64,
+  height = 16,
+  pattern = "72",
 }
 

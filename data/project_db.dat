@@ -81,14 +81,14 @@ map{ id = "zone_5/08", description = "GRPTTTE2" }
 map{ id = "zone_5/09", description = "GROTTZE3" }
 map{ id = "zone_5/10", description = "GROTTTE4" }
 map{ id = "zone_5/11", description = "boss" }
-map{ id = "zone_6/01" }
-map{ id = "zone_6/02" }
-map{ id = "zone_6/03" }
-map{ id = "zone_6/04" }
-map{ id = "zone_6/05" }
-map{ id = "zone_6/06" }
-map{ id = "zone_6/07" }
-map{ id = "zone_6/08" }
+map{ id = "zone_6/01", description = "a7" }
+map{ id = "zone_6/02", description = "a8" }
+map{ id = "zone_6/03", description = "b7" }
+map{ id = "zone_6/04", description = "b8" }
+map{ id = "zone_6/05", description = "dessu a7" }
+map{ id = "zone_6/06", description = "dessu a8" }
+map{ id = "zone_6/07", description = "dessu b7" }
+map{ id = "zone_6/08", description = "dessu b8" }
 map{ id = "zone_6/09" }
 map{ id = "zone_6/10" }
 map{ id = "zone_7/01" }
@@ -1025,6 +1025,7 @@ item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "palme", description = "NAge" }
 item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "potion_de_vie" }
+item{ id = "potionlavie" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
 item{ id = "water_rod" }
