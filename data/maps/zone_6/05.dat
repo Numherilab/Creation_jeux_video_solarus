@@ -2,9 +2,369 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 240,
+  height = 320,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 320,
+  pattern = "cave_ground_3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "77",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 144,
+  width = 16,
+  height = 32,
+  pattern = "76",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "77",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 96,
+  width = 16,
+  height = 32,
+  pattern = "76",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "80",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "72",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 48,
+  width = 16,
+  height = 32,
+  pattern = "76",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 112,
+  width = 16,
+  height = 32,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "76",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 176,
+  width = 64,
+  height = 16,
+  pattern = "78",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "77",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 192,
+  width = 32,
+  height = 16,
+  pattern = "78",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 96,
+  width = 80,
+  height = 80,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 176,
+  width = 48,
+  height = 16,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 16,
+  width = 32,
+  height = 160,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 16,
+  width = 48,
+  height = 80,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 0,
+  width = 96,
+  height = 16,
+  pattern = "79",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = -24,
+  width = 16,
+  height = 160,
+  pattern = "76",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "77",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 136,
+  width = 32,
+  height = 16,
+  pattern = "78",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "77",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "95",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "91",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "95",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "95",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "17",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "17",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "17",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "flower_1",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "flower_2",
+  tileset = "oceanset_outside",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 208,
+  width = 16,
+  height = 112,
+  transition = "scrolling",
+  destination_map = "zone_6/06",
+  destination = "_side",
 }
 

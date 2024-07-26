@@ -10,6 +10,16 @@ properties{
 
 tile{
   layer = 0,
+  x = 152,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "77",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
   x = 0,
   y = 0,
   width = 320,
@@ -26,26 +36,6 @@ tile{
   height = 64,
   pattern = "dirt_variant_2",
   tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 0,
-  width = 64,
-  height = 144,
-  pattern = "3",
-  tileset = "01 Max Mraz/bottomless_cliffs",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 0,
-  width = 64,
-  height = 144,
-  pattern = "4",
-  tileset = "01 Max Mraz/bottomless_cliffs",
 }
 
 tile{
@@ -450,16 +440,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "77",
-  tileset = "01 Max Mraz/trillium_charred_lands",
-}
-
-tile{
-  layer = 0,
   x = 144,
   y = 40,
   width = 16,
@@ -500,98 +480,158 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
-  y = 80,
-  width = 8,
-  height = 16,
-  pattern = "125_2",
-  tileset = "01 Max Mraz/trillium_charred_lands",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 96,
-  width = 8,
-  height = 32,
-  pattern = "125_2",
-  tileset = "01 Max Mraz/trillium_charred_lands",
+  x = -8,
+  y = 144,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
 }
 
 tile{
   layer = 0,
   x = 152,
-  y = 80,
+  y = 64,
   width = 16,
   height = 16,
-  pattern = "127",
-  tileset = "01 Max Mraz/trillium_charred_lands",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 96,
-  width = 8,
-  height = 32,
-  pattern = "125",
-  tileset = "01 Max Mraz/trillium_charred_lands",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 80,
-  width = 16,
-  height = 48,
   pattern = "77",
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
 tile{
   layer = 0,
-  x = 160,
+  x = 152,
   y = 80,
-  width = 8,
-  height = 48,
-  pattern = "125_2",
+  width = 16,
+  height = 16,
+  pattern = "77",
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
 tile{
   layer = 0,
   x = 152,
-  y = 80,
-  width = 8,
-  height = 48,
-  pattern = "125",
-  tileset = "01 Max Mraz/trillium_charred_lands",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 40,
-  width = 8,
-  height = 32,
-  pattern = "125_2",
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "77",
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
 tile{
   layer = 0,
   x = 152,
-  y = 48,
-  width = 8,
-  height = 32,
-  pattern = "125",
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "136",
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
 tile{
   layer = 0,
-  x = -8,
-  y = 144,
+  x = 152,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "136",
+  tileset = "01 Max Mraz/trillium_charred_lands",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 64,
+  height = 144,
+  pattern = "4",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 64,
+  height = 144,
+  pattern = "3",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 0,
+  width = 64,
+  height = 144,
+  pattern = "3",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = -8,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 24,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 56,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 88,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = -8,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 16,
+  width = 64,
+  height = 64,
+  pattern = "5",
+  tileset = "01 Max Mraz/bottomless_cliffs",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 56,
   width = 64,
   height = 64,
   pattern = "5",
@@ -614,13 +654,6 @@ destructible{
   sprite = "destructibles/rock_grey",
 }
 
-destructible{
-  layer = 0,
-  x = 144,
-  y = 125,
-  sprite = "destructibles/rock_grey",
-}
-
 teletransporter{
   layer = 0,
   x = 152,
@@ -628,6 +661,19 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "zone_4/f5_6",
+}
+
+wall{
+  layer = 0,
+  x = 0,
+  y = 168,
+  width = 152,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

@@ -1194,6 +1194,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/fishing_2_left",
+  behavior = "dialog#zone_5.attend",
 }
 
 npc{
@@ -1242,14 +1243,6 @@ npc{
   subtype = 1,
   sprite = "npc/sign",
   behavior = "dialog#zone_5.direction",
-}
-
-chest{
-  layer = 0,
-  x = 32,
-  y = 261,
-  treasure_name = "hookshot",
-  sprite = "entities/chest",
 }
 
 tile{

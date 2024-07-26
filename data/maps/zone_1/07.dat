@@ -1777,6 +1777,114 @@ tile{
   pattern = "1652",
 }
 
+tile{
+  layer = 0,
+  x = 72,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "1207",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "1132",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "1428",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "1157",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "1397",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "1431",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "1208",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "1429",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "1160",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "538",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "537",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "539",
+}
+
 teletransporter{
   layer = 0,
   x = 0,
@@ -1861,6 +1969,15 @@ destination{
   x = 424,
   y = 13,
   direction = 3,
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 488,
+  y = 245,
+  direction = 1,
+  default = true,
 }
 
 tile{
@@ -2954,6 +3071,96 @@ tile{
   pattern = "1655",
 }
 
+tile{
+  layer = 1,
+  x = 104,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "1479",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "1435",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "1475",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "1477",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "1432",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "1434",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "1474",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "1478",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "1476",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 0,
+  width = 48,
+  height = 40,
+  pattern = "2099",
+}
+
 destination{
   name = "destination",
   layer = 1,
@@ -2973,8 +3180,8 @@ tile{
 
 tile{
   layer = 2,
-  x = -56,
-  y = -24,
+  x = 56,
+  y = 320,
   width = 1056,
   height = 1024,
   pattern = "2006",

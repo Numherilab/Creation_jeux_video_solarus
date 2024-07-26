@@ -348,11 +348,61 @@ tile{
   tileset = "oceanset_outside",
 }
 
+tile{
+  layer = 0,
+  x = 304,
+  y = 16,
+  width = 16,
+  height = 224,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 224,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "20",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "19",
+  tileset = "oceanset_outside",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 80,
+  height = 16,
+  destination_map = "zone_4/08",
+  destination = "poiti",
+}
+
 enemy{
   name = "boss",
   layer = 0,
   x = 144,
-  y = 85,
+  y = 93,
   direction = 0,
   breed = "boss/firebird/firebird",
   treasure_name = "fire_rod",
@@ -372,16 +422,6 @@ chest{
   y = 197,
   treasure_name = "arc",
   sprite = "entities/chest",
-}
-
-teletransporter{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 80,
-  height = 16,
-  destination_map = "zone_4/08",
-  destination = "poiti",
 }
 
 teletransporter{

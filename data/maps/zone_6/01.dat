@@ -2,9 +2,210 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 240,
+  height = 320,
   min_layer = 0,
   max_layer = 2,
-  tileset = "0",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 216,
+  width = 304,
+  height = 96,
+  pattern = "cave_ground",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 176,
+  pattern = "cave_ground_2",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = -8,
+  width = 16,
+  height = 160,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 152,
+  width = 64,
+  height = 16,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = -8,
+  width = 80,
+  height = 160,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 96,
+  width = 64,
+  height = 16,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = -32,
+  width = 16,
+  height = 128,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "79",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 312,
+  width = 312,
+  height = 8,
+  pattern = "86",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 312,
+  pattern = "98",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 224,
+  width = 32,
+  height = 16,
+  pattern = "63",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 240,
+  width = 32,
+  height = 16,
+  pattern = "63",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 256,
+  width = 32,
+  height = 16,
+  pattern = "63",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 272,
+  width = 32,
+  height = 16,
+  pattern = "63",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 288,
+  width = 32,
+  height = 16,
+  pattern = "63",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 304,
+  width = 32,
+  height = 8,
+  pattern = "62",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "61",
+  tileset = "oceanset_inside",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 216,
+  width = 16,
+  height = 96,
+  transition = "scrolling",
+  destination_map = "zone_6/02",
+  destination = "_side",
+}
+
+chest{
+  layer = 0,
+  x = 88,
+  y = 253,
+  sprite = "entities/chest",
 }
 

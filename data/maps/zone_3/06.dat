@@ -1025,6 +1025,6 @@ teletransporter{
   y = 16,
   width = 16,
   height = 16,
-  destination_map = "zone_3/06",
+  destination_map = "zone_1/07",
 }
 

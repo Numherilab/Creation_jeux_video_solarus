@@ -1,4 +1,4 @@
--- Lua script of map zone_5/11.
+-- Lua script of map qute 3 foret.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -21,10 +21,4 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
-end
-
-
-function boss:on_dead()
-map:set_entities_enabled("mur_boss",false)  
-game:set_value("boss_zone_5_dead")
 end

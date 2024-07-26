@@ -2508,12 +2508,15 @@ destination{
   direction = 1,
 }
 
-enemy{
+teletransporter{
   layer = 0,
-  x = 192,
-  y = 205,
-  direction = 0,
-  breed = "zone5/mud_golem_1",
+  x = 8,
+  y = 320,
+  width = 312,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "zone_5/05",
+  destination = "_same",
 }
 
 tile{

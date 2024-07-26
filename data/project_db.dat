@@ -19,6 +19,7 @@ map{ id = "monstre/test_2" }
 map{ id = "monstre/test_3" }
 map{ id = "monstre/test_4" }
 map{ id = "monstre/test_5" }
+map{ id = "zone_1/ desti noumea" }
 map{ id = "zone_1/01", description = "prison h8" }
 map{ id = "zone_1/02", description = "salles des guardes" }
 map{ id = "zone_1/03", description = "armureries" }
@@ -31,6 +32,8 @@ map{ id = "zone_1/08", description = "4 forêt" }
 map{ id = "zone_1/09", description = "5 fprêt" }
 map{ id = "zone_1/10", description = "victoir foret" }
 map{ id = "zone_1/1foret map 2" }
+map{ id = "zone_1/qute 3 foret" }
+map{ id = "zone_1/vic 2 foret" }
 map{ id = "zone_2/01" }
 map{ id = "zone_2/02" }
 map{ id = "zone_2/03" }
@@ -81,14 +84,14 @@ map{ id = "zone_5/08", description = "GRPTTTE2" }
 map{ id = "zone_5/09", description = "GROTTZE3" }
 map{ id = "zone_5/10", description = "GROTTTE4" }
 map{ id = "zone_5/11", description = "boss" }
-map{ id = "zone_6/01" }
-map{ id = "zone_6/02" }
-map{ id = "zone_6/03" }
-map{ id = "zone_6/04" }
-map{ id = "zone_6/05" }
-map{ id = "zone_6/06" }
-map{ id = "zone_6/07" }
-map{ id = "zone_6/08" }
+map{ id = "zone_6/01", description = "a7" }
+map{ id = "zone_6/02", description = "a8" }
+map{ id = "zone_6/03", description = "b7" }
+map{ id = "zone_6/04", description = "b8" }
+map{ id = "zone_6/05", description = "dessu a7" }
+map{ id = "zone_6/06", description = "dessu a8" }
+map{ id = "zone_6/07", description = "dessu b7" }
+map{ id = "zone_6/08", description = "dessu b8" }
 map{ id = "zone_6/09" }
 map{ id = "zone_6/10" }
 map{ id = "zone_7/01" }
@@ -156,6 +159,7 @@ tileset{ id = "oceanset_inside", description = "Oceanset-Inside" }
 tileset{ id = "oceanset_outside", description = "Oceanset-Outside" }
 tileset{ id = "outside", description = "Light Overworld" }
 tileset{ id = "sprite_branche" }
+tileset{ id = "tourbillons" }
 
 sprite{ id = "animals/bird_red", description = "Red Bird" }
 sprite{ id = "animals/butterfly_blue", description = "Butterfly blue" }
@@ -1025,6 +1029,7 @@ item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "palme", description = "NAge" }
 item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "potion_de_vie" }
+item{ id = "potionlavie" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
 item{ id = "water_rod" }
@@ -1758,6 +1763,7 @@ file{ path = "sprites/enemies/humain/aster_enemy.dat", author = "Max Mraz", lice
 file{ path = "sprites/enemies/humain/aster_enemy.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/automatic_crow_knight.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/automatic_crow_knight.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/humain/automatic_crow_knight_2.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/blue_knight_soldier.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/humain/blue_knight_soldier.png", author = "Nintendo, Newlink", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/humain/blue_knight_soldier_sword.dat", author = "Christopho", license = "CC BY-SA 4.0" }
