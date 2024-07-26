@@ -76,13 +76,3 @@ enemy{
   treasure_name = "gem",
 }
 
-teletransporter{
-  layer = 0,
-  x = 16,
-  y = 216,
-  width = 16,
-  height = 16,
-  destination_map = "zone_4/f5_9",
-  destination = "k____________________________çose",
-}
-

@@ -168,6 +168,76 @@ tile{
   tileset = "oceanset_outside",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "23",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "25",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 16,
+  width = 16,
+  height = 224,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 224,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
 destination{
   name = "ppphyjjj",
   layer = 0,
@@ -383,16 +453,6 @@ tile{
   layer = 1,
   x = 64,
   y = 136,
-  width = 48,
-  height = 16,
-  pattern = "39",
-  tileset = "01 Max Mraz/trillium_charred_lands",
-}
-
-tile{
-  layer = 1,
-  x = 192,
-  y = 176,
   width = 48,
   height = 16,
   pattern = "39",
