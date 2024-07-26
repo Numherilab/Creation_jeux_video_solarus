@@ -408,6 +408,26 @@ tile{
   tileset = "oceanset_outside",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 264,
+  width = 256,
+  height = 16,
+  pattern = "18",
+  tileset = "oceanset_outside",
+}
+
 enemy{
   layer = 0,
   x = 200,

@@ -249,6 +249,146 @@ tile{
   tileset = "01 Max Mraz/trillium_charred_lands",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 24,
+  width = 16,
+  height = 320,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 328,
+  width = 16,
+  height = 96,
+  pattern = "22",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 24,
+  width = 16,
+  height = 64,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 88,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 120,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 152,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 184,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 216,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 248,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 280,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 312,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 336,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 368,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 400,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "oceanset_outside",
+}
+
 destination{
   name = "klklm",
   layer = 0,
