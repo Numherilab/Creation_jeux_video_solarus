@@ -9,7 +9,7 @@ local positions = {
 }
 
 function enemy:on_created()
-  self:set_life(40)
+  self:set_life(1)
   self:set_damage(4)
   self:create_sprite("enemies/boss/crab_huge/crab_huge")
   self:set_size(256, 160)
