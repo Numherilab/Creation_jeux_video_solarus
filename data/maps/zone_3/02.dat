@@ -2471,9 +2471,9 @@ enemy{
 sensor{
   name = "sensor_miniboss",
   layer = 0,
-  x = 0,
+  x = 8,
   y = 45,
-  width = 336,
+  width = 320,
   height = 16,
 }
 

@@ -2858,14 +2858,6 @@ teletransporter{
 }
 
 destination{
-  name = "destination_m11_2",
-  layer = 0,
-  x = 24,
-  y = 61,
-  direction = 0,
-}
-
-destination{
   name = "destination_m11_3",
   layer = 0,
   x = 72,

@@ -3209,8 +3209,7 @@ chest{
   layer = 0,
   x = 216,
   y = 21,
-  treasure_name = "gem",
-  treasure_variant = 2,
+  treasure_name = "sword",
   treasure_savegame_variable = "Gemzone3_1",
   sprite = "entities/chest",
 }
