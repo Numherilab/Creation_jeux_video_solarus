@@ -2339,7 +2339,7 @@ teletransporter{
   y = 816,
   width = 16,
   height = 16,
-  destination_map = "zone_1/eester eggs",
+  destination_map = "",
 }
 
 destination{

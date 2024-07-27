@@ -331,7 +331,8 @@ teletransporter{
   y = 0,
   width = 16,
   height = 16,
-  destination_map = "zone_2/06",
+  destination_map = "zone_2/03",
+  destination = "destination_2",
 }
 
 destructible{
@@ -379,22 +380,6 @@ npc{
   subtype = 1,
   sprite = "npc/man/man_17.1",
   behavior = "dialog#zone_1.dialogue fin",
-}
-
-chest{
-  layer = 0,
-  x = 120,
-  y = 221,
-  treasure_name = "glove",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 136,
-  y = 221,
-  treasure_name = "fleches",
-  sprite = "entities/chest",
 }
 
 destination{

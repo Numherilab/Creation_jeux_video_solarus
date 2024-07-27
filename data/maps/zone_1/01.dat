@@ -4122,6 +4122,7 @@ destination{
   x = 376,
   y = 309,
   direction = 1,
+  default = true,
 }
 
 wall{
@@ -4211,6 +4212,22 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+chest{
+  layer = 0,
+  x = 384,
+  y = 341,
+  treasure_name = "fire_rod",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 336,
+  y = 349,
+  treasure_name = "water_rod",
+  sprite = "entities/chest",
 }
 
 tile{
