@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "boss",
 }
 
 tile{
@@ -405,6 +406,7 @@ enemy{
   y = 93,
   direction = 0,
   breed = "boss/firebird/firebird",
+  savegame_variable = "firebird",
   treasure_name = "fire_rod",
 }
 
@@ -416,14 +418,6 @@ destination{
   direction = 1,
 }
 
-chest{
-  layer = 0,
-  x = 32,
-  y = 197,
-  treasure_name = "arc",
-  sprite = "entities/chest",
-}
-
 teletransporter{
   layer = 0,
   x = 224,
@@ -432,5 +426,13 @@ teletransporter{
   height = 16,
   destination_map = "zone_4/08",
   destination = "poiti",
+}
+
+chest{
+  layer = 0,
+  x = 272,
+  y = 53,
+  treasure_name = "fire_rod",
+  sprite = "entities/chest",
 }
 

@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/bottomless_cliffs",
-  music = "victory",
+  music = "eduardo/neptune_battle",
 }
 
 tile{

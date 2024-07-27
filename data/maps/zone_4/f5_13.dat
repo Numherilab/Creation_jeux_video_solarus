@@ -1,0 +1,259 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 160,
+  height = 128,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "0",
+  music = "victory",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 160,
+  height = 128,
+  pattern = "261",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 120,
+  height = 32,
+  pattern = "16",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 120,
+  height = 32,
+  pattern = "15",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 120,
+  height = 32,
+  pattern = "14",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 120,
+  height = 32,
+  pattern = "13",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 0,
+  width = 8,
+  height = 128,
+  pattern = "9",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 64,
+  pattern = "9",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 8,
+  height = 32,
+  pattern = "9",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "21",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "161",
+  tileset = "castle",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 8,
+  y = 85,
+  direction = 0,
+  default = true,
+}
+
+npc{
+  layer = 0,
+  x = 40,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bouncer_2",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 64,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink4",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 104,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bouncer_2",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 136,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/eamon",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 24,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/hazel",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 48,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/nina",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 136,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/juglan",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 96,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/big_guy_1",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 144,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink2",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 88,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/ilex",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 120,
+  y = 37,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink5",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 112,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/eamon",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+npc{
+  layer = 0,
+  x = 16,
+  y = 37,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bouncer_1",
+  behavior = "dialog#zone_4.zone_4_a",
+}
+
+sensor{
+  name = "fin",
+  layer = 0,
+  x = 24,
+  y = 37,
+  width = 16,
+  height = 96,
+}
+

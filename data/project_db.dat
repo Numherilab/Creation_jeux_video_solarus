@@ -1,3 +1,4 @@
+map{ id = "f5_13" }
 map{ id = "monstre/Mowatulla" }
 map{ id = "monstre/aquadraco", description = "aquadraco" }
 map{ id = "monstre/arrghus" }
@@ -68,7 +69,8 @@ map{ id = "zone_4/10", description = "f5_5" }
 map{ id = "zone_4/f5_10" }
 map{ id = "zone_4/f5_11" }
 map{ id = "zone_4/f5_12" }
-map{ id = "zone_4/f5_6" }
+map{ id = "zone_4/f5_13" }
+map{ id = "zone_4/f5_6", description = "f5_6" }
 map{ id = "zone_4/f5_7", description = "f5_7" }
 map{ id = "zone_4/f5_8" }
 map{ id = "zone_4/f5_9" }

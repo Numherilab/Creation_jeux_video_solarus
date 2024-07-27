@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -387,13 +388,6 @@ destructible{
   layer = 1,
   x = 240,
   y = 197,
-  sprite = "",
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 197,
   sprite = "destructibles/vase",
 }
 
@@ -413,6 +407,15 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/bouncer_1",
-  behavior = "dialog#dada",
+  behavior = "dialog#zone_4.dada",
+}
+
+teletransporter{
+  layer = 1,
+  x = 320,
+  y = 88,
+  width = 16,
+  height = 72,
+  destination_map = "zone_4/f5_13",
 }
 

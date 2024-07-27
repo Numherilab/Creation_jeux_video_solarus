@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -822,7 +823,7 @@ npc{
   y = 85,
   direction = 3,
   subtype = 1,
-  sprite = "npc/billy",
+  sprite = "npc/eamon",
   behavior = "dialog#zone_4.viens",
 }
 

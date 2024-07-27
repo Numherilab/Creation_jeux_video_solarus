@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -837,8 +838,8 @@ wall{
 
 teletransporter{
   layer = 0,
-  x = 304,
-  y = 48,
+  x = 264,
+  y = 120,
   width = 16,
   height = 16,
   destination_map = "zone_4/10",
@@ -857,28 +858,28 @@ teletransporter{
 
 teletransporter{
   layer = 0,
-  x = 280,
-  y = 80,
-  width = 16,
-  height = 16,
-  destination_map = "zone_4/10",
-  destination = "jjjj",
-}
-
-teletransporter{
-  layer = 0,
-  x = 280,
-  y = 64,
-  width = 16,
-  height = 16,
-  destination_map = "zone_4/10",
-  destination = "jjjj",
-}
-
-teletransporter{
-  layer = 0,
   x = 288,
-  y = 56,
+  y = 72,
+  width = 16,
+  height = 16,
+  destination_map = "zone_4/10",
+  destination = "jjjj",
+}
+
+teletransporter{
+  layer = 0,
+  x = 304,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "zone_4/10",
+  destination = "jjjj",
+}
+
+teletransporter{
+  layer = 0,
+  x = 312,
+  y = 24,
   width = 16,
   height = 16,
   destination_map = "zone_4/10",

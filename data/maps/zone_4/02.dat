@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
-  music = "boss",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -364,7 +364,7 @@ chest{
   x = 216,
   y = 133,
   treasure_name = "dash",
-  treasure_savegame_variable = "firerod",
+  treasure_savegame_variable = "dashmagie",
   sprite = "entities/chest",
 }
 
@@ -382,6 +382,7 @@ enemy{
   y = 101,
   direction = 0,
   breed = "mort_vivant/grim_1",
+  savegame_variable = "mort_vivantgrim_1",
   treasure_name = "gem",
 }
 
@@ -391,6 +392,7 @@ enemy{
   y = 213,
   direction = 0,
   breed = "mort_vivant/grim_1",
+  savegame_variable = "mort_vivantgrim_1",
   treasure_name = "gem",
   treasure_variant = 5,
 }

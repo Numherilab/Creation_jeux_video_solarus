@@ -95,7 +95,7 @@ juste sour toutes
 les questions ! c'est facile
 tu devrais y ariver ! 
   id = "dada",
-  text = [[
+  text = \[\[
 merci de m'avoir sauver jeune homme
 ]],
 }
@@ -445,8 +445,10 @@ qui est dans l'eau ?
 }
 
 dialog{
-  id = "zone_4.a_toi_de_jouer",
+  id = "zone_4.dada",
   text = [[
+merci de mavoir sauver jeune homme.
+va voir les habitants et sauve les !
 ]],
 }
 
@@ -456,6 +458,21 @@ dialog{
 A l'aide !
  Il y a un monstre très dur à battre 
 derrière le château.
+]],
+}
+
+dialog{
+  id = "zone_4.zone_4_a",
+  text = [[
+merci !! merci ! merci !!
+Merci !!!
+merciii !
+]],
+}
+
+dialog{
+  id = "zone_4.zone_4_a_toi_de_jouer",
+  text = [[
 ]],
 }
 

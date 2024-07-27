@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -288,6 +289,7 @@ enemy{
   y = 53,
   direction = 0,
   breed = "humain/aster_enemy",
+  savegame_variable = "asterenemy",
   treasure_name = "gem",
 }
 
@@ -297,7 +299,9 @@ enemy{
   y = 53,
   direction = 0,
   breed = "humain/pirate_bow_brown_1",
+  savegame_variable = "piratebowdodge",
   treasure_name = "gem",
+  treasure_variant = 2,
 }
 
 teletransporter{

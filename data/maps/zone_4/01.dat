@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/01 oceanset_inside",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -60,19 +61,17 @@ teletransporter{
 
 enemy{
   layer = 0,
-  x = 208,
-  y = 189,
+  x = 192,
+  y = 85,
   direction = 0,
-  breed = "animaux/crab",
-  treasure_name = "gem",
+  breed = "mort_vivant/skeletor",
 }
 
 enemy{
   layer = 0,
   x = 200,
-  y = 69,
+  y = 165,
   direction = 0,
-  breed = "animaux/crab",
-  treasure_name = "gem",
+  breed = "mort_vivant/skeletor",
 }
 

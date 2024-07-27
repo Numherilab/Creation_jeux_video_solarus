@@ -334,8 +334,9 @@ enemy{
   y = 125,
   direction = 0,
   breed = "animaux/birdfox_1",
+  savegame_variable = "birdfoxburrower",
   treasure_name = "gem",
-  treasure_variant = 2,
+  treasure_variant = 4,
 }
 
 destination{

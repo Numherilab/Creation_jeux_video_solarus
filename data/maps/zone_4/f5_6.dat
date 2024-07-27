@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -210,10 +211,11 @@ tile{
 
 enemy{
   layer = 0,
-  x = 88,
-  y = 21,
+  x = 144,
+  y = 109,
   direction = 0,
   breed = "animaux/burrow_like",
+  savegame_variable = "animauxburrow_like",
 }
 
 chest{
@@ -248,21 +250,5 @@ chest{
   y = 125,
   treasure_name = "gem",
   sprite = "entities/chest",
-}
-
-enemy{
-  layer = 0,
-  x = 56,
-  y = 157,
-  direction = 0,
-  breed = "animaux/burrow_like",
-}
-
-enemy{
-  layer = 0,
-  x = 240,
-  y = 157,
-  direction = 0,
-  breed = "animaux/burrow_like",
 }
 

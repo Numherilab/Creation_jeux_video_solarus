@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -666,7 +667,7 @@ teletransporter{
 wall{
   layer = 0,
   x = 0,
-  y = 168,
+  y = 152,
   width = 152,
   height = 48,
   stops_hero = true,

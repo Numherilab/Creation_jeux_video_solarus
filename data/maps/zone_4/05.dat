@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -1194,6 +1195,7 @@ enemy{
   y = 53,
   direction = 0,
   breed = "monstre_classique/ghost_1",
+  savegame_variable = "ghost1_2",
   treasure_name = "heart",
 }
 
@@ -1203,6 +1205,7 @@ enemy{
   y = 109,
   direction = 0,
   breed = "monstre_classique/ghost_1",
+  savegame_variable = "ghost1_1",
   treasure_name = "gem",
 }
 
@@ -1224,7 +1227,7 @@ chest{
   x = 152,
   y = 29,
   treasure_name = "gem",
-  treasure_variant = 10,
+  treasure_savegame_variable = "gem",
   sprite = "entities/chest",
 }
 

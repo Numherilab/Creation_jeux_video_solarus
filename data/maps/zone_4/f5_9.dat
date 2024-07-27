@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "0",
+  music = "eduardo/overworld",
 }
 
 tile{
@@ -431,9 +432,10 @@ tile{
 enemy{
   layer = 0,
   x = 200,
-  y = 21,
+  y = 29,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton8",
 }
 
 enemy{
@@ -442,6 +444,7 @@ enemy{
   y = 277,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton1",
 }
 
 enemy{
@@ -450,6 +453,7 @@ enemy{
   y = 245,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton2",
 }
 
 enemy{
@@ -458,6 +462,7 @@ enemy{
   y = 205,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton3",
 }
 
 enemy{
@@ -466,6 +471,7 @@ enemy{
   y = 165,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton4",
 }
 
 enemy{
@@ -474,6 +480,7 @@ enemy{
   y = 125,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton5",
 }
 
 enemy{
@@ -482,6 +489,7 @@ enemy{
   y = 93,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton6",
 }
 
 enemy{
@@ -490,6 +498,7 @@ enemy{
   y = 61,
   direction = 0,
   breed = "mort_vivant/skeleton_1",
+  savegame_variable = "skeleton7",
 }
 
 teletransporter{
