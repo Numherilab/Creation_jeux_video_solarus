@@ -24,23 +24,37 @@ end
 end)
 end
 
+-- dialogue avec le corbeau
+
 function crow:on_interaction()
 
-    if not game:get_value("crow_1") then
-        game:start_dialog("crow_question", function(answer)
-            if answer == 1 then
-                if game:get_money() >= 100 then
-                    game:remove_money(100)
-                    game:start_dialog("crow_oui")
-                else
-                    game:start_dialog("not_enough_money")  -- Assurez-vous d'avoir un dialogue pour cette situation
-                end
-            elseif answer == 2 then
-                game:start_dialog("crow_non")
-            end
-            game:set_value("crow_1", true)   
-        end)
-    else
-        game:start_dialog("crow_already_done")  -- Assurez-vous d'avoir un dialogue pour cette situation
+    if game:get_money() < 99 then
+        game:start_dialog("zone_1.crow_question")
+
+    elseif game:get_money() >= 99 then
+        game:remove_money(100)
+        game:start_dialog("zone_1.crow_oui")
+        
+        local movement = sol.movement.create("path")
+        movement:set_path{4, 4}
+        movement:set_speed(48)
+        movement:start(crow)
+
     end
+
 end
+
+
+function map:on_started(destination)
+  -- Désactiver le miniboss à l'initialisation de la carte.
+  if miniboss ~= nil then
+    miniboss:set_enabled(false)
+  end
+
+  -- Démarrer immédiatement la bataille du miniboss
+  if miniboss ~= nil then
+    miniboss:set_enabled(true)
+  end
+end
+
+

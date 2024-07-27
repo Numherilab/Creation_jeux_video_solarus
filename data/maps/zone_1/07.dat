@@ -2258,7 +2258,7 @@ enemy{
   x = 344,
   y = 85,
   direction = 0,
-  breed = "vegetation/arborgeist_rogue",
+  breed = "vegetation/seaweed_blob",
 }
 
 enemy{
@@ -2266,7 +2266,7 @@ enemy{
   x = 520,
   y = 221,
   direction = 0,
-  breed = "vegetation/arborgeist_rogue",
+  breed = "vegetation/seaweed_blob",
 }
 
 enemy{
@@ -2274,7 +2274,7 @@ enemy{
   x = 200,
   y = 357,
   direction = 0,
-  breed = "vegetation/arborgeist_rogue",
+  breed = "vegetation/seaweed_blob",
 }
 
 enemy{
@@ -2282,7 +2282,7 @@ enemy{
   x = 416,
   y = 485,
   direction = 0,
-  breed = "vegetation/arborgeist_rogue",
+  breed = "vegetation/seaweed_blob",
 }
 
 teletransporter{
@@ -2301,7 +2301,7 @@ enemy{
   x = 768,
   y = 765,
   direction = 0,
-  breed = "monstre_classique/ogre_knight",
+  breed = "monstre_classique/ogre_1",
 }
 
 destination{
