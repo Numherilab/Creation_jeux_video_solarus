@@ -660,7 +660,8 @@ teletransporter{
   width = 16,
   height = 16,
   transition = "scrolling",
-  destination_map = "zone_1/03",
+  destination_map = "zone_1/01",
+  destination = "prison/portsortie",
 }
 
 teletransporter{

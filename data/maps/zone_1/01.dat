@@ -3986,9 +3986,10 @@ tile{
 destination{
   name = "prison/cellule",
   layer = 0,
-  x = 584,
-  y = 133,
+  x = 456,
+  y = 317,
   direction = 1,
+  default = true,
 }
 
 teletransporter{
@@ -3997,7 +3998,6 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  transition = "scrolling",
   destination_map = "zone_1/02",
 }
 
