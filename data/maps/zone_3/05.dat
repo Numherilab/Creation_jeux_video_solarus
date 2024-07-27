@@ -1422,6 +1422,7 @@ teletransporter{
 }
 
 enemy{
+  name = "b",
   layer = 0,
   x = 216,
   y = 93,
@@ -1567,7 +1568,7 @@ tile{
 tile{
   layer = 2,
   x = 0,
-  y = -32,
+  y = -8,
   width = 352,
   height = 352,
   pattern = "1",

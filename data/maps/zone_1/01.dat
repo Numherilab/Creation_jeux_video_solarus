@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/01 oceanset_inside",
+  music = "eduardo/soldiers",
 }
 
 tile{
@@ -3986,9 +3987,10 @@ tile{
 destination{
   name = "prison/cellule",
   layer = 0,
-  x = 584,
-  y = 133,
+  x = 456,
+  y = 317,
   direction = 1,
+  default = true,
 }
 
 teletransporter{
@@ -3997,7 +3999,6 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  transition = "scrolling",
   destination_map = "zone_1/02",
 }
 
@@ -4214,20 +4215,13 @@ wall{
   stops_projectiles = true,
 }
 
-chest{
+npc{
+  name = "camera1",
   layer = 0,
-  x = 384,
-  y = 341,
-  treasure_name = "fire_rod",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 336,
-  y = 349,
-  treasure_name = "water_rod",
-  sprite = "entities/chest",
+  x = 368,
+  y = 173,
+  direction = 3,
+  subtype = 1,
 }
 
 tile{

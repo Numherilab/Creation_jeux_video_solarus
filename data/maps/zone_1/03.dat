@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/01 oceanset_inside",
+  music = "eduardo/soldiers",
 }
 
 tile{
@@ -659,8 +660,8 @@ teletransporter{
   y = 104,
   width = 16,
   height = 16,
-  transition = "scrolling",
-  destination_map = "zone_1/03",
+  destination_map = "zone_1/01",
+  destination = "prison/portsortie",
 }
 
 teletransporter{
@@ -669,7 +670,6 @@ teletransporter{
   y = 112,
   width = 16,
   height = 16,
-  transition = "scrolling",
   destination_map = "zone_1/04",
 }
 

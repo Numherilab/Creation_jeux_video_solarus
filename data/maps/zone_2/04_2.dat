@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/trillium_ruins",
+  music = "eduardo/sword_fanfare",
 }
 
 tile{
@@ -913,7 +914,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 176,
-  y = 69,
+  y = 77,
   direction = 3,
 }
 

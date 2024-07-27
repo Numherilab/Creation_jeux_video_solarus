@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/oceanheart_outdoors_1",
+  music = "eduardo/village",
 }
 
 tile{
@@ -2516,7 +2517,7 @@ teletransporter{
   height = 16,
   transition = "scrolling",
   destination_map = "zone_5/05",
-  destination = "_same",
+  destination = "_side",
 }
 
 tile{

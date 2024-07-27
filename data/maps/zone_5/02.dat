@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/oceanheart_outdoors_1",
+  music = "eduardo/village",
 }
 
 tile{
@@ -372,6 +373,16 @@ tile{
   pattern = "1102",
 }
 
+tile{
+  layer = 0,
+  x = 312,
+  y = 232,
+  width = 8,
+  height = 88,
+  pattern = "98_2",
+  tileset = "oceanset_inside",
+}
+
 teletransporter{
   layer = 0,
   x = -16,
@@ -431,7 +442,7 @@ shop_treasure{
   y = 248,
   treasure_name = "potionlavie",
   treasure_savegame_variable = "nereprendpascettepotion1",
-  price = 20,
+  price = 10,
   dialog = "zone_5.shop",
 }
 
@@ -441,7 +452,7 @@ shop_treasure{
   y = 248,
   treasure_name = "potionlavie",
   treasure_savegame_variable = "nereprendpascettepotion2",
-  price = 20,
+  price = 10,
   dialog = "zone_5.shop",
 }
 

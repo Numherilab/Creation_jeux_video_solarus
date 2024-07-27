@@ -20,7 +20,7 @@ function item:on_started()
 
 item:set_savegame_variable("possession_potion_de_vie")
 item:set_amount_savegame_variable("amount_potion_de_vie")
-item:set_max_amount(3)
+item:set_max_amount(10)
 item:set_assignable(true)
 
 end

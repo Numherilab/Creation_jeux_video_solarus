@@ -1203,7 +1203,7 @@ npc{
   y = 269,
   direction = 3,
   subtype = 1,
-  sprite = "npc/max",
+  sprite = "npc/sitting_5",
   behavior = "dialog#zone_5.vendre poisson",
 }
 

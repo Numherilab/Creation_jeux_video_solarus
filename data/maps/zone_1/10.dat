@@ -11,21 +11,74 @@ properties{
 
 tile{
   layer = 0,
-  x = 8,
-  y = 0,
-  width = 128,
-  height = 64,
-  pattern = "shallow_water",
-  tileset = "01 Max Mraz/02 oceanset_outside",
+  x = 128,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "132_10",
 }
 
 tile{
   layer = 0,
-  x = 128,
-  y = 48,
+  x = 160,
+  y = 64,
   width = 16,
   height = 16,
   pattern = "132_9",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_7",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "132",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "132_12",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "132_10",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "132_4",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "132_2",
 }
 
 tile{
@@ -34,7 +87,25 @@ tile{
   y = 48,
   width = 16,
   height = 16,
-  pattern = "132_8",
+  pattern = "132_9",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "132_7",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "132",
 }
 
 tile{
@@ -44,6 +115,61 @@ tile{
   width = 16,
   height = 16,
   pattern = "132_9",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_12",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_10",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "132_4",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "132_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "132_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 128,
+  height = 64,
+  pattern = "shallow_water",
+  tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -98,15 +224,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "132_3",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "132_7",
 }
 
 tile{
@@ -357,6 +474,8 @@ destructible{
   layer = 0,
   x = 48,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -394,6 +513,8 @@ destructible{
   layer = 0,
   x = 56,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -404,16 +525,8 @@ destructible{
   layer = 0,
   x = 64,
   y = 69,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 88,
-  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -424,6 +537,8 @@ destructible{
   layer = 0,
   x = 72,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -434,6 +549,8 @@ destructible{
   layer = 0,
   x = 80,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -442,68 +559,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 152,
+  x = 88,
   y = 61,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 144,
-  y = 69,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 136,
-  y = 61,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 128,
-  y = 69,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 120,
-  y = 61,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 112,
-  y = 69,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 104,
-  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -514,6 +573,8 @@ destructible{
   layer = 0,
   x = 96,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -522,8 +583,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 200,
+  x = 104,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -532,18 +595,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 216,
-  y = 61,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 208,
+  x = 112,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -552,18 +607,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 192,
-  y = 69,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 184,
+  x = 120,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -572,8 +619,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 176,
+  x = 128,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -582,8 +631,34 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 168,
+  x = 136,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 152,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -594,6 +669,8 @@ destructible{
   layer = 0,
   x = 160,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -602,18 +679,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 272,
-  y = 69,
-  treasure_savegame_variable = "cailloux",
-  sprite = "destructibles/rock_grey",
-  weight = 1,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 264,
+  x = 168,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -622,8 +691,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 256,
+  x = 176,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -632,8 +703,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 248,
+  x = 184,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -642,8 +715,10 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 240,
+  x = 192,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -652,8 +727,34 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 232,
+  x = 200,
   y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
@@ -664,10 +765,129 @@ destructible{
   layer = 0,
   x = 224,
   y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
   treasure_savegame_variable = "cailloux",
   sprite = "destructibles/rock_grey",
   weight = 1,
   can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 256,
+  y = 69,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 61,
+  treasure_name = "gem",
+  treasure_variant = 3,
+  treasure_savegame_variable = "cailloux",
+  sprite = "destructibles/rock_grey",
+  weight = 1,
+  can_explode = true,
+}
+
+wall{
+  layer = 0,
+  x = 8,
+  y = 72,
+  width = 312,
+  height = 8,
+  stops_projectiles = true,
 }
 
 tile{

@@ -33,6 +33,8 @@ map{ id = "zone_1/09", description = "5 fprêt" }
 map{ id = "zone_1/10", description = "victoir foret" }
 map{ id = "zone_1/1foret map 2" }
 map{ id = "zone_1/qute 3 foret" }
+map{ id = "zone_1/shop foret" }
+map{ id = "zone_1/vc3" }
 map{ id = "zone_1/vic 2 foret" }
 map{ id = "zone_2/01" }
 map{ id = "zone_2/02" }
@@ -84,6 +86,7 @@ map{ id = "zone_5/08", description = "GRPTTTE2" }
 map{ id = "zone_5/09", description = "GROTTZE3" }
 map{ id = "zone_5/10", description = "GROTTTE4" }
 map{ id = "zone_5/11", description = "boss" }
+map{ id = "zone_5/maisonmax" }
 map{ id = "zone_6/01", description = "a7" }
 map{ id = "zone_6/02", description = "a8" }
 map{ id = "zone_6/03", description = "b7" }

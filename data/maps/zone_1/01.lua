@@ -84,3 +84,4 @@ function MRchips:on_interaction()
                 hero:start_treasure("tunic", 1, "MR.chipsdonnechips", function()
         end)
     end
+

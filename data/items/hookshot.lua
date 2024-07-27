@@ -11,3 +11,7 @@ function item:on_using()
   self:set_finished()
 end
 
+function item:on_obtained(variant, savegame_variable) 
+  local game = self:get_game()
+  game:start_dialog("grappin")
+end
