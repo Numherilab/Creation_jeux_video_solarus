@@ -1,4 +1,11 @@
 dialog{
+  id = "DIALOGUE STATUE",
+  text = [[
+je suis une statue :D
+]],
+}
+
+dialog{
   id = "MR.chipsdonnechips",
   text = [[
 tien un packet de chips !
@@ -95,7 +102,7 @@ juste sour toutes
 les questions ! c'est facile
 tu devrais y ariver ! 
   id = "dada",
-  text = [[
+  text = \[\[
 merci de m'avoir sauver jeune homme
 ]],
 }
@@ -149,6 +156,13 @@ dialog{
   id = "lanternedonnée",
   text = [[
 J'ai plus rien pour toi pour l'instant !
+]],
+}
+
+dialog{
+  id = "not_enough_money",
+  text = [[
+tu n'as pas d'argent !
 ]],
 }
 
@@ -211,6 +225,14 @@ dialog{
 Bonjour, 
 bienvenue dans la séance
 d'initiation de Solarus
+]],
+}
+
+dialog{
+  id = "prison",
+  text = [[
+je devrait peut etre trouver
+mon epee la bas !
 ]],
 }
 
@@ -317,8 +339,8 @@ me donne 100 rubis  !
 dialog{
   id = "zone_1.crow_2",
   text = [[
-meci pour l'argnet passe 
-mon gars 
+meci pour l'argent passe 
+mon gars !
 ]],
 }
 
@@ -332,6 +354,7 @@ bas vas en chercher !
 dialog{
   id = "zone_1.crow_oui",
   text = [[
+tu les as ? 
 alors donne les moi !
 ]],
 }
@@ -339,7 +362,8 @@ alors donne les moi !
 dialog{
   id = "zone_1.crow_question",
   text = [[
-a-tu des rubis
+Je ne bougerai pas tant 
+que je n'aurai pas 100 rubis
 ]],
 }
 
