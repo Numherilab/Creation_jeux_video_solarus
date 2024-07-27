@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/oceanheart_outdoors_1",
+  music = "eduardo/neptune_battle",
 }
 
 tile{
@@ -433,15 +434,6 @@ tile{
 
 tile{
   layer = 0,
-  x = -48,
-  y = 360,
-  width = 480,
-  height = 128,
-  pattern = "2006",
-}
-
-tile{
-  layer = 0,
   x = 344,
   y = 232,
   width = 64,
@@ -582,6 +574,42 @@ tile{
   width = 16,
   height = 16,
   pattern = "1533",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "1048",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 8,
+  width = 8,
+  height = 384,
+  pattern = "1827",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 392,
+  width = 16,
+  height = 8,
+  pattern = "1046",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 16,
+  height = 384,
+  pattern = "1047",
 }
 
 enemy{
@@ -1035,8 +1063,26 @@ tile{
 
 tile{
   layer = 1,
-  x = -32,
-  y = -24,
+  x = 408,
+  y = 240,
+  width = 8,
+  height = 80,
+  pattern = "1825",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 8,
+  width = 8,
+  height = 384,
+  pattern = "1825",
+}
+
+tile{
+  layer = 1,
+  x = -40,
+  y = -16,
   width = 480,
   height = 384,
   pattern = "2006",
@@ -1044,11 +1090,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 408,
-  y = 240,
-  width = 8,
-  height = 80,
-  pattern = "1825",
+  x = -40,
+  y = 368,
+  width = 480,
+  height = 128,
+  pattern = "2006",
 }
 
 destination{

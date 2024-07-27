@@ -2999,11 +2999,12 @@ teletransporter{
 }
 
 enemy{
+  name = "a",
   layer = 0,
   x = 776,
   y = 61,
   direction = 0,
-  breed = "zone_2/cyclops_1",
+  breed = "",
   treasure_name = "palme",
 }
 

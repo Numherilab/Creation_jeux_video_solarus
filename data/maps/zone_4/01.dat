@@ -76,3 +76,12 @@ enemy{
   treasure_name = "gem",
 }
 
+destination{
+  name = "destination",
+  layer = 0,
+  x = 16,
+  y = 133,
+  direction = 0,
+  default = true,
+}
+

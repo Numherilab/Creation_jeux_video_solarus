@@ -844,6 +844,7 @@ enemy{
   y = 117,
   direction = 2,
   breed = "boss/arrghus/arrghus_stone",
+  savegame_variable = "tetedeneuil",
   treasure_name = "glove",
 }
 

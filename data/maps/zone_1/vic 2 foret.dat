@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_outside",
+  music = "victory",
 }
 
 tile{
@@ -13,8 +14,8 @@ tile{
   x = 0,
   y = 0,
   width = 320,
-  height = 128,
-  pattern = "shallow_water",
+  height = 240,
+  pattern = "water",
 }
 
 tile{
@@ -37,6 +38,231 @@ tile{
   tileset = "sprite_branche",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 320,
+  height = 8,
+  pattern = "dirt_edge_2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "wave_2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 168,
+  width = 16,
+  height = 24,
+  pattern = "201_4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 144,
+  width = 16,
+  height = 24,
+  pattern = "200_3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 168,
+  width = 16,
+  height = 24,
+  pattern = "200_4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 144,
+  width = 16,
+  height = 24,
+  pattern = "199_3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 168,
+  width = 16,
+  height = 24,
+  pattern = "199_4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 144,
+  width = 16,
+  height = 24,
+  pattern = "201_3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 128,
+  width = 24,
+  height = 16,
+  pattern = "184_2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 144,
+  width = 24,
+  height = 40,
+  pattern = "189_2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 144,
+  width = 24,
+  height = 40,
+  pattern = "188_2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 128,
+  width = 24,
+  height = 16,
+  pattern = "185_2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 184,
+  width = 32,
+  height = 8,
+  pattern = "threshold_1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "215",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "213",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "214",
+}
+
 destructible{
   layer = 0,
   x = 16,
@@ -53,8 +279,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 256,
-  y = 173,
+  x = 184,
+  y = 141,
   sprite = "destructibles/cabbagge_green",
 }
 
@@ -68,400 +294,11 @@ enemy{
 
 destructible{
   layer = 0,
-  x = 8,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 16,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 24,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 32,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 40,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 48,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 64,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 72,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 88,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 104,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 112,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 120,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 128,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 136,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 144,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 152,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 160,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
   x = 168,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 176,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 184,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 192,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 200,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 208,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 216,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 224,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 232,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 240,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 256,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 264,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 272,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 280,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 288,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 296,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 304,
-  y = 109,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 312,
-  y = 117,
-  treasure_name = "gem",
-  sprite = "destructibles/rock_grey",
-  weight = 2,
-  can_explode = true,
-}
-
-destructible{
-  layer = 0,
-  x = 144,
-  y = 173,
+  y = 165,
   sprite = "destructibles/barrel",
   weight = 2,
+  can_explode = true,
 }
 
 teletransporter{
@@ -479,5 +316,69 @@ destination{
   x = 152,
   y = 221,
   direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 328,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "zone_1/ desti noumea",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 280,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "zone_1/shop foret",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 288,
+  y = 213,
+  direction = 1,
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 88,
+  width = 24,
+  height = 40,
+  pattern = "187_2",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 88,
+  width = 24,
+  height = 40,
+  pattern = "186_2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 152,
+  width = 32,
+  height = 16,
+  pattern = "216",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 152,
+  width = 32,
+  height = 16,
+  pattern = "216_5",
 }
 
