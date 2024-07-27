@@ -95,7 +95,7 @@ juste sour toutes
 les questions ! c'est facile
 tu devrais y ariver ! 
   id = "dada",
-  text = [[
+  text = \[\[
 merci de m'avoir sauver jeune homme
 ]],
 }
@@ -134,6 +134,14 @@ if you don't understand,
 it's hazelnut in ocean's
 heart who gives you the sword
  and there's Mr chips next to her.
+]],
+}
+
+dialog{
+  id = "grappin",
+  text = [[
+Tu a un grappin maintenant
+ tu peux aggriper les coffres !!!
 ]],
 }
 
@@ -477,6 +485,14 @@ dialog{
   text = [[
 <------------ RIEN
 MARCHÉ---------->
+]],
+}
+
+dialog{
+  id = "zone_5.max",
+  text = [[
+Salut moi a ton age je crééer un jeu vidéo.
+Va prendre le coffre, cadeaux
 ]],
 }
 

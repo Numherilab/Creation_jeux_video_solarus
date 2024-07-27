@@ -84,6 +84,7 @@ map{ id = "zone_5/08", description = "GRPTTTE2" }
 map{ id = "zone_5/09", description = "GROTTZE3" }
 map{ id = "zone_5/10", description = "GROTTTE4" }
 map{ id = "zone_5/11", description = "boss" }
+map{ id = "zone_5/maisonmax" }
 map{ id = "zone_6/01", description = "a7" }
 map{ id = "zone_6/02", description = "a8" }
 map{ id = "zone_6/03", description = "b7" }

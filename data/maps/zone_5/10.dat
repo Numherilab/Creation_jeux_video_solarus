@@ -2281,7 +2281,7 @@ teletransporter{
   layer = 0,
   x = 120,
   y = -16,
-  width = 112,
+  width = 80,
   height = 16,
   transition = "scrolling",
   destination_map = "zone_5/09",

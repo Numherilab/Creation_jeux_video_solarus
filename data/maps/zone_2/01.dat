@@ -2931,6 +2931,66 @@ tile{
   tileset = "01 Max Mraz/trillium_desert",
 }
 
+tile{
+  layer = 0,
+  x = 96,
+  y = 48,
+  width = 48,
+  height = 16,
+  pattern = "32",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 176,
+  width = 48,
+  height = 16,
+  pattern = "32",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 32,
+  width = 48,
+  height = 16,
+  pattern = "32",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 40,
+  width = 32,
+  height = 16,
+  pattern = "31",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "31",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "31",
+  tileset = "01 Max Mraz/trillium_desert",
+}
+
 npc{
   name = "sdf",
   layer = 0,
@@ -2944,8 +3004,8 @@ npc{
 destination{
   name = "destination212",
   layer = 0,
-  x = 992,
-  y = 293,
+  x = 968,
+  y = 301,
   direction = 2,
 }
 
@@ -2955,7 +3015,7 @@ npc{
   y = 149,
   direction = 3,
   subtype = 1,
-  sprite = "npc/max",
+  sprite = "npc/doll",
   behavior = "dialog#zone_2.max",
 }
 
@@ -2980,22 +3040,12 @@ destination{
 
 teletransporter{
   layer = 0,
-  x = 968,
-  y = 304,
-  width = 56,
-  height = 16,
-  destination_map = "zone_2/03",
-  destination = "destination_55",
-}
-
-teletransporter{
-  layer = 0,
-  x = 1008,
+  x = 984,
   y = 272,
-  width = 16,
-  height = 32,
-  destination_map = "zone_2/03",
-  destination = "destination_55",
+  width = 40,
+  height = 48,
+  destination_map = "zone_1/10",
+  destination = "destination2",
 }
 
 enemy{
@@ -3003,17 +3053,9 @@ enemy{
   x = 776,
   y = 61,
   direction = 0,
-  breed = "zone_2/cyclops_1",
-  treasure_name = "palme",
-}
-
-sensor{
-  name = "sensor_non",
-  layer = 0,
-  x = 672,
-  y = 117,
-  width = 352,
-  height = 16,
+  breed = "monstre_classique/bee_guard",
+  treasure_name = "gem",
+  treasure_variant = 3,
 }
 
 teletransporter{
@@ -3291,6 +3333,7902 @@ destination{
   x = 120,
   y = 117,
   direction = 3,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 360,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 360,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 360,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 360,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 360,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 360,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 344,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 344,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 344,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 344,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 344,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 344,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 328,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 328,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 328,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 328,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 328,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 328,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 376,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 125,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 141,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 400,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 384,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 368,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 352,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 336,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 424,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 320,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 341,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 269,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 285,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 301,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 317,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 325,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 56,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 40,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 24,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 24,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 24,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 24,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 24,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 24,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 8,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 8,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 8,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 8,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 8,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 8,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -8,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -8,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -8,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -8,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -8,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -8,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -24,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -24,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -24,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -24,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -24,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -24,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -40,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -40,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -40,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -40,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -40,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -40,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 16,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 0,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -16,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -32,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -48,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -48,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -48,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -48,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -48,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -48,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -64,
+  y = 93,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -64,
+  y = 101,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -64,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -64,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -64,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = -64,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 109,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 117,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 133,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 296,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 264,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 304,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 312,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 245,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 261,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 277,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 293,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 309,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 256,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 280,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 237,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 253,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 208,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 192,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 165,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 181,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 197,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 213,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 229,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 176,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 160,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 144,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 112,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 96,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 80,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 64,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 48,
+  y = 221,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 149,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 173,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 189,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 205,
+  direction = 0,
+}
+
+stream{
+  layer = 0,
+  x = 32,
+  y = 221,
+  direction = 0,
 }
 
 tile{

@@ -2315,6 +2315,8 @@ chest{
   layer = 1,
   x = 64,
   y = 29,
+  treasure_name = "glove",
+  treasure_variant = 3,
   sprite = "entities/chest",
 }
 
