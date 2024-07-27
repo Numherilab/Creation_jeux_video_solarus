@@ -9,7 +9,7 @@ local properties = {
   savegame_variable = "possession_water_rod",
   hero_animation = "rod",
   sound_on_fail = "wrong",
-  animation_sprite = "items/water_rod",
+  animation_sprite = "items/fire_rod",
   animation_delay = 300,
   do_magic = function()
 

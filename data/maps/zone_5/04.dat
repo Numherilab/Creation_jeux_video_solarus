@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/oceanheart_outdoors_1",
+  music = "eduardo/village",
 }
 
 tile{
@@ -66,96 +67,6 @@ tile{
   pattern = "1706",
 }
 
-tile{
-  layer = 0,
-  x = 120,
-  y = 152,
-  width = 8,
-  height = 8,
-  pattern = "79_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 152,
-  width = 8,
-  height = 8,
-  pattern = "79_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 256,
-  width = 8,
-  height = 8,
-  pattern = "79_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 256,
-  width = 8,
-  height = 8,
-  pattern = "79_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 160,
-  width = 8,
-  height = 96,
-  pattern = "98_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 152,
-  width = 104,
-  height = 8,
-  pattern = "86_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 256,
-  width = 32,
-  height = 8,
-  pattern = "86_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 160,
-  width = 8,
-  height = 96,
-  pattern = "98_2",
-  tileset = "oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 256,
-  width = 32,
-  height = 8,
-  pattern = "86_2",
-  tileset = "oceanset_inside",
-}
-
 teletransporter{
   layer = 0,
   x = 0,
@@ -173,7 +84,7 @@ shop_treasure{
   y = 40,
   treasure_name = "carquois",
   treasure_variant = 3,
-  price = 10,
+  price = 30,
   dialog = "zone_5.shop",
 }
 
@@ -183,7 +94,7 @@ shop_treasure{
   y = 40,
   treasure_name = "bomb_bag",
   treasure_variant = 3,
-  price = 10,
+  price = 30,
   dialog = "zone_5.shop",
 }
 
@@ -207,44 +118,6 @@ teletransporter{
   transition = "scrolling",
   destination_map = "zone_5/06",
   destination = "_side",
-}
-
-door{
-  layer = 0,
-  x = 168,
-  y = 248,
-  direction = 2,
-  sprite = "doors/gate",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "boss_zone_5_dead",
-}
-
-npc{
-  layer = 0,
-  x = 176,
-  y = 205,
-  direction = 3,
-  subtype = 1,
-  sprite = "enemies/boss/firebird/firebird",
-}
-
-npc{
-  layer = 0,
-  x = 136,
-  y = 277,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/sign",
-  behavior = "dialog#zone_5.wazodefe",
-}
-
-teletransporter{
-  layer = 0,
-  x = 136,
-  y = 160,
-  width = 88,
-  height = 64,
-  destination_map = "zone_5/04",
 }
 
 tile{

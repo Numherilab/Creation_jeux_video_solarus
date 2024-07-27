@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/overworld_yarrowmouth",
+  music = "eduardo/sword_fanfare",
 }
 
 tile{

@@ -1,4 +1,4 @@
--- Lua script of map zone_1/07.
+-- Lua script of map zone_5/maisonmax.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -21,16 +21,4 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
-end
-
-function a:on_dead()
-a:open()
-end
-
-function b:on_dead()
-b:open()
-end
-
-function c:on_dead()
-boss:open()
 end

@@ -3018,6 +3018,231 @@ destructible{
   can_explode = true,
 }
 
+wall{
+  layer = 0,
+  x = 144,
+  y = 88,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 136,
+  y = 96,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 128,
+  y = 104,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 120,
+  y = 112,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 112,
+  y = 112,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 104,
+  y = 120,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 96,
+  y = 128,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 128,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 80,
+  y = 128,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 136,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 64,
+  y = 144,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 56,
+  y = 152,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 48,
+  y = 160,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 40,
+  y = 168,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 64,
+  y = 152,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 144,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 80,
+  y = 136,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 104,
+  y = 128,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 112,
+  y = 120,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 128,
+  y = 112,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 136,
+  y = 104,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 96,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 88,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 56,
+  y = 160,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 48,
+  y = 168,
+  width = 8,
+  height = 8,
+  stops_projectiles = true,
+}
+
 tile{
   layer = 2,
   x = 0,

@@ -1,4 +1,11 @@
 dialog{
+  id = "DIALOGUE STATUE",
+  text = [[
+je suis une statue :D
+]],
+}
+
+dialog{
   id = "MR.chipsdonnechips",
   text = [[
 tien un packet de chips !
@@ -108,6 +115,14 @@ ouille ;/
 }
 
 dialog{
+  id = "desrte",
+  text = [[
+tu dois deja avoir fait le desert
+ pour aller a l'ocean!!!!!!!
+]],
+}
+
+dialog{
   id = "dialogue/lanterne",
   question = "1",
   text = [[
@@ -138,6 +153,14 @@ heart who gives you the sword
 }
 
 dialog{
+  id = "grappin",
+  text = [[
+Tu a un grappin maintenant
+ tu peux aggriper les coffres !!!
+]],
+}
+
+dialog{
   id = "item.potion_de_vie.non",
   text = [[
 Tu es déjà en pleine
@@ -149,6 +172,13 @@ dialog{
   id = "lanternedonnée",
   text = [[
 J'ai plus rien pour toi pour l'instant !
+]],
+}
+
+dialog{
+  id = "not_enough_money",
+  text = [[
+tu n'as pas d'argent !
 ]],
 }
 
@@ -211,6 +241,14 @@ dialog{
 Bonjour, 
 bienvenue dans la séance
 d'initiation de Solarus
+]],
+}
+
+dialog{
+  id = "prison",
+  text = [[
+je devrait peut etre trouver
+mon epee la bas !
 ]],
 }
 
@@ -307,6 +345,14 @@ dialog{
 }
 
 dialog{
+  id = "zone_1.bravo",
+  text = [[
+*voix lugubre* braaaa
+*rr* braaaavooo*
+]],
+}
+
+dialog{
   id = "zone_1.crow_1",
   text = [[
 je te laisse passer que si tu 
@@ -317,8 +363,8 @@ me donne 100 rubis  !
 dialog{
   id = "zone_1.crow_2",
   text = [[
-meci pour l'argnet passe 
-mon gars 
+meci pour l'argent passe 
+mon gars !
 ]],
 }
 
@@ -332,6 +378,7 @@ bas vas en chercher !
 dialog{
   id = "zone_1.crow_oui",
   text = [[
+tu les as ? 
 alors donne les moi !
 ]],
 }
@@ -339,7 +386,16 @@ alors donne les moi !
 dialog{
   id = "zone_1.crow_question",
   text = [[
-a-tu des rubis
+Je ne bougerai pas tant 
+que je n'aurai pas 100 rubis
+]],
+}
+
+dialog{
+  id = "zone_1.desrt",
+  text = [[
+le désert
+ par la!!!
 ]],
 }
 
@@ -355,10 +411,44 @@ de force NIV 1 !!!
 }
 
 dialog{
+  id = "zone_1.gm",
+  text = [[
+Forgeur de gemme
+]],
+}
+
+dialog{
+  id = "zone_1.gmm",
+  text = [[
+Je forge des
+gemmes si tu en
+veux il y a un coffre invisible
+ en face
+des legumes
+]],
+}
+
+dialog{
   id = "zone_1.halte",
   text = [[
 Halte ! 
 Retourne en prison !
+]],
+}
+
+dialog{
+  id = "zone_1.vl",
+  text = [[
+tu dois deja avoir fais l'ocean
+ avant d'aller par la!!!!
+]],
+}
+
+dialog{
+  id = "zone_1.volc",
+  text = [[
+tu dois deja avoir fais la ville 
+avans de passer par la!!
 ]],
 }
 
@@ -494,6 +584,14 @@ dialog{
   text = [[
 <------------ RIEN
 MARCHÉ---------->
+]],
+}
+
+dialog{
+  id = "zone_5.max",
+  text = [[
+Salut moi a ton age je crééer un jeu vidéo.
+Va prendre le coffre, cadeaux
 ]],
 }
 
