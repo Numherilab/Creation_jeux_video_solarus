@@ -123,7 +123,7 @@ teletransporter{
   y = 32,
   width = 16,
   height = 16,
-  destination_map = "zone_1/qute 3 foret",
+  destination_map = "zone_1/vc3",
 }
 
 destination{

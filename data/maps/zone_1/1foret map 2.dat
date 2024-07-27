@@ -2155,7 +2155,7 @@ destination{
 teletransporter{
   layer = 0,
   x = 48,
-  y = -8,
+  y = 8,
   width = 16,
   height = 16,
   destination_map = "zone_1/vic 2 foret",
@@ -2165,15 +2165,15 @@ destination{
   name = "destination_2",
   layer = 0,
   x = 56,
-  y = 21,
+  y = 45,
   direction = 1,
 }
 
 door{
   name = "porteboss",
   layer = 0,
-  x = 48,
-  y = -8,
+  x = -24,
+  y = 0,
   direction = 3,
   sprite = "doors/post_wood",
 }

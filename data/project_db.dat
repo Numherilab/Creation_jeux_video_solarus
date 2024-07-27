@@ -1750,9 +1750,7 @@ file{ path = "sprites/enemies/boss/papillosaur_king/minillosaur_egg_fixed.dat", 
 file{ path = "sprites/enemies/boss/papillosaur_king/minillosaur_egg_thrown.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/papillosaur_king/papillosaur_king.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/poutroxor/blue_flame.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/poutroxor/blue_flame.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/boss/poutroxor/poutroxor.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/boss/poutroxor/poutroxor.png", author = "Newlink", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/poutroxor/poutroxor_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/poutroxor/poutroxor_skeleton.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/clucko.dat", author = "Diarandor", license = "CC BY-SA 4.0" }

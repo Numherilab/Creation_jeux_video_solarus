@@ -448,8 +448,8 @@ teletransporter{
   y = 0,
   width = 16,
   height = 16,
-  destination_map = "zone_2/03",
-  destination = "destination_2",
+  destination_map = "zone_2/01",
+  destination = "destination212",
 }
 
 destructible{

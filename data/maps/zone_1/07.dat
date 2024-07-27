@@ -2411,33 +2411,6 @@ destructible{
   weight = 2,
 }
 
-door{
-  name = "a",
-  layer = 0,
-  x = 944,
-  y = 952,
-  direction = 3,
-  sprite = "doors/post_stone",
-}
-
-door{
-  name = "b",
-  layer = 0,
-  x = 88,
-  y = 96,
-  direction = 3,
-  sprite = "doors/post_stone",
-}
-
-door{
-  name = "c",
-  layer = 0,
-  x = 32,
-  y = 952,
-  direction = 3,
-  sprite = "doors/post_stone",
-}
-
 tile{
   layer = 1,
   x = 8,
@@ -3845,7 +3818,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 0,
+  x = -48,
   y = -8,
   width = 1056,
   height = 1024,

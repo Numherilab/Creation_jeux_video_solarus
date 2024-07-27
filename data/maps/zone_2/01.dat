@@ -3041,9 +3041,9 @@ destination{
 teletransporter{
   layer = 0,
   x = 984,
-  y = 272,
+  y = 280,
   width = 40,
-  height = 48,
+  height = 40,
   destination_map = "zone_1/10",
   destination = "destination2",
 }

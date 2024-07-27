@@ -1046,6 +1046,7 @@ destination{
 }
 
 enemy{
+  name = "boss",
   layer = 0,
   x = 168,
   y = 125,
