@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_outside",
+  music = "eduardo/fairy",
 }
 
 tile{
@@ -14,7 +15,7 @@ tile{
   y = 0,
   width = 320,
   height = 240,
-  pattern = "shallow_water",
+  pattern = "water",
 }
 
 tile{
@@ -25,6 +26,69 @@ tile{
   height = 56,
   pattern = "1",
   tileset = "tourbillons",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "wave",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 56,
+  width = 32,
+  height = 32,
+  pattern = "wave",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 32,
+  height = 80,
+  pattern = "wave",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 136,
+  width = 16,
+  height = 80,
+  pattern = "wave",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 56,
+  width = 48,
+  height = 80,
+  pattern = "wave",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 48,
+  height = 16,
+  pattern = "wave",
+}
+
+tile{
+  layer = 0,
+  x = -64,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wave",
 }
 
 stream{
@@ -205,15 +269,6 @@ stream{
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 168,
-  y = 237,
-  direction = 1,
-  default = true,
 }
 
 stream{
@@ -1420,5 +1475,16 @@ teletransporter{
   height = 32,
   destination_map = "zone_3/01",
   destination = "destination",
+}
+
+teletransporter{
+  layer = 0,
+  x = -8,
+  y = 240,
+  width = 336,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "zone_1/vic 2 foret",
+  destination = "_side",
 }
 

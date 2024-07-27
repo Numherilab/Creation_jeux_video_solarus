@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "01 Max Mraz/01 oceanset_inside",
+  music = "eduardo/title_screen",
 }
 
 tile{
@@ -140,9 +141,9 @@ enemy{
   x = 64,
   y = 157,
   direction = 0,
-  breed = "monstres_de_pierre/mud_golem_1",
+  breed = "monstre_classique/ogre_1",
   treasure_name = "gem",
-  treasure_variant = 5,
+  treasure_variant = 3,
 }
 
 teletransporter{

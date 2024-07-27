@@ -3049,6 +3049,7 @@ teletransporter{
 }
 
 enemy{
+  name = "a",
   layer = 0,
   x = 776,
   y = 61,
